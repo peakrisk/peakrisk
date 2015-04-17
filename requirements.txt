@@ -20,8 +20,6 @@ psycopg2
 Pygments
 pyparsing
 PyRSS2Gen
-python
-python3
 pytz
 PyYAML
 pyzmq
