@@ -1,44 +1,41 @@
-You are using pip version 6.0.8, however version 6.1.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-cogapp (2.4)
-coverage (3.7.1)
-docutils (0.12)
-ghp-import (0.4.1)
-gunicorn (19.2.0)
-ipython (2.3.1)
-Logbook (0.8.1)
-lxml (3.4.1)
-Mako (1.0.1)
-MarkupSafe (0.23)
-matplotlib (1.4.3)
-mpld3 (0.2)
-natsort (3.5.2)
-Nikola (7.3.0)
-numpy (1.9.1)
-oauthlib (0.7.2)
-pandas (0.15.2)
-Pillow (2.5.0)
-pip (6.0.8)
-psycopg2 (2.5.4)
-Pygments (2.0.2)
-pyparsing (2.0.3)
-PyRSS2Gen (1.1)
-python-dateutil (2.4.0)
-python3-openid (3.0.5)
-pytz (2014.7)
-PyYAML (3.11)
-pyzmq (14.4.1)
-requests (2.5.0)
-requests-oauthlib (0.4.2)
-scipy (0.15.1)
-seaborn (0.5.1)
-setuptools (12.0.5)
-six (1.9.0)
-Sphinx (1.2.3)
-sqlparse (0.1.14)
-tornado (4.0.2)
-unicode-slugify (0.1.1)
-Unidecode (0.4.17)
-webassets (0.10.1)
-whitenoise (1.0.6)
-Yapsy (1.10.423)
+cogapp
+coverage
+docutils
+ghp-import
+gunicorn
+ipython
+Logbook
+lxml
+Mako
+MarkupSafe
+matplotlib
+mpld3
+natsort
+Nikola
+numpy
+oauthlib
+pandas
+Pillow
+psycopg2
+Pygments
+pyparsing
+PyRSS2Gen
+python
+python3
+pytz
+PyYAML
+pyzmq
+requests
+requests-oauthlib
+scipy
+seaborn
+setuptools
+six
+Sphinx
+sqlparse
+tornado
+unicode-slugify
+Unidecode
+webassets
+whitenoise
+Yapsy
