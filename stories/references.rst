@@ -8,3 +8,6 @@
 
 
 .. _Snowdon: stories/snowdon.rst
+.. _Gibbs Hill: stories/gibbs_hill.rst
+.. _Scaur Hill: stories/scaur_hill.rst
+.. _Crawl Hill: stories/crawl_hill.rst
