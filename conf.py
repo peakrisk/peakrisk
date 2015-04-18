@@ -205,8 +205,8 @@ POSTS = (
     ("posts/*.txt", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("base/*.rst", "", "story.tmpl"),
     ("stories/*.rst", "stories", "story.tmpl"),
+    ("base/*.rst", "", "story.tmpl"),
     ("notebooks/*.ipynb", "notebooks", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
 )
