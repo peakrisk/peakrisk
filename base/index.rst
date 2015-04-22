@@ -15,9 +15,9 @@ between Sheffield and Manchester.   It was a great area for walking,
 hiking, climbing, caving, cycling and many other outdoor activities.
 
 So we have *peak*.  Naming projects after mountains and hills, that
-makes naming fun.  For starters, there is `Snowdon`_.  The highest
-mountain in Wales.  But only one letter difference from `Edward
-Snowden`_.
+makes naming fun.  For starters, there is `Mount Snowdon`_.  The
+highest mountain in Wales.  But only one letter difference from
+`Edward Snowden`_.
 
 Cyber risk and *privacy* will both be a focus of the project.  
 
@@ -60,10 +60,67 @@ Research
 Cyber Risk
 ----------
 
-`Snowdon`_
+`Snowdon`_ is the highest mountain in Wales.  It is also intended
+as a reference to `Edward Snowden`_.  There is a one letter garble,
+but these things happen.
+
+It is not possible to understand cyber risk without an appreciation of
+the material that Snowden revealed to the world.
+
+He has shown how completely broken cyber security is in the modern
+world.  Laura Poitras' documentary, CitizenFour, winner of the best
+documentary Oscar in 2015, is an excellent account, filmed as Edward
+Snowden was in Hong Kong uncertain of his future.  The film is also an
+excellent *cyber security 101* guide.
+
+There is currently a great deal of uncertainty about the future, which
+makes this a fascinating area for study.  Cyber risk is a complex
+subject, how this world evolves will be determined by a complex
+mixture of legal, governmental, social and technical developments.
+
+The whole area is also inextricably linked to privacy.  There is a
+public debate about who should have access to just what data.
+
+Increasingly, governments are introducing freedom of information
+acts.  In the computer age, the costs of making information not only
+available, but also freely searchable are negligible.
+
+Some governments are trying to use legal and other means to prevent
+the general public from having secure communications.  So, the
+governments want to be able to collect our own communications but are
+less keen on transparency on their own actions.
+
+It is clear there needs to be an informed, public debate about cyber
+security and privacy.  
+
+Within technology communities this debate is actively going on.  The
+recent PyCon had several talks about how broken TLS (https) is, as
+well as efforts to fix the problem.  There are many working on secure
+communication tools, such as `Proton Mail`_.  Others are working on
+distributed systems, in attempts to avoid central authorities which
+are always a ripe area for exploits.
+
+Companies such as Google have responded admirably to the Snowden
+revelations, but are still under considerable government pressure to
+cooperate.  Indeed, the Snowden docs showed how they were
+cooperating.  Google were rightly angry when it was revealed that,
+notwithstanding this cooperation, the NSA was tapping into their
+internal networks to collect data as it was transferred from one site
+to another.  Google responded by adding encryption to this
+communication.
+
+Whatever you think of the actions of Edward Snowden, he has revealed
+to the world the truth of what is going on and allowed this debate to
+take place.  It is in recognition of this that `Snowdon` will be the
+name for the Peak Risk Cyber Risk and Privacy project.
 
 Privacy
 -------
+
+As noted above, Privacy is inextricably linked to cyber security.
+
+Social Media
+++++++++++++
 
 Hurricane
 ---------
@@ -93,8 +150,18 @@ Education
 Development Philosophy
 ----------------------
 
+This project will build on, and work with, other open projects.
+
+It will use open data sources and open science and open source.  
+
+The open world is moving very quickly.  One of the biggest challenges
+for this project is to be able to complement work that is already
+going on. 
+
 Python
 ++++++
+
+The python language and community 
 
 Naming Conventions
 ------------------
