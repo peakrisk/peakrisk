@@ -7,6 +7,8 @@
 .. type: text
 
 
+.. _Mount Snowdon: http://en.wikipedia.org/wiki/Snowdon
+.. _Edward Snowden: http://en.wikipedia.org/wiki/Edward_Snowden
 .. _Snowdon: stories/snowdon.rst
 .. _Gibbs Hill: stories/gibbs-hill.rst
 .. _Scaur Hill: stories/scaur-hill.rst
