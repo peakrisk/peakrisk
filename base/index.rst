@@ -275,6 +275,9 @@ members.  Many of the talks at PyCon were along this theme.  All are
 available on Youtube and are recommended viewing for anyone wishing to
 get an appreciation of the power of collaboration in science. 
 
+Python is widely used in science, finance and education and will be
+the tool of choice for Peak Risk projects.
+
 Naming Conventions
 ------------------
 
@@ -288,5 +291,7 @@ Pull requests are always more than welcome.
 
 .. _Open Weather Map: http://openweathermap.org/ 
 .. _Weather Underground: http://www.wunderground.com/
+.. _PyCon 2015: http://us.pycon.org/2015/
+.. _Proton Mail:  https://protonmail.ch/
 
 .. include:: stories/references.rst
