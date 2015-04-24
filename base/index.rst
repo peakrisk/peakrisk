@@ -73,10 +73,6 @@ There are some signs of consolidation and standards and software used
 across boundaries.  Certainly, the same data science tools are being
 used in a wide variety of applications.
 
-
-Research
---------
-
 Cyber Risk
 ----------
 
@@ -138,34 +134,105 @@ Privacy
 -------
 
 As noted above, Privacy is inextricably linked to cyber security.
+Without strong cryptography individuals can have no real privacy. 
 
-Social Media
-++++++++++++
+Likewise, organisations which store personal data risk breaches of
+privacy unless they are able to properly secure that data.  An
+organisation that does not have a healthy respect for individuals
+privacy is unlikely to do a good job with respect to information
+security. 
+
+The project will involve much data analysis and care will be taken to
+ensure that people's privacy is respected as that data is used.  This
+can be a quite subtle problem when multiple data sources are
+involved.  Individually, these data sources may not reveal personal
+information, but collectively they may do.
 
 Hurricane
 ---------
 
+In October 2014 two hurricanes, Fay and Gonzalo hit Bermuda within a
+week. These hurricanes have generated much data that can be used to
+get a better understanding of how hurricane windfields interact with
+the topography and land cover.   The aim is to use data such as
+satellite images and aerial photography to get a thorough
+understanding of the hazard.
+
 Bermuda
 -------
 
-`Gibbs Hill`_
+The focus on Bermuda is simply down to that is where I currently
+live.  The aim will be to develop local community and expertise and
+together work to build a better Bermuda for all that live here.
 
-`Scaur Hill`_
+The small size of Bermuda makes it an ideal candidate for a detailed
+study of hurricane damage.  
 
-`Crawl Hill`_
+Other subjects of interest include:
+
+* why did two hurricanes 6 days apart follow such similar paths?
+* could the late intensification of Fay have been predicted?
+
+Although a lot of data is available from these storms, finding it,
+cleaning it up and analysing it is a time consuming task.
+
+Meanwhile, new data sources are constantly appearing. `Weather
+Underground`_ has a *Personal Weather Station* (PWS) project and has the
+following mission::
+
+  Our mission is to make the highest quality weather information
+  available to every person on this planet. Join our global community
+  and help us improve weather forecasting.
+
+There are currently around 20 personal weather stations in Bermuda
+that are feeding data to Weather Underground.  Some of these stations
+were recording data during the recent storms.  Wind speed data is
+missing much of the time, presumably due to damage from high winds.
+Other stations appear to have stopped recording due to power loss.
+
+Nonetheless, there is some useful data here.  A related project is
+`Open Weather Map`_.  This project also has information on how to
+build your own weather station.  This would be a great project for a
+school, with the added benefit of more data coming on stream.
+
+Both these projects require signing up for an API key if you are
+making practical numbers of API calls to access data.  It is hoped
+that historical data for research purposes can be obtained in bulk at
+little cost.
+
 
 Environmental Research
 ----------------------
 
+Humanity is facing unprecedented challenges such as climate change,
+dwindling oil supplies and the reality that we cannot afford to
+extract much of the remaining oil without irreparable impact on the
+climate. 
 
+The project will create models that will allow environmentalists
+to assess the impacts of different climate strategies.  It will also
+aim to develop mitigation techniques for areas that will be hit hard
+by the changes that we are unable to prevent.
 
 Community Building
 ------------------
 
-The project aims to build community around risk modelling.
+The project aims to build community around risk modelling.  When
+humans work together, collaborate and openly share their knowledge and
+skills they are much more effective in solving problems.
 
-Education
----------
+There is a huge open science, knowledge and data movement in the world
+today, as exemplified by the `python`_ community.
+
+The project will work to build up open science expertise here in
+Bermuda.  It is a natural place for such research.  It has a delicate
+ecosystem, surrounded by coral reefs.   It is also uniquely placed in
+Mid-Atlantic as a location for gathering weather and climate data.
+
+The ambitious goal is to build up an inclusive community of
+environmental expertise using free and open software, data and
+knowledge.  
+
 
 Development Philosophy
 ----------------------
@@ -176,27 +243,50 @@ It will use open data sources and open science and open source.
 
 The open world is moving very quickly.  One of the biggest challenges
 for this project is to be able to complement work that is already
-going on. 
+going on.  Just keeping track of all the new data sources and research
+is a challenging task.
+
+Traditional, proprietary, risk models are certainly struggling to
+include new research and insights into their models in a timely
+manner. 
+
+Since the project is aiming to reduce death and destruction in the
+world there is a moral imperative to openly share data, research and
+knowledge. 
+
+Hence, this project will focus on working with others doing similar
+work and creating open data standards as well as open source
+software. 
+
+At the same time it will do local research, using advantage of local
+expertise and skills.   Ideas will be generalised so they can be
+applied in other juristictions and we will actively seek to
+collaborate with others wherever they may be located.
 
 Python
 ++++++
 
-The python language and community 
+The python language and community has been an inspiration for many
+years.  The recent `PyCon 2015`_ in Montreal was the biggest ever
+PyCon with over 3000 attendees.
+
+The community is actively working to be more inclusive and welcome new
+members.  Many of the talks at PyCon were along this theme.  All are
+available on Youtube and are recommended viewing for anyone wishing to
+get an appreciation of the power of collaboration in science. 
 
 Naming Conventions
 ------------------
 
-
-Partners and other organisations
---------------------------------
-
-Oasis 
-
-GEMS
-
-Data Robot
+The organisation name, *Peak Risk* was chosen partly because it opens
+up the possibility of naming projects after hills and mountains.
 
 Pull requests
 -------------
+
+Pull requests are always more than welcome.  
+
+.. _Open Weather Map: http://openweathermap.org/ 
+.. _Weather Underground: http://www.wunderground.com/
 
 .. include:: stories/references.rst
