@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk</title><link>http://swfiua.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://swfiua.github.io/peakrisk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 24 Apr 2015 18:23:17 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Satellite data for Fay and Gonzalo</title><link>http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk</title><link>http://swfiua.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link rel="self" href="http://swfiua.github.io/peakrisk/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 24 Apr 2015 20:08:09 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Satellite data for Fay and Gonzalo</title><link>http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -7,32 +7,23 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Chris-Waigl,-Satellite-mapping-for-everyone."&gt;Chris Waigl, Satellite mapping for everyone.&lt;a class="anchor-link" href="http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html#Chris-Waigl,-Satellite-mapping-for-everyone."&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;At PyCon in Montreal &lt;a href="https://us.pycon.org/2015/"&gt;https://us.pycon.org/2015/&lt;/a&gt; Chris Waigl gave a talk about satellite mapping and some of the python tools that help with this&lt;/p&gt;
+&lt;p&gt;Following the talk I decided to take a look to see what satellite data is available around the time of the hurricanes Fay and Gonzalo, back in October 2014.&lt;/p&gt;
+&lt;p&gt;The hope was to be able to find suitable before and after images at a high enough resolution to use image processing software to help with damage analyis.&lt;/p&gt;
+&lt;p&gt;Chris's talk is on youtube (along with all the other PyCon talks) and embedded below.&lt;/p&gt;
+
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt; inline
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;matplotlib&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;pyplot&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;IPython&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;display&lt;/span&gt;
 
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [3]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;IPython.display&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;YouTubeVideo&lt;/span&gt;
-
-&lt;span class="n"&gt;YouTubeVideo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'MCHpt1FvblI'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c"&gt;# Chris Waigl, Satellite mapping for everyone.&lt;/span&gt;
+&lt;span class="n"&gt;display&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;YouTubeVideo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'MCHpt1FvblI'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -43,7 +34,7 @@
 &lt;div class="output"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[3]:&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[2]:&lt;/div&gt;
 
 &lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
 
@@ -57,12 +48,81 @@
 &lt;/div&gt;
 
 &lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="TRMM"&gt;TRMM&lt;a class="anchor-link" href="http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html#TRMM"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;A little googling turned up this gem from the NASA's Tropical Rainfall Measuring Mission.&lt;/p&gt;
+&lt;p&gt;&lt;img src="http://www.nasa.gov/sites/default/files/thumbnails/image/fay_and_gonzalo_rain_10-20_october_2014_animated.gif"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Image Credit: NASA/SSAI, Hal Pierce&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nasa.gov/content/goddard/nasas-trmm-satellite-calculates-hurricanes-fay-and-gonzalo-rainfall/"&gt;Full article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a seven day animation, covering the period of Fay and Gonzalo.&lt;/p&gt;
+&lt;p&gt;Assuming rainfall is a good proxy for storm intensity, you can see how Fay intensified as it reached the island and how Gonzalo followed a very similar path, just six days later.&lt;/p&gt;
+&lt;p&gt;The key question with respect to Bermuda is whether this sort of data is available at higher resolution.&lt;/p&gt;
+&lt;p&gt;The article does mention that&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.nasa.gov/mission_pages/GPM/main/index.html"&gt;Global Precipitation Measurement (GPM) mission product in late 2014&lt;/a&gt; will supersede the TRMM project.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="http://www.nasa.gov/mission_pages/GPM/main/index.html"&gt;Nasa GPM page has some wonderful animations of the sort of thing that is possible with GPM.&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [4]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [6]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;rasterio&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# 3-D animation of a typhoon from the GPM project&lt;/span&gt;
+&lt;span class="n"&gt;display&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;YouTubeVideo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'kDlTZxejlbI'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[6]:&lt;/div&gt;
+
+&lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
+
+        &lt;iframe width="400" height="300" src="https://www.youtube.com/embed/kDlTZxejlbI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+        
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Landsat-data-for-Bermuda"&gt;Landsat data for Bermuda&lt;a class="anchor-link" href="http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html#Landsat-data-for-Bermuda"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;A major challenge with satellite data is finding just what images are available.&lt;/p&gt;
+&lt;p&gt;Landsat has &lt;a href="http://landsat.usgs.gov/Landsat_Search_and_Download.php"&gt;
+a well documented site created by the USGS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;However it is still time consuming to see what is available.&lt;/p&gt;
+&lt;p&gt;Downloads can be large, roughly 1GB per satellite image.  These images generally contain multiple layers for different parts of the spectrum.&lt;/p&gt;
+&lt;p&gt;To download the larger files you need to register and get an API key.&lt;/p&gt;
+&lt;p&gt;Once registered I downloaded a couple of images, either side of the October storms.&lt;/p&gt;
+&lt;p&gt;Below are my attempts to extract and plot the data.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [8]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# lets start with matplotlib&lt;/span&gt;
+&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt; inline
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;matplotlib&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;pyplot&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -72,7 +132,22 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [29]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [9]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# Chris recommended the rasterio library&lt;/span&gt;
+
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;rasterio&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [10]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;infile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'../data/LC80060382014275LGN00_B2.TIF'&lt;/span&gt;
@@ -85,10 +160,13 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [30]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [11]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rasterio&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;infile&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# This is pretty simple, just open the TIFF file and you have&lt;/span&gt;
+&lt;span class="c"&gt;# an object that can tell you all sorts of things about the image&lt;/span&gt;
+
+&lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;rasterio&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;infile&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;width&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;height&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -100,7 +178,7 @@
 &lt;div class="output"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[30]:&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
 
 
 &lt;div class="output_text output_subarea output_execute_result"&gt;
@@ -115,10 +193,11 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [36]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [12]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;meta&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# take a look at the meta data&lt;/span&gt;
+&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;meta&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -129,7 +208,7 @@
 &lt;div class="output"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[36]:&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[12]:&lt;/div&gt;
 
 
 &lt;div class="output_text output_subarea output_execute_result"&gt;
@@ -159,7 +238,9 @@
 &lt;div class="prompt input_prompt"&gt;In [31]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;bands&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# read the bands in the file, there will be as many bands as&lt;/span&gt;
+&lt;span class="c"&gt;# the count above&lt;/span&gt;
+&lt;span class="n"&gt;bands&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -172,7 +253,9 @@
 &lt;div class="prompt input_prompt"&gt;In [32]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;bands&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# take a look at the data -- numpy arrays with 16 bit values&lt;/span&gt;
+
+&lt;span class="n"&gt;bands&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -207,7 +290,8 @@
 &lt;div class="prompt input_prompt"&gt;In [33]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;bands&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# so we have a 3D array, first dimension is the band&lt;/span&gt;
+&lt;span class="n"&gt;bands&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -233,45 +317,13 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [34]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt;
-
-&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;numpy&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;arange&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[::&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[34]:&lt;/div&gt;
-
-
-&lt;div class="output_text output_subarea output_execute_result"&gt;
-&lt;pre&gt;array([ 0, 10, 20, 30, 40, 50, 60, 70, 80, 90])&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;In [35]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bands&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
-&lt;span class="c"&gt;#img = img[3500:4500, 3500:4500]&lt;/span&gt;
+&lt;span class="c"&gt;# just take every 10th pixel for now -- imshow does not handle&lt;/span&gt;
+&lt;span class="n"&gt;large&lt;/span&gt; &lt;span class="n"&gt;images&lt;/span&gt; &lt;span class="n"&gt;well&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
 &lt;span class="n"&gt;img&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;[::&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 
 &lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;shape&lt;/span&gt;
@@ -303,7 +355,8 @@
 &lt;div class="prompt input_prompt"&gt;In [27]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;pyplot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;imshow&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# now plot the thing.&lt;/span&gt;
+&lt;span class="n"&gt;pyplot&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;imshow&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
@@ -336,47 +389,19 @@
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [19]:&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="k"&gt;matplotlib&lt;/span&gt;&lt;span class="o"&gt;?&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h4 id="Summary"&gt;Summary&lt;a class="anchor-link" href="http://swfiua.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html#Summary"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;So we have succeeded in downloading and plotting one of these bands.&lt;/p&gt;
+&lt;p&gt;Now time to play spot Bermuda.   First impressions are this particular data is likely not high enough resolution to be useful.&lt;/p&gt;
+&lt;p&gt;A second thing to note is that the NASA sites are, understandably, quite US-centric.  To do comprehensive studies of satellite data for Bermuda it looks like it will be worthwhile to create local mirrors of the key data.&lt;/p&gt;
+&lt;p&gt;In particular, whilst some of these images are quite large, the part covering Bermuda will generally be much more manageable.&lt;/p&gt;
+&lt;p&gt;... to be continued&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [23]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;crs&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-
-
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[23]:&lt;/div&gt;
-
-
-&lt;div class="output_text output_subarea output_execute_result"&gt;
-&lt;pre&gt;{'init': 'epsg:32620'}&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
