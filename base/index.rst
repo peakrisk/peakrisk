@@ -294,9 +294,15 @@ research from a wide range of disciplines.
 
 Pull requests are always more than welcome.  
 
+Blog
+----
+
+The project has a `blog`_
+
 .. _Open Weather Map: http://openweathermap.org/ 
 .. _Weather Underground: http://www.wunderground.com/
 .. _PyCon 2015: http://us.pycon.org/2015/
 .. _Proton Mail:  https://protonmail.ch/
+.. _blog:  blog/
 
 .. include:: stories/references.rst
