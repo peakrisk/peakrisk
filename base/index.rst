@@ -7,6 +7,26 @@
 .. description: Open Source Risk Modelling
 .. type: text
 
+This project will use open data, open science and open source to
+create risk models that can be used for environmental impact
+assessments and strategic planning.
+
+There will be a focus on hurricane and cyber risk.  However, the long
+term goal is to produca a model that can be used for comprehensive
+risk assessment and forecasting.
+
+Based in Bermuda, the hurricane project will use sources of open data
+to help build a Bermudian hurricane model.
+
+The techniques and software used will be translatable to other areas
+and should be applicable throughout the Caribbean.
+
+The project also aims to develop open communities in Bermuda and to
+generate ties with others doing similar work elsewhere.
+
+It is inspired by the magnificent work of the `python`_ community.
+
+
 Why Peak Risk?
 --------------
 
