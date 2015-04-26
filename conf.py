@@ -24,7 +24,7 @@ BLOG_TITLE = "Peak Risk"  # (translatable)
 SITE_URL = "http://swfiua.github.io/peakrisk/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-BASE_URL = "http://swfiua.github.io/peakrisk/"
+# BASE_URL = "http://swfiua.github.io/peakrisk/"
 BLOG_EMAIL = "swfiua@gmail.com"
 BLOG_DESCRIPTION = "Open Source Risk Modelling"  # (translatable)
 
