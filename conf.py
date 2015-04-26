@@ -123,6 +123,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
+        ("/stories/john-gill.html", "John Gill"),
         ("/rss.xml", "RSS feed"),
     ),
 }
