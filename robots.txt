@@ -1,2 +1,2 @@
-Sitemap: http://swfiua.github.io/peakrisk/sitemapindex.xml
+Sitemap: http://peakrisk.github.io/peakrisk/sitemapindex.xml
 

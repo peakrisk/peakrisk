@@ -12,7 +12,7 @@ create risk models that can be used for environmental impact
 assessments and strategic planning.
 
 There will be a focus on hurricane and cyber risk.  However, the long
-term goal is to produca a model that can be used for comprehensive
+term goal is to produce a model that can be used for comprehensive
 risk assessment and forecasting.
 
 Based in Bermuda, the hurricane project will use sources of open data
