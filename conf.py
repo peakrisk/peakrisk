@@ -21,7 +21,7 @@ BLOG_AUTHOR = "John Gill"  # (translatable)
 BLOG_TITLE = "Peak Risk"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://swfiua.github.io/peakrisk/"
+SITE_URL = "http://peakrisk.github.io/peakrisk/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://swfiua.github.io/peakrisk/"
