@@ -124,6 +124,7 @@ NAVIGATION_LINKS = {
         ("/blog/", "Blog"),
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
+        ("/galleries/", "Galleries"),
         ("/stories/john-gill.html", "John Gill"),
         ("/rss.xml", "RSS feed"),
     ),
@@ -476,7 +477,7 @@ GITHUB_DEPLOY_BRANCH = 'gh-pages'
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "galleries"}
 # More gallery options:
 # THUMBNAIL_SIZE = 180
 # MAX_IMAGE_SIZE = 1280
