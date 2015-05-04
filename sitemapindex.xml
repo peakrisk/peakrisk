@@ -5,15 +5,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.xml</loc>
+  <lastmod>2015-05-04</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/rss.xml</loc>
+  <lastmod>2015-04-28</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/rss.xml</loc>
   <lastmod>2015-04-28</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-05-04</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/sitemap.xml</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-05-04</lastmod>
  </sitemap>
 </sitemapindex>

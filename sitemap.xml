@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://peakrisk.github.io/peakrisk/2015/index.html</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-04-30</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/archive.html</loc>
@@ -14,10 +14,18 @@
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/blog/index.html</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-05-04</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.html</loc>
+  <lastmod>2015-05-04</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/index.html</loc>
+  <lastmod>2015-05-04</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/index.html</loc>
   <lastmod>2015-04-28</lastmod>
  </url>
  <url>
@@ -33,8 +41,12 @@
   <lastmod>2015-04-28</lastmod>
  </url>
  <url>
+  <loc>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</loc>
+  <lastmod>2015-05-04</lastmod>
+ </url>
+ <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-04-30</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/stories/crawl-hill.html</loc>
