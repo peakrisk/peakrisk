@@ -2,9 +2,9 @@
 .. slug: data-data-everywhere-nor-any-drop-to-drink
 .. date: 2015-04-30 17:01:06 UTC
 .. tags: 
-.. category: 
+.. category: mapping satellite weather opendata
 .. link: 
-.. description: opendata
+.. description: Satellite and weather data
 .. type: text
 
 
