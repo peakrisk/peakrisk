@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link rel="self" type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 08 May 2015 13:26:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unreliable internet service providers are part of the security problem</title><link>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today my internet connection has been pretty much broken.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://peakrisk.github.io/peakrisk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 08 May 2015 13:38:29 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unreliable internet service providers are part of the security problem</title><link>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today my internet connection has been pretty much broken.&lt;/p&gt;
 &lt;p&gt;Many sites are just not responding, including bbc.co.uk.&lt;/p&gt;
 &lt;p&gt;Some larger sites, such as google and facebook are responding.  As is
 the ever dependable linux.ie.  Sites hosted here in Bermuda are mostly
@@ -48,8 +48,9 @@ do not care about your security".&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;embed src="https://www.raspberrypi.org/school-weather-station-project/"&gt;
-&lt;/embed&gt;&lt;/div&gt;
+&lt;h2 id="Weather-Station-Project"&gt;Weather Station Project&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/raspberry-pi-weather-station-for-schools.html#Weather-Station-Project"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://www.raspberrypi.org/school-weather-station-project/"&gt;https://www.raspberrypi.org/school-weather-station-project/&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
