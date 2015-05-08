@@ -1,7 +1,7 @@
 .. title: Unreliable internet service providers are part of the security problem
 .. slug: unreliable-internet-service-providers-are-part-of-the-security-problem
 .. date: 2015-05-07 16:33:35 UTC
-.. tags: cyber risk computer security draft
+.. tags: cyber risk computer security
 .. category: 
 .. link: 
 .. description: Why unreliable internet is a security risk

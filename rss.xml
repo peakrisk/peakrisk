@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link rel="self" href="http://peakrisk.github.io/peakrisk/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 08 May 2015 12:42:07 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unreliable internet service providers are part of the security problem</title><link>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today my internet connection has been pretty much broken.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link rel="self" type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 08 May 2015 13:26:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unreliable internet service providers are part of the security problem</title><link>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today my internet connection has been pretty much broken.&lt;/p&gt;
 &lt;p&gt;Many sites are just not responding, including bbc.co.uk.&lt;/p&gt;
 &lt;p&gt;Some larger sites, such as google and facebook are responding.  As is
 the ever dependable linux.ie.  Sites hosted here in Bermuda are mostly
@@ -30,7 +30,7 @@ own system is under attack?&lt;/p&gt;
 &lt;p&gt;So, if you are an unreliable ISP, who fails to give clear information
 to your customers when there are problems you are really saying, "We
 do not care about your security".&lt;/p&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>cyber risk computer security draft</category><guid>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</guid><pubDate>Thu, 07 May 2015 16:33:35 GMT</pubDate></item><item><title>Raspberry Pi weather station for schools</title><link>http://peakrisk.github.io/peakrisk/posts/raspberry-pi-weather-station-for-schools.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>cyber risk computer security</category><guid>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</guid><pubDate>Thu, 07 May 2015 16:33:35 GMT</pubDate></item><item><title>Raspberry Pi weather station for schools</title><link>http://peakrisk.github.io/peakrisk/posts/raspberry-pi-weather-station-for-schools.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -54,7 +54,7 @@ do not care about your security".&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [4]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;## BBC story on UK Schools building stations&lt;/span&gt;
@@ -70,7 +70,7 @@ do not care about your security".&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [11]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [5]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;display&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IFrame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;width&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;800&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;600&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -84,7 +84,7 @@ do not care about your security".&lt;/p&gt;
 &lt;div class="output"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
 
 &lt;div class="output_html rendered_html output_subarea output_execute_result"&gt;
 
@@ -150,15 +150,6 @@ do not care about your security".&lt;/p&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h3 id="Oracle"&gt;Oracle&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/raspberry-pi-weather-station-for-schools.html#Oracle"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Project funded by Oracle.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
