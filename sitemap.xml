@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://peakrisk.github.io/peakrisk/2015/index.html</loc>
-  <lastmod>2015-04-30</lastmod>
+  <lastmod>2015-05-07</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/archive.html</loc>
@@ -14,15 +14,27 @@
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/blog/index.html</loc>
-  <lastmod>2015-05-04</lastmod>
+  <lastmod>2015-05-08</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.html</loc>
-  <lastmod>2015-05-04</lastmod>
+  <lastmod>2015-05-08</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/cyber-risk-computer-security-draft.html</loc>
+  <lastmod>2015-05-08</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/cyber-risk-computer-security.html</loc>
+  <lastmod>2015-05-07</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/index.html</loc>
-  <lastmod>2015-05-04</lastmod>
+  <lastmod>2015-05-08</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/python-finance-data-science-draft.html</loc>
+  <lastmod>2015-05-08</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/index.html</loc>
@@ -42,11 +54,23 @@
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</loc>
-  <lastmod>2015-05-04</lastmod>
+  <lastmod>2015-05-06</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</loc>
+  <lastmod>2015-05-06</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/posts/raspberry-pi-weather-station-for-schools.html</loc>
+  <lastmod>2015-05-07</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html</loc>
   <lastmod>2015-04-30</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html</loc>
+  <lastmod>2015-05-08</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/stories/crawl-hill.html</loc>
