@@ -125,7 +125,7 @@ NAVIGATION_LINKS = {
         ("/archive.html", "Archive"),
         ("/categories/index.html", "Tags"),
         ("/galleries/", "Galleries"),
-        ("/stories/john-gill.html", "John Gill"),
+        ("/stories/contributors.html", "Contributors"),
         ("/rss.xml", "RSS feed"),
     ),
 }
