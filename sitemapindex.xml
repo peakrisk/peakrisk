@@ -13,23 +13,35 @@
   <lastmod>2015-05-08</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/data-science.xml</loc>
+  <lastmod>2015-05-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/finance.xml</loc>
+  <lastmod>2015-05-12</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python-finance-data-science-draft.xml</loc>
   <lastmod>2015-05-06</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/python.xml</loc>
+  <lastmod>2015-05-12</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/rss.xml</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-05-09</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/rss.xml</loc>
-  <lastmod>2015-04-28</lastmod>
+  <lastmod>2015-05-09</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
-  <lastmod>2015-05-08</lastmod>
+  <lastmod>2015-05-12</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/sitemap.xml</loc>
-  <lastmod>2015-05-08</lastmod>
+  <lastmod>2015-05-12</lastmod>
  </sitemap>
 </sitemapindex>

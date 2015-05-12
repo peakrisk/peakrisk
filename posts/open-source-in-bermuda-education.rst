@@ -1,0 +1,45 @@
+.. title: Open source in Bermuda Education
+.. slug: open-source-in-bermuda-education
+.. date: 2015-05-09 18:41:06 UTC
+.. tags: education, Bermuda, open source, draft
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+Vision
+======
+
+Come to Bermuda and help us make paradise better for everyone.
+
+Schools
+=======
+
+Bermuda College
+===============
+
+Existing initiatives
+====================
+
+codetuna
+
+code441
+
+open Bermuda
+
+imagine Bermuda
+
+Raspberry Pi
+============
+
+Bermuda Bus
+===========
+
+Water taxi
+==========
+
+Open source in IT infrastructure
+================================
+
+America's Cup
+=============

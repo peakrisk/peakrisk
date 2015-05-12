@@ -1,7 +1,7 @@
 .. title: Unreliable internet service providers are part of the security problem
 .. slug: unreliable-internet-service-providers-are-part-of-the-security-problem
 .. date: 2015-05-07 16:33:35 UTC
-.. tags: cyber risk computer security
+.. tags: cyber risk, computer security, draft
 .. category: 
 .. link: 
 .. description: Why unreliable internet is a security risk
@@ -49,3 +49,30 @@ own system is under attack?
 So, if you are an unreliable ISP, who fails to give clear information
 to your customers when there are problems you are really saying, "We
 do not care about your security".
+
+System admins
+-------------
+
+The job of a system administrator is not an easy one.  They have to
+keep things secure (an impossible task), whilst keeping things running
+so people can do their jobs.  
+
+This `IT confessions`_ thread on Reddit gives an idea of the world in
+which they are working.  Often only 1-2 people to look after an office
+of 80 or more.  
+
+Many admins will lock down machines and impose (industry standard)
+rules.  However, these can be counter-productive: if users can't get
+their work done they will find ways round the rules, often resulting
+in a worse situation than not having the rules in the first place.
+
+It is not uncommon for admins to see their users as the problem.  In
+many cases these users are not computer experts (nor should they be),
+but this leads to frustration when they make demands of the system
+admin. 
+
+The real problem is that securing computers is a close to impossible
+task, if you also want your users to be able to continue to do their
+jobs. 
+
+.. _IT confessions: http://www.reddit.com/r/sysadmin/comments/35am51/it_sins_confession_booth/
