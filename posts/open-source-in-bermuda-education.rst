@@ -1,7 +1,7 @@
 .. title: Open source in Bermuda Education
 .. slug: open-source-in-bermuda-education
 .. date: 2015-05-09 18:41:06 UTC
-.. tags: 
+.. tags: education, Bermuda, open source, draft
 .. category: 
 .. link: 
 .. description: 
