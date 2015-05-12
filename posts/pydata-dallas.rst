@@ -1,7 +1,7 @@
 .. title: PyData, Dallas
 .. slug: pydata-dallas
 .. date: 2015-05-04 21:57:45 UTC
-.. tags: python finance data science draft
+.. tags: python, finance, data science
 .. category:
 .. link: 
 .. description: Videos for Dallas PyData conference, 2015
@@ -19,3 +19,5 @@ the Py*.
 
 .. _PyData TV: https://www.youtube.com/user/PyDataTV
 .. _Luis Miguel Sanchez: https://www.youtube.com/watch?v=heGtUhFm1-A
+.. _Peter Wang: https://www.youtube.com/watch?v=Pkwygl3cgmU
+.. _Jupyter: https://jupyter.org/
