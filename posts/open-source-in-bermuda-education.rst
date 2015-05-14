@@ -29,11 +29,15 @@ open Bermuda
 
 imagine Bermuda
 
+others?
+
 Raspberry Pi
 ============
 
 Bermuda Bus
 ===========
+
+GPS bus data.
 
 Water taxi
 ==========
@@ -41,5 +45,11 @@ Water taxi
 Open source in IT infrastructure
 ================================
 
+http://www.ubermix.org/
+
 America's Cup
 =============
+
+Accessibility and special needs
+===============================
+
