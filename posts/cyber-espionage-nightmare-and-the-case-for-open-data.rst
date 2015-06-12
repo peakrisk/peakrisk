@@ -7,10 +7,6 @@
 .. description: 
 .. type: text
 
-I keep starting posts on information security and the dismal state of
-computer security and then another day arrives with another story of
-data breaches and the post no longer seems relevant.
-
 Today started with news of a big `SNAFU by a Malaysian telco`_.  `Part
 2`_ of this excellent `history of internet security`_ explains how
 this giant hole in the internet has been there for a long time and
@@ -116,7 +112,7 @@ keeping pace with new developments driven by the open sharing on the
 internet.
 
 The internet was designed for sharing information.  If you are using
-to share secrets, it probably won't work out so well for you.
+it to keep secrets, it probably won't work out so well for you.
 
 The company in the `cyber espionage nightmare`_ may well have been
 better off sharing its knowledge and focussing at being the best in
