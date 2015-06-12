@@ -1,4 +1,13 @@
+.. title: links
+.. slug: references
+.. date: 2015-06-10 14:08:31 UTC
+.. tags: draft
+.. link: 
+.. description: links to include in all posts
+.. type: text
+
 .. Generated with: grep -h '^\.\. _' *.rst | sort | uniq > references.rst
+
 
 .. _Abstract on teaching python: https://us.pycon.org/2013/schedule/presentation/81/
 .. _Accessibility: http://opensource.com/life/15/5/accessibility-linux
@@ -41,3 +50,4 @@
 .. _under 100 pounds: http://www.techworld.com/news/personal-tech/schoolkids-learn-how-code-their-own-weather-prediction-tool-with-raspberry-pi-3609201/
 .. _Weather Underground: http://weatherunderground.com
 .. _Wikimedia Commons: http://commons.wikimedia.org/wiki/
+
