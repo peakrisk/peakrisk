@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 12 May 2015 17:39:32 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PyData, Dallas</title><link>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The PyData, Dallas videos are now up on youtube under &lt;a class="reference external" href="https://www.youtube.com/user/PyDataTV"&gt;PyData TV&lt;/a&gt;.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link type="application/rss+xml" rel="self" href="http://peakrisk.github.io/peakrisk/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 17:01:58 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>More raspberry pi</title><link>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I am going to be doing an introduction to free software and linux for
+this year's &lt;a class="reference external" href="http://tlf.bm/"&gt;Technology Leadership Forum&lt;/a&gt; students.&lt;/p&gt;
+&lt;p&gt;The plan is to have the students use raspberry pi's to learn about the
+linux platform.&lt;/p&gt;
+&lt;p&gt;I have a bunch of the new raspberry pi 2's and have been experimenting
+with different linux distributions on these pi's.&lt;/p&gt;
+&lt;p&gt;I was going to write up my experiences, but Swapnil Bhartiya has
+kindly &lt;a class="reference external" href="http://www.linux.com/learn/tutorials/818062-getting-started-with-raspberry-pi-2-install-arch-linux"&gt;blogged&lt;/a&gt; about his own experiences with Arch, Raspbian and
+Ubuntu Snappy Core.  His conclusions were similar to my own.&lt;/p&gt;
+&lt;div class="section" id="arch"&gt;
+&lt;h2&gt;Arch&lt;/h2&gt;
+&lt;p&gt;I have been using &lt;a class="reference external" href="https://www.archlinux.org/"&gt;Arch Linux&lt;/a&gt; a little of late and like many things
+about Arch and &lt;a class="reference external" href="https://wiki.archlinux.org/index.php/The_Arch_Way"&gt;The Arch Way&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;First of all, the Arch wiki has excellent documentation.  This is
+critical to its success, since it does many things a little
+differently to the larger linux distributions.&lt;/p&gt;
+&lt;p&gt;An initial Arch install will not install much beyond the bare
+essentials to get you up and running.  This does mean it can take a
+little while to get a new system just how you want it, but has the
+advantage you do not end up with hundreds of packages installed which
+you have little idea what they do.  For the security conscious this is
+a definite plus.&lt;/p&gt;
+&lt;p&gt;One feature I love is that their are no &lt;em&gt;dev&lt;/em&gt; packages.  Anyone who
+has tried using any of the main linux distributions and is in the
+habit of compiling code on those systems will have run into the
+situation where code fails to build due to missing C header files.&lt;/p&gt;
+&lt;p&gt;In the major distributions these header files are in separate &lt;em&gt;dev&lt;/em&gt;
+packages.  The philosophy is that most people are not compiling code
+on these machines so do not need the header files.  This choice is
+fine until a new user decides to try compiling some code and then is
+hit by the missing header file issue.  Just another obstacle put in
+the way of potential new developers.&lt;/p&gt;
+&lt;p&gt;In contrast, Arch argues that these header files are generally tiny
+and including them in the main package adds little overhead and saves
+a lot of time for anyone doing development.   It would be good if more
+distros made this switch.&lt;/p&gt;
+&lt;p&gt;Using Arch will present some challenges to a new user, but given the
+excellent state of the documentation it is also an excellent way to
+gain a thorough understanding of how everything works.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="raspbian"&gt;
+&lt;h2&gt;Raspbian&lt;/h2&gt;
+&lt;p&gt;Raspbian appears to be the most widely used distribution on the
+raspberry pi.   It is based on the Debian and has over 35,000 packages
+available.&lt;/p&gt;
+&lt;p&gt;Since I have mostly used Debian based distributions this seems a good
+place to start.&lt;/p&gt;
+&lt;p&gt;Trying different distros can get a little time consuming, between
+downloading images and copying them onto SD cards.  Further, different
+images are needed for the older pi's and the pi 2.&lt;/p&gt;
+&lt;p&gt;The simplest way to get a Raspian system up and running is to
+&lt;a class="reference external" href="https://www.raspberrypi.org/downloads/"&gt;download&lt;/a&gt; the raspian image from raspberrypi.org.&lt;/p&gt;
+&lt;p&gt;To install just copy to the SD card device using dd:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+dd if=raspian_image_you_downloaded.img of=/dev/SDCARD
+&lt;/pre&gt;
+&lt;p&gt;Finding the device for your SD card can be tricky. &lt;em&gt;lsblk&lt;/em&gt; shows you
+all the block devices and with luck your SD card will be there.&lt;/p&gt;
+&lt;p&gt;On my Ubuntu system it is /dev/mmblk0, on an Arch machine it showed up
+as /dev/sdb.  You can usually figure things out using the SIZE of the
+device.&lt;/p&gt;
+&lt;p&gt;Note also that you want the block with TYPE disk, not any of the
+partitions it might have.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="raspbain-installer"&gt;
+&lt;h2&gt;Raspbain installer&lt;/h2&gt;
+&lt;p&gt;Another approach is to use this &lt;a class="reference external" href="https://github.com/debian-pi/raspbian-ua-netinst"&gt;Raspbian installer&lt;/a&gt;.   One clear
+advantage is that it is a small download, a mere 11MB and a small copy
+onto your SD card.&lt;/p&gt;
+&lt;p&gt;You then just plug it into the pi, turn on the pi with a wired network
+connection and the install happens by magic.  It takes 20 minutes or
+so, with a reasonable internet connection.&lt;/p&gt;
+&lt;p&gt;Other advantages include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;you use the same installer for the original pi's and the pi 2.&lt;/li&gt;
+&lt;li&gt;the installer installs the latest packages from the release
+(currently wheezy) that you choose.&lt;/li&gt;
+&lt;li&gt;you can customise the installer to include additional packages and a
+number of other customisations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The down side is that the base install comes without a GUI
+environment.  Depending on what you intend to do with the pi this may
+not be a problem.&lt;/p&gt;
+&lt;p&gt;I am going to experiment with customising the installer to see if I
+can get it to install lxde, emacs, git and some other goodies I like
+to have around on my systems.&lt;/p&gt;
+&lt;!-- title: links --&gt;
+&lt;!-- slug: references --&gt;
+&lt;!-- date: 2015-06-10 14:08:31 UTC --&gt;
+&lt;!-- tags: draft --&gt;
+&lt;!-- link: --&gt;
+&lt;!-- description: links to include in all posts --&gt;
+&lt;!-- type: text --&gt;
+&lt;!-- Generated with: grep -h '^\.\. _' *.rst | sort | uniq &gt; references.rst --&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>linux</category><category>raspberry pi</category><guid>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</guid><pubDate>Wed, 10 Jun 2015 18:38:29 GMT</pubDate></item><item><title>PyData, Dallas</title><link>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The PyData, Dallas videos are now up on youtube under &lt;a class="reference external" href="https://www.youtube.com/user/PyDataTV"&gt;PyData TV&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lots of interesting stuff to view there.  So far, I have watched &lt;a class="reference external" href="https://www.youtube.com/watch?v=heGtUhFm1-A"&gt;Luis
 Miguel Sanchez&lt;/a&gt; talk about modelling insurance linked securities
 (ILS) all in &lt;a class="reference external" href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks.  Shows how things that used to take

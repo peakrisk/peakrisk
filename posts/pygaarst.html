@@ -27,7 +27,7 @@ article: http://ogp.me/ns/article#
         <meta property="og:site_name" content="Peak Risk">
     <meta property="og:title" content="Pygaarst">
     <meta property="og:url" content="http://peakrisk.github.io/peakrisk/posts/pygaarst.html">
-    <meta property="og:description" content="In [ ]:
+    <meta property="og:description" content="In [1]:
 
     
 # using a version of pygaarst cloned from github
@@ -43,7 +43,7 @@ sys.path.append('../../pygaarst')
 
 
 
-In [10]:
+In [2]:
 
     
 # Import landsat module
@@ -60,8 +60,7 @@ from pygaarst import landsat
 
 
 
-
--">
+WAR">
     <meta property="og:type" content="article">
     <meta property="article:published_time" content="2015-05-04T23:07:36+00:00">
 
@@ -156,7 +155,7 @@ from pygaarst import landsat
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># using a version of pygaarst cloned from github</span>
@@ -172,7 +171,7 @@ from pygaarst import landsat
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [10]:</div>
+<div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># Import landsat module</span>
@@ -189,38 +188,72 @@ from pygaarst import landsat
 
 <div class="output_area">
 <div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansired">---------------------------------------------------------------------------</span>
-<span class="ansired">ImportError</span>                               Traceback (most recent call last)
-<span class="ansigreen">&lt;ipython-input-10-d59bd9124698&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">      3</span> sys<span class="ansiyellow">.</span>path<span class="ansiyellow">.</span>append<span class="ansiyellow">(</span><span class="ansiblue">'../../pygaarst'</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">      4</span> <span class="ansiyellow"></span>
-<span class="ansigreen">----&gt; 5</span><span class="ansiyellow"> </span><span class="ansigreen">from</span> pygaarst <span class="ansigreen">import</span> landsat<span class="ansiyellow"></span>
-
-<span class="ansigreen">/home/jng/devel/pygaarst/pygaarst/landsat.py</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     19</span> <span class="ansigreen">import</span> pygaarst<span class="ansiyellow">.</span>landsatutils <span class="ansigreen">as</span> lu<span class="ansiyellow"></span>
-<span class="ansigreen">     20</span> <span class="ansigreen">from</span> pygaarst<span class="ansiyellow">.</span>rasterhelpers <span class="ansigreen">import</span> PygaarstRasterError<span class="ansiyellow"></span>
-<span class="ansigreen">---&gt; 21</span><span class="ansiyellow"> </span><span class="ansigreen">from</span> pygaarst<span class="ansiyellow">.</span>usgsl1 <span class="ansigreen">import</span> USGSL1scene<span class="ansiyellow">,</span> USGSL1band<span class="ansiyellow">,</span> _validate_platformorigin<span class="ansiyellow"></span>
-<span class="ansigreen">     22</span> <span class="ansiyellow"></span>
-<span class="ansigreen">     23</span> <span class="ansigreen">class</span> Landsatscene<span class="ansiyellow">(</span>USGSL1scene<span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
-
-<span class="ansigreen">/home/jng/devel/pygaarst/pygaarst/usgsl1.py</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     18</span> <span class="ansigreen">import</span> pygaarst<span class="ansiyellow">.</span>landsatutils <span class="ansigreen">as</span> lu<span class="ansiyellow"></span>
-<span class="ansigreen">     19</span> <span class="ansigreen">import</span> pygaarst<span class="ansiyellow">.</span>mtlutils <span class="ansigreen">as</span> mtl<span class="ansiyellow"></span>
-<span class="ansigreen">---&gt; 20</span><span class="ansiyellow"> </span><span class="ansigreen">from</span> pygaarst<span class="ansiyellow">.</span>geotiff <span class="ansigreen">import</span> GeoTIFF<span class="ansiyellow"></span>
-<span class="ansigreen">     21</span> <span class="ansiyellow"></span>
-<span class="ansigreen">     22</span> <span class="ansigreen">def</span> _validate_platformorigin<span class="ansiyellow">(</span>platform<span class="ansiyellow">,</span> spid<span class="ansiyellow">,</span> sensorid<span class="ansiyellow">=</span><span class="ansigreen">None</span><span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
-
-<span class="ansigreen">/home/jng/devel/pygaarst/pygaarst/geotiff.py</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">     16</span> LOGGER <span class="ansiyellow">=</span> logging<span class="ansiyellow">.</span>getLogger<span class="ansiyellow">(</span><span class="ansiblue">'pygaarst.geotiff'</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
-<span class="ansigreen">     17</span> <span class="ansiyellow"></span>
-<span class="ansigreen">---&gt; 18</span><span class="ansiyellow"> </span><span class="ansigreen">from</span> osgeo <span class="ansigreen">import</span> gdal<span class="ansiyellow">,</span> osr<span class="ansiyellow"></span>
-<span class="ansigreen">     19</span> <span class="ansigreen">try</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
-<span class="ansigreen">     20</span>     <span class="ansigreen">from</span> pyproj <span class="ansigreen">import</span> Proj<span class="ansiyellow"></span>
-
-<span class="ansired">ImportError</span>: No module named 'osgeo'</pre>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:pygaarst.rasterhelpers:The h5py library couldn't be imported: HDF5 files aren't supported
+</pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="time-to-find-gdal">time to find gdal<a class="anchor-link" href="pygaarst.html#time-to-find-gdal">¶</a>
+</h3>
+<p>Installing with pip failing due to missing cpl_port.h</p>
+<p>So, plan B, install into Ubuntu and tell virtualenv to use system stuff.</p>
+<p>You can do this when you create a virtualenv as follows:</p>
+<p>mkvirtualenv --system-site-packages  foo</p>
+<p>This creates an empty file:
+   .virtualenvs/foo/lib/python3.4/no-global-site-packages.txt</p>
+<p>Renaming or deleting this will make the virtualenv pick up packages
+installed in the system python.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">scene</span> <span class="o">=</span> <span class="n">landsat</span><span class="o">.</span><span class="n">Landsatscene</span><span class="p">(</span><span class="s">'../data/LC80060382014307LGN00'</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">scene</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[4]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;pygaarst.landsat.Landsatscene at 0x7f4f75d33080&gt;</pre>
+</div>
+
 </div>
 
 </div>
@@ -229,10 +262,163 @@ from pygaarst import landsat
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [1]:</div>
+<div class="prompt input_prompt">In [5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="c"># time to find gdal</span>
+<div class=" highlight hl-ipython3"><pre><span class="n">band</span> <span class="o">=</span> <span class="n">scene</span><span class="o">.</span><span class="n">band1</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="nb">dir</span><span class="p">(</span><span class="n">band</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[6]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>['Lat',
+ 'Lat_pxcenter',
+ 'Lon',
+ 'Lon_pxcenter',
+ '_LonLat_pxcenter',
+ '_LonLat_pxcorner',
+ '_XY',
+ '_XY_pxcenter',
+ '__class__',
+ '__delattr__',
+ '__dict__',
+ '__dir__',
+ '__doc__',
+ '__eq__',
+ '__format__',
+ '__ge__',
+ '__getattribute__',
+ '__gt__',
+ '__hash__',
+ '__init__',
+ '__le__',
+ '__lt__',
+ '__module__',
+ '__ne__',
+ '__new__',
+ '__reduce__',
+ '__reduce_ex__',
+ '__repr__',
+ '__setattr__',
+ '__sizeof__',
+ '__str__',
+ '__subclasshook__',
+ '__weakref__',
+ '_gtr',
+ 'band',
+ 'clone',
+ 'coordtrans',
+ 'data',
+ 'dataobj',
+ 'delx',
+ 'dely',
+ 'easting',
+ 'filepath',
+ 'ij2xy',
+ 'lrx',
+ 'lry',
+ 'meta',
+ 'nbands',
+ 'ncol',
+ 'newmetaformat',
+ 'northing',
+ 'nrow',
+ 'proj4',
+ 'projection',
+ 'radiance',
+ 'reflectance',
+ 'scene',
+ 'sensor',
+ 'simpleplot',
+ 'spacecraft',
+ 'tKelvin',
+ 'ulx',
+ 'uly',
+ 'x_pxcenter',
+ 'xy2ij',
+ 'y_pxcenter']</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">band</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[7]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(7911, 7761)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="k">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+    
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">band</span><span class="o">.</span><span class="n">data</span><span class="p">[::</span><span class="mi">10</span><span class="p">,::</span><span class="mi">10</span><span class="p">])</span>
 </pre></div>
 
 </div>
@@ -245,17 +431,443 @@ from pygaarst import landsat
 
 <div class="output_area">
 <div class="prompt"></div>
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansired">---------------------------------------------------------------------------</span>
-<span class="ansired">ImportError</span>                               Traceback (most recent call last)
-<span class="ansigreen">&lt;ipython-input-1-27bf4694dd2b&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
-<span class="ansigreen">----&gt; 1</span><span class="ansiyellow"> </span><span class="ansigreen">import</span> gdal<span class="ansiyellow"></span>
 
-<span class="ansired">ImportError</span>: No module named 'gdal'</pre>
+
+<div class="output_text output_subarea ">
+<pre>&lt;matplotlib.figure.Figure at 0x7f4f4d4edb00&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[9]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.image.AxesImage at 0x7f4f45fbe3c8&gt;</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">band</span><span class="o">.</span><span class="n">meta</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[12]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{'IMAGE_ATTRIBUTES': {'CLOUD_COVER': 28.56,
+  'EARTH_SUN_DISTANCE': 0.9919669,
+  'GEOMETRIC_RMSE_MODEL': 5.914,
+  'GEOMETRIC_RMSE_MODEL_X': 2.227,
+  'GEOMETRIC_RMSE_MODEL_Y': 5.478,
+  'GROUND_CONTROL_POINTS_MODEL': 18,
+  'GROUND_CONTROL_POINTS_VERSION': 2,
+  'IMAGE_QUALITY_OLI': 9,
+  'IMAGE_QUALITY_TIRS': 9,
+  'ROLL_ANGLE': -0.001,
+  'SUN_AZIMUTH': 157.43232606,
+  'SUN_ELEVATION': 40.29612971},
+ 'METADATA_FILE_INFO': {'FILE_DATE': datetime.datetime(2014, 11, 3, 19, 14, 3),
+  'LANDSAT_SCENE_ID': 'LC80060382014307LGN00',
+  'ORIGIN': 'Image courtesy of the U.S. Geological Survey',
+  'PROCESSING_SOFTWARE_VERSION': 'LPGS_2.4.0',
+  'REQUEST_ID': '0501411031138_00002',
+  'STATION_ID': 'LGN'},
+ 'MIN_MAX_PIXEL_VALUE': {'QUANTIZE_CAL_MAX_BAND_1': 65535,
+  'QUANTIZE_CAL_MAX_BAND_10': 65535,
+  'QUANTIZE_CAL_MAX_BAND_11': 65535,
+  'QUANTIZE_CAL_MAX_BAND_2': 65535,
+  'QUANTIZE_CAL_MAX_BAND_3': 65535,
+  'QUANTIZE_CAL_MAX_BAND_4': 65535,
+  'QUANTIZE_CAL_MAX_BAND_5': 65535,
+  'QUANTIZE_CAL_MAX_BAND_6': 65535,
+  'QUANTIZE_CAL_MAX_BAND_7': 65535,
+  'QUANTIZE_CAL_MAX_BAND_8': 65535,
+  'QUANTIZE_CAL_MAX_BAND_9': 65535,
+  'QUANTIZE_CAL_MIN_BAND_1': 1,
+  'QUANTIZE_CAL_MIN_BAND_10': 1,
+  'QUANTIZE_CAL_MIN_BAND_11': 1,
+  'QUANTIZE_CAL_MIN_BAND_2': 1,
+  'QUANTIZE_CAL_MIN_BAND_3': 1,
+  'QUANTIZE_CAL_MIN_BAND_4': 1,
+  'QUANTIZE_CAL_MIN_BAND_5': 1,
+  'QUANTIZE_CAL_MIN_BAND_6': 1,
+  'QUANTIZE_CAL_MIN_BAND_7': 1,
+  'QUANTIZE_CAL_MIN_BAND_8': 1,
+  'QUANTIZE_CAL_MIN_BAND_9': 1},
+ 'MIN_MAX_RADIANCE': {'RADIANCE_MAXIMUM_BAND_1': 772.42273,
+  'RADIANCE_MAXIMUM_BAND_10': 22.0018,
+  'RADIANCE_MAXIMUM_BAND_11': 22.0018,
+  'RADIANCE_MAXIMUM_BAND_2': 790.97028,
+  'RADIANCE_MAXIMUM_BAND_3': 728.87238,
+  'RADIANCE_MAXIMUM_BAND_4': 614.62622,
+  'RADIANCE_MAXIMUM_BAND_5': 376.12061,
+  'RADIANCE_MAXIMUM_BAND_6': 93.53777,
+  'RADIANCE_MAXIMUM_BAND_7': 31.52724,
+  'RADIANCE_MAXIMUM_BAND_8': 695.58777,
+  'RADIANCE_MAXIMUM_BAND_9': 146.99646,
+  'RADIANCE_MINIMUM_BAND_1': -63.78692,
+  'RADIANCE_MINIMUM_BAND_10': 0.10033,
+  'RADIANCE_MINIMUM_BAND_11': 0.10033,
+  'RADIANCE_MINIMUM_BAND_2': -65.31858,
+  'RADIANCE_MINIMUM_BAND_3': -60.19052,
+  'RADIANCE_MINIMUM_BAND_4': -50.75603,
+  'RADIANCE_MINIMUM_BAND_5': -31.06016,
+  'RADIANCE_MINIMUM_BAND_6': -7.72438,
+  'RADIANCE_MINIMUM_BAND_7': -2.60353,
+  'RADIANCE_MINIMUM_BAND_8': -57.44186,
+  'RADIANCE_MINIMUM_BAND_9': -12.13902},
+ 'MIN_MAX_REFLECTANCE': {'REFLECTANCE_MAXIMUM_BAND_1': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_2': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_3': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_4': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_5': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_6': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_7': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_8': 1.2107,
+  'REFLECTANCE_MAXIMUM_BAND_9': 1.2107,
+  'REFLECTANCE_MINIMUM_BAND_1': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_2': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_3': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_4': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_5': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_6': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_7': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_8': -0.09998,
+  'REFLECTANCE_MINIMUM_BAND_9': -0.09998},
+ 'PRODUCT_METADATA': {'BPF_NAME_OLI': 'LO8BPF20141103144117_20141103152728.01',
+  'BPF_NAME_TIRS': 'LT8BPF20141103143724_20141103161617.01',
+  'CORNER_LL_LAT_PRODUCT': 30.64366,
+  'CORNER_LL_LON_PRODUCT': -66.20731,
+  'CORNER_LL_PROJECTION_X_PRODUCT': 192600.0,
+  'CORNER_LL_PROJECTION_Y_PRODUCT': 3394500.0,
+  'CORNER_LR_LAT_PRODUCT': 30.68092,
+  'CORNER_LR_LON_PRODUCT': -63.77884,
+  'CORNER_LR_PROJECTION_X_PRODUCT': 425400.0,
+  'CORNER_LR_PROJECTION_Y_PRODUCT': 3394500.0,
+  'CORNER_UL_LAT_PRODUCT': 32.78119,
+  'CORNER_UL_LON_PRODUCT': -66.28184,
+  'CORNER_UL_PROJECTION_X_PRODUCT': 192600.0,
+  'CORNER_UL_PROJECTION_Y_PRODUCT': 3631800.0,
+  'CORNER_UR_LAT_PRODUCT': 32.82168,
+  'CORNER_UR_LON_PRODUCT': -63.79697,
+  'CORNER_UR_PROJECTION_X_PRODUCT': 425400.0,
+  'CORNER_UR_PROJECTION_Y_PRODUCT': 3631800.0,
+  'CPF_NAME': 'L8CPF20141001_20141231.01',
+  'DATA_TYPE': 'L1T',
+  'DATE_ACQUIRED': datetime.date(2014, 11, 3),
+  'ELEVATION_SOURCE': 'GLS2000',
+  'FILE_NAME_BAND_1': 'LC80060382014307LGN00_B1.TIF',
+  'FILE_NAME_BAND_10': 'LC80060382014307LGN00_B10.TIF',
+  'FILE_NAME_BAND_11': 'LC80060382014307LGN00_B11.TIF',
+  'FILE_NAME_BAND_2': 'LC80060382014307LGN00_B2.TIF',
+  'FILE_NAME_BAND_3': 'LC80060382014307LGN00_B3.TIF',
+  'FILE_NAME_BAND_4': 'LC80060382014307LGN00_B4.TIF',
+  'FILE_NAME_BAND_5': 'LC80060382014307LGN00_B5.TIF',
+  'FILE_NAME_BAND_6': 'LC80060382014307LGN00_B6.TIF',
+  'FILE_NAME_BAND_7': 'LC80060382014307LGN00_B7.TIF',
+  'FILE_NAME_BAND_8': 'LC80060382014307LGN00_B8.TIF',
+  'FILE_NAME_BAND_9': 'LC80060382014307LGN00_B9.TIF',
+  'FILE_NAME_BAND_QUALITY': 'LC80060382014307LGN00_BQA.TIF',
+  'METADATA_FILE_NAME': 'LC80060382014307LGN00_MTL.txt',
+  'NADIR_OFFNADIR': 'NADIR',
+  'OUTPUT_FORMAT': 'GEOTIFF',
+  'PANCHROMATIC_LINES': 15821,
+  'PANCHROMATIC_SAMPLES': 15521,
+  'REFLECTIVE_LINES': 7911,
+  'REFLECTIVE_SAMPLES': 7761,
+  'RLUT_FILE_NAME': 'L8RLUT20130211_20431231v09.h5',
+  'SCENE_CENTER_TIME': datetime.time(14, 53, 1, 397443),
+  'SENSOR_ID': 'OLI_TIRS',
+  'SPACECRAFT_ID': 'LANDSAT_8',
+  'TARGET_WRS_PATH': 6,
+  'TARGET_WRS_ROW': 38,
+  'THERMAL_LINES': 7911,
+  'THERMAL_SAMPLES': 7761,
+  'WRS_PATH': 6,
+  'WRS_ROW': 38},
+ 'PROJECTION_PARAMETERS': {'DATUM': 'WGS84',
+  'ELLIPSOID': 'WGS84',
+  'GRID_CELL_SIZE_PANCHROMATIC': 15.0,
+  'GRID_CELL_SIZE_REFLECTIVE': 30.0,
+  'GRID_CELL_SIZE_THERMAL': 30.0,
+  'MAP_PROJECTION': 'UTM',
+  'ORIENTATION': 'NORTH_UP',
+  'RESAMPLING_OPTION': 'CUBIC_CONVOLUTION',
+  'UTM_ZONE': 20},
+ 'RADIOMETRIC_RESCALING': {'RADIANCE_ADD_BAND_1': -63.79968,
+  'RADIANCE_ADD_BAND_10': 0.1,
+  'RADIANCE_ADD_BAND_11': 0.1,
+  'RADIANCE_ADD_BAND_2': -65.33165,
+  'RADIANCE_ADD_BAND_3': -60.20256,
+  'RADIANCE_ADD_BAND_4': -50.76619,
+  'RADIANCE_ADD_BAND_5': -31.06638,
+  'RADIANCE_ADD_BAND_6': -7.72592,
+  'RADIANCE_ADD_BAND_7': -2.60405,
+  'RADIANCE_ADD_BAND_8': -57.45335,
+  'RADIANCE_ADD_BAND_9': -12.14144,
+  'RADIANCE_MULT_BAND_1': 0.01276,
+  'RADIANCE_MULT_BAND_10': 0.0003342,
+  'RADIANCE_MULT_BAND_11': 0.0003342,
+  'RADIANCE_MULT_BAND_2': 0.013066,
+  'RADIANCE_MULT_BAND_3': 0.012041,
+  'RADIANCE_MULT_BAND_4': 0.010153,
+  'RADIANCE_MULT_BAND_5': 0.0062133,
+  'RADIANCE_MULT_BAND_6': 0.0015452,
+  'RADIANCE_MULT_BAND_7': 0.00052081,
+  'RADIANCE_MULT_BAND_8': 0.011491,
+  'RADIANCE_MULT_BAND_9': 0.0024283,
+  'REFLECTANCE_ADD_BAND_1': -0.1,
+  'REFLECTANCE_ADD_BAND_2': -0.1,
+  'REFLECTANCE_ADD_BAND_3': -0.1,
+  'REFLECTANCE_ADD_BAND_4': -0.1,
+  'REFLECTANCE_ADD_BAND_5': -0.1,
+  'REFLECTANCE_ADD_BAND_6': -0.1,
+  'REFLECTANCE_ADD_BAND_7': -0.1,
+  'REFLECTANCE_ADD_BAND_8': -0.1,
+  'REFLECTANCE_ADD_BAND_9': -0.1,
+  'REFLECTANCE_MULT_BAND_1': 2e-05,
+  'REFLECTANCE_MULT_BAND_2': 2e-05,
+  'REFLECTANCE_MULT_BAND_3': 2e-05,
+  'REFLECTANCE_MULT_BAND_4': 2e-05,
+  'REFLECTANCE_MULT_BAND_5': 2e-05,
+  'REFLECTANCE_MULT_BAND_6': 2e-05,
+  'REFLECTANCE_MULT_BAND_7': 2e-05,
+  'REFLECTANCE_MULT_BAND_8': 2e-05,
+  'REFLECTANCE_MULT_BAND_9': 2e-05},
+ 'TIRS_THERMAL_CONSTANTS': {'K1_CONSTANT_BAND_10': 774.89,
+  'K1_CONSTANT_BAND_11': 480.89,
+  'K2_CONSTANT_BAND_10': 1321.08,
+  'K2_CONSTANT_BAND_11': 1201.14}}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">scene</span><span class="o">.</span><span class="n">NDVI</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[14]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ nan,  nan,  nan, ...,  nan,  nan,  nan],
+       [ nan,  nan,  nan, ...,  nan,  nan,  nan],
+       [ nan,  nan,  nan, ...,  nan,  nan,  nan],
+       ..., 
+       [ nan,  nan,  nan, ...,  nan,  nan,  nan],
+       [ nan,  nan,  nan, ...,  nan,  nan,  nan],
+       [ nan,  nan,  nan, ...,  nan,  nan,  nan]], dtype=float32)</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:pygaarst.irutils:NaN generated while calculating normalized difference index: : Warning: invalid value encountered in true_divide
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">band</span><span class="o">.</span><span class="n">radiance</span><span class="p">[::</span><span class="mi">10</span><span class="p">,</span> <span class="p">::</span><span class="mi">10</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>&lt;matplotlib.figure.Figure at 0x7f4f44692da0&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[16]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.image.AxesImage at 0x7f4f445d8cc0&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">band</span><span class="o">.</span><span class="n">Lat</span><span class="p">[::</span><span class="mi">10</span><span class="p">,</span> <span class="p">::</span><span class="mi">10</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>&lt;matplotlib.figure.Figure at 0x7f4f445ec978&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[17]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.image.AxesImage at 0x7f4f44544518&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">band</span><span class="o">.</span><span class="n">Lon</span><span class="p">[::</span><span class="mi">10</span><span class="p">,</span> <span class="p">::</span><span class="mi">10</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+
+<div class="output_text output_subarea ">
+<pre>&lt;matplotlib.figure.Figure at 0x7f4f44590198&gt;</pre>
+</div>
+
+</div>
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[21]:</div>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;matplotlib.image.AxesImage at 0x7f4f44530d30&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">band</span><span class="o">.</span><span class="n">tKelvin</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:pygaarst.landsat:Automatic brightness Temp not implemented. Cannot calculate temperature. Sorry.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
 </div>
 </div>
 

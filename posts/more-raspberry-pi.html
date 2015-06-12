@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>More raspberry pi | Peak Risk</title>
+
+                <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+                <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+      <link rel="canonical" href="http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    
+
+    
+    <meta name="author" content="John Gill">
+        <meta property="og:site_name" content="Peak Risk">
+    <meta property="og:title" content="More raspberry pi">
+    <meta property="og:url" content="http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html">
+    <meta property="og:description" content="I am going to be doing an introduction to free software and linux for
+this year's Technology Leadership Forum students.
+The plan is to have the students use raspberry pi's to learn about the
+linux pla">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2015-06-10T18:38:29+00:00">
+           <meta property="article:tag" content="linux">
+           <meta property="article:tag" content="raspberry pi">
+
+    
+    
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://peakrisk.github.io/peakrisk/">
+
+                <span id="blog-title">Peak Risk</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                                <li>
+<a href="../blog/">Blog</a>
+                </li>
+<li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../galleries/">Galleries</a>
+                </li>
+<li>
+<a href="../stories/contributors.html">Contributors</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+
+            <ul class="nav navbar-nav navbar-right">
+    <li>
+    <a href="more-raspberry-pi.rst" id="sourcelink">Source</a>
+    </li>
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <header>
+            <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">More raspberry pi</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">John Gill</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-06-10T18:38:29+00:00" itemprop="datePublished" title="2015-06-10 18:38">2015-06-10 18:38</time></a></p>
+                <p class="commentline">            <a href="more-raspberry-pi.html#disqus_thread" data-disqus-identifier="cache/posts/more-raspberry-pi.html">Comments</a>
+
+
+                    </p>
+<p class="sourceline"><a href="more-raspberry-pi.rst" id="sourcelink">Source</a></p>
+
+        </div>
+        
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>I am going to be doing an introduction to free software and linux for
+this year's <a class="reference external" href="http://tlf.bm/">Technology Leadership Forum</a> students.</p>
+<p>The plan is to have the students use raspberry pi's to learn about the
+linux platform.</p>
+<p>I have a bunch of the new raspberry pi 2's and have been experimenting
+with different linux distributions on these pi's.</p>
+<p>I was going to write up my experiences, but Swapnil Bhartiya has
+kindly <a class="reference external" href="http://www.linux.com/learn/tutorials/818062-getting-started-with-raspberry-pi-2-install-arch-linux">blogged</a> about his own experiences with Arch, Raspbian and
+Ubuntu Snappy Core.  His conclusions were similar to my own.</p>
+<div class="section" id="arch">
+<h2>Arch</h2>
+<p>I have been using <a class="reference external" href="https://www.archlinux.org/">Arch Linux</a> a little of late and like many things
+about Arch and <a class="reference external" href="https://wiki.archlinux.org/index.php/The_Arch_Way">The Arch Way</a>.</p>
+<p>First of all, the Arch wiki has excellent documentation.  This is
+critical to its success, since it does many things a little
+differently to the larger linux distributions.</p>
+<p>An initial Arch install will not install much beyond the bare
+essentials to get you up and running.  This does mean it can take a
+little while to get a new system just how you want it, but has the
+advantage you do not end up with hundreds of packages installed which
+you have little idea what they do.  For the security conscious this is
+a definite plus.</p>
+<p>One feature I love is that their are no <em>dev</em> packages.  Anyone who
+has tried using any of the main linux distributions and is in the
+habit of compiling code on those systems will have run into the
+situation where code fails to build due to missing C header files.</p>
+<p>In the major distributions these header files are in separate <em>dev</em>
+packages.  The philosophy is that most people are not compiling code
+on these machines so do not need the header files.  This choice is
+fine until a new user decides to try compiling some code and then is
+hit by the missing header file issue.  Just another obstacle put in
+the way of potential new developers.</p>
+<p>In contrast, Arch argues that these header files are generally tiny
+and including them in the main package adds little overhead and saves
+a lot of time for anyone doing development.   It would be good if more
+distros made this switch.</p>
+<p>Using Arch will present some challenges to a new user, but given the
+excellent state of the documentation it is also an excellent way to
+gain a thorough understanding of how everything works.</p>
+</div>
+<div class="section" id="raspbian">
+<h2>Raspbian</h2>
+<p>Raspbian appears to be the most widely used distribution on the
+raspberry pi.   It is based on the Debian and has over 35,000 packages
+available.</p>
+<p>Since I have mostly used Debian based distributions this seems a good
+place to start.</p>
+<p>Trying different distros can get a little time consuming, between
+downloading images and copying them onto SD cards.  Further, different
+images are needed for the older pi's and the pi 2.</p>
+<p>The simplest way to get a Raspian system up and running is to
+<a class="reference external" href="https://www.raspberrypi.org/downloads/">download</a> the raspian image from raspberrypi.org.</p>
+<p>To install just copy to the SD card device using dd:</p>
+<pre class="literal-block">
+dd if=raspian_image_you_downloaded.img of=/dev/SDCARD
+</pre>
+<p>Finding the device for your SD card can be tricky. <em>lsblk</em> shows you
+all the block devices and with luck your SD card will be there.</p>
+<p>On my Ubuntu system it is /dev/mmblk0, on an Arch machine it showed up
+as /dev/sdb.  You can usually figure things out using the SIZE of the
+device.</p>
+<p>Note also that you want the block with TYPE disk, not any of the
+partitions it might have.</p>
+</div>
+<div class="section" id="raspbain-installer">
+<h2>Raspbain installer</h2>
+<p>Another approach is to use this <a class="reference external" href="https://github.com/debian-pi/raspbian-ua-netinst">Raspbian installer</a>.   One clear
+advantage is that it is a small download, a mere 11MB and a small copy
+onto your SD card.</p>
+<p>You then just plug it into the pi, turn on the pi with a wired network
+connection and the install happens by magic.  It takes 20 minutes or
+so, with a reasonable internet connection.</p>
+<p>Other advantages include:</p>
+<ul class="simple">
+<li>you use the same installer for the original pi's and the pi 2.</li>
+<li>the installer installs the latest packages from the release
+(currently wheezy) that you choose.</li>
+<li>you can customise the installer to include additional packages and a
+number of other customisations.</li>
+</ul>
+<p>The down side is that the base install comes without a GUI
+environment.  Depending on what you intend to do with the pi this may
+not be a problem.</p>
+<p>I am going to experiment with customising the installer to see if I
+can get it to install lxde, emacs, git and some other goodies I like
+to have around on my systems.</p>
+<!-- title: links -->
+<!-- slug: references -->
+<!-- date: 2015-06-10 14:08:31 UTC -->
+<!-- tags: draft -->
+<!-- link: -->
+<!-- description: links to include in all posts -->
+<!-- type: text -->
+<!-- Generated with: grep -h '^\.\. _' *.rst | sort | uniq > references.rst -->
+</div>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+            <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/linux.html" rel="tag">linux</a></li>
+           <li><a class="tag p-category" href="../categories/raspberry-pi.html" rel="tag">raspberry pi</a></li>
+        </ul>
+
+            <ul class="pager">
+            <li class="previous">
+                <a href="pydata-dallas.html" rel="prev" title="PyData, Dallas">Previous post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+                        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="peakrisk",
+            disqus_url="http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html",
+        disqus_title="More raspberry pi",
+        disqus_identifier="cache/posts/more-raspberry-pi.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+</article>
+               <script>var disqus_shortname="peakrisk";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2015         <a href="mailto:swfiua@gmail.com">John Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+            
+        </footer>
+    </div>
+</div>
+
+            <script src="../assets/js/all-nocdn.js"></script>
+    
+
+
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+
+
+</body>
+</html>
