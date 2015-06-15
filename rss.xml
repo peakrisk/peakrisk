@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://peakrisk.github.io/peakrisk/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 23:37:41 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cyber espionage nightmare and the case for open data</title><link>http://peakrisk.github.io/peakrisk/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today started with news of a big &lt;a class="reference external" href="https://www.bgpmon.net/massive-route-leak-cause-internet-slowdown/"&gt;SNAFU by a Malaysian telco&lt;/a&gt;.  &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/"&gt;Part
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link rel="self" href="http://peakrisk.github.io/peakrisk/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 15 Jun 2015 14:05:09 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cyber espionage nightmare and the case for open data</title><link>http://peakrisk.github.io/peakrisk/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today started with news of a big &lt;a class="reference external" href="https://www.bgpmon.net/massive-route-leak-cause-internet-slowdown/"&gt;SNAFU by a Malaysian telco&lt;/a&gt;.  &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/"&gt;Part
 2&lt;/a&gt; of this excellent &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/30/net-of-insecurity-part-1/"&gt;history of internet security&lt;/a&gt; explains how
 this giant hole in the internet has been there for a long time and
 been the cause of some spectacular breakages in the past.&lt;/p&gt;
@@ -177,6 +177,58 @@ not be a problem.&lt;/p&gt;
 &lt;p&gt;I am going to experiment with customising the installer to see if I
 can get it to install lxde, emacs, git and some other goodies I like
 to have around on my systems.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="update"&gt;
+&lt;h2&gt;Update&lt;/h2&gt;
+&lt;p&gt;I cloned the git repository for the rasbian net installer:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+git clone git@github.com:debian-pi/raspbian-ua-netinst.git
+&lt;/pre&gt;
+&lt;p&gt;I then added an &lt;em&gt;installer-config.txt&lt;/em&gt; to specify some extra packages
+to install.&lt;/p&gt;
+&lt;p&gt;I then followed the instructions in &lt;em&gt;BUILD.md&lt;/em&gt; to rebuild the image
+and installed from there.&lt;/p&gt;
+&lt;p&gt;This did not go as well as I had hoped, since although the extra
+packages got installed their dependencies did not, at least that is
+what I think happened.&lt;/p&gt;
+&lt;p&gt;It also took me a couple of goes, &lt;em&gt;installer-config.txt&lt;/em&gt; needs to be
+given execute permission, eg:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+chmod 77f installer-config.txt
+&lt;/pre&gt;
+&lt;p&gt;to make this work.&lt;/p&gt;
+&lt;p&gt;I decided to try using &lt;em&gt;post-install.txt&lt;/em&gt; instead.  By the time this
+runs the install is pretty much complete.&lt;/p&gt;
+&lt;p&gt;My first attempt with this was just to add the following apt-get call:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+apt-get install -y git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+&lt;/pre&gt;
+&lt;p&gt;But this failed to do anything.  Time to track down the actuall
+install script and see how what is going on.&lt;/p&gt;
+&lt;p&gt;The actual install script is in &lt;em&gt;scripts/etc/init.d/rcS&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Now I understand.  The installer basically boots a minimal linux
+kernel and then uses a single &lt;em&gt;init&lt;/em&gt; script, run during the boot to do
+the install.&lt;/p&gt;
+&lt;p&gt;Reading that script it becomes clear what I need to do.  The new
+operating system is actually mounted on /rootfs and I need to use the
+&lt;em&gt;chroot&lt;/em&gt; command to make sure apt-get runs with that as the root
+filesystem.   So I ended up with &lt;em&gt;post-install.txt&lt;/em&gt; looking like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+#!/bin/bash
+
+# install some extra goodies.  Do it here rather than in packages to
+# pull in dependencies
+
+chroot /rootfs /usr/bin/apt-get install -y \
+   git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+&lt;/pre&gt;
+&lt;p&gt;Bingo! It works, modulo having to hit enter three times to say OK to
+some dialogs that the &lt;em&gt;lxde&lt;/em&gt; desktop environment displays.&lt;/p&gt;
+&lt;p&gt;One other trick I used in all this was mounting the SD card's first
+partition after copying the installer onto it.  This allows me to copy
+over a new &lt;em&gt;installer-config.txt&lt;/em&gt; or &lt;em&gt;post-install.txt&lt;/em&gt; without having
+to rebuild the full image.&lt;/p&gt;
+&lt;p&gt;Overall, I am liking this installer.&lt;/p&gt;
 &lt;!-- title: links --&gt;
 &lt;!-- slug: references --&gt;
 &lt;!-- date: 2015-06-10 14:08:31 UTC --&gt;

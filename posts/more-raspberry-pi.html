@@ -209,6 +209,58 @@ not be a problem.</p>
 <p>I am going to experiment with customising the installer to see if I
 can get it to install lxde, emacs, git and some other goodies I like
 to have around on my systems.</p>
+</div>
+<div class="section" id="update">
+<h2>Update</h2>
+<p>I cloned the git repository for the rasbian net installer:</p>
+<pre class="literal-block">
+git clone git@github.com:debian-pi/raspbian-ua-netinst.git
+</pre>
+<p>I then added an <em>installer-config.txt</em> to specify some extra packages
+to install.</p>
+<p>I then followed the instructions in <em>BUILD.md</em> to rebuild the image
+and installed from there.</p>
+<p>This did not go as well as I had hoped, since although the extra
+packages got installed their dependencies did not, at least that is
+what I think happened.</p>
+<p>It also took me a couple of goes, <em>installer-config.txt</em> needs to be
+given execute permission, eg:</p>
+<pre class="literal-block">
+chmod 77f installer-config.txt
+</pre>
+<p>to make this work.</p>
+<p>I decided to try using <em>post-install.txt</em> instead.  By the time this
+runs the install is pretty much complete.</p>
+<p>My first attempt with this was just to add the following apt-get call:</p>
+<pre class="literal-block">
+apt-get install -y git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+</pre>
+<p>But this failed to do anything.  Time to track down the actuall
+install script and see how what is going on.</p>
+<p>The actual install script is in <em>scripts/etc/init.d/rcS</em></p>
+<p>Now I understand.  The installer basically boots a minimal linux
+kernel and then uses a single <em>init</em> script, run during the boot to do
+the install.</p>
+<p>Reading that script it becomes clear what I need to do.  The new
+operating system is actually mounted on /rootfs and I need to use the
+<em>chroot</em> command to make sure apt-get runs with that as the root
+filesystem.   So I ended up with <em>post-install.txt</em> looking like this:</p>
+<pre class="literal-block">
+#!/bin/bash
+
+# install some extra goodies.  Do it here rather than in packages to
+# pull in dependencies
+
+chroot /rootfs /usr/bin/apt-get install -y \
+   git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+</pre>
+<p>Bingo! It works, modulo having to hit enter three times to say OK to
+some dialogs that the <em>lxde</em> desktop environment displays.</p>
+<p>One other trick I used in all this was mounting the SD card's first
+partition after copying the installer onto it.  This allows me to copy
+over a new <em>installer-config.txt</em> or <em>post-install.txt</em> without having
+to rebuild the full image.</p>
+<p>Overall, I am liking this installer.</p>
 <!-- title: links -->
 <!-- slug: references -->
 <!-- date: 2015-06-10 14:08:31 UTC -->
