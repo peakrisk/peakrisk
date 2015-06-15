@@ -118,7 +118,69 @@ I am going to experiment with customising the installer to see if I
 can get it to install lxde, emacs, git and some other goodies I like
 to have around on my systems.
 
+Update
+======
 
+I cloned the git repository for the rasbian net installer::
+
+  git clone git@github.com:debian-pi/raspbian-ua-netinst.git
+
+I then added an *installer-config.txt* to specify some extra packages
+to install.
+
+I then followed the instructions in *BUILD.md* to rebuild the image
+and installed from there.
+
+This did not go as well as I had hoped, since although the extra
+packages got installed their dependencies did not, at least that is
+what I think happened.
+
+It also took me a couple of goes, *installer-config.txt* needs to be
+given execute permission, eg::
+
+   chmod 77f installer-config.txt
+
+to make this work.
+
+I decided to try using *post-install.txt* instead.  By the time this
+runs the install is pretty much complete.
+
+My first attempt with this was just to add the following apt-get call::
+
+  apt-get install -y git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+
+But this failed to do anything.  Time to track down the actuall
+install script and see how what is going on.
+
+The actual install script is in *scripts/etc/init.d/rcS*
+
+Now I understand.  The installer basically boots a minimal linux
+kernel and then uses a single *init* script, run during the boot to do
+the install.
+
+Reading that script it becomes clear what I need to do.  The new
+operating system is actually mounted on /rootfs and I need to use the
+*chroot* command to make sure apt-get runs with that as the root
+filesystem.   So I ended up with *post-install.txt* looking like this::
+
+  #!/bin/bash
+
+  # install some extra goodies.  Do it here rather than in packages to
+  # pull in dependencies
+
+  chroot /rootfs /usr/bin/apt-get install -y \
+     git emacs aptitude xserver-xorg-video-fbdev lxde curl htop nmap
+
+Bingo! It works, modulo having to hit enter three times to say OK to
+some dialogs that the *lxde* desktop environment displays.
+
+One other trick I used in all this was mounting the SD card's first
+partition after copying the installer onto it.  This allows me to copy
+over a new *installer-config.txt* or *post-install.txt* without having
+to rebuild the full image.
+
+Overall, I am liking this installer.
+  
 .. include:: posts/references.rst
 
 .. _download: https://www.raspberrypi.org/downloads/
