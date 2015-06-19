@@ -51,8 +51,8 @@ quick to learn tools in this sort of training.
 I wanted to give the students a glimpse of `emacs`_, in part because
 it is a classic free software tool.
 
-I first encountered emacs around 1985 when attending an `Introduction
-to Unix`_ course at a local technology college in the UK.  The course
+I first encountered emacs around 1985 when attending an *Introduction
+to Unix* course at a local technology college in the UK.  The course
 was a couple of days and they taught us some simple C-shell and an
 introduction to Unix systems.
 
