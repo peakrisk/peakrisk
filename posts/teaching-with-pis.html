@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="teaching with raspberry pi's">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teaching with pi's | Peak Risk</title>
+
+                <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+                <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+      <link rel="canonical" href="http://peakrisk.github.io/peakrisk/posts/teaching-with-pis.html">
+
+
+
+
+    
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    
+
+    
+    <meta name="author" content="John Gill">
+        <meta property="og:site_name" content="Peak Risk">
+    <meta property="og:title" content="Teaching with pi's">
+    <meta property="og:url" content="http://peakrisk.github.io/peakrisk/posts/teaching-with-pis.html">
+    <meta property="og:description" content="teaching with raspberry pi's">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2015-06-19T18:14:24+00:00">
+           <meta property="article:tag" content="free software">
+           <meta property="article:tag" content="git">
+           <meta property="article:tag" content="python">
+           <meta property="article:tag" content="raspberry pi">
+
+    
+    
+
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://peakrisk.github.io/peakrisk/">
+
+                <span id="blog-title">Peak Risk</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                                <li>
+<a href="../blog/">Blog</a>
+                </li>
+<li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../galleries/">Galleries</a>
+                </li>
+<li>
+<a href="../stories/contributors.html">Contributors</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+
+            <ul class="nav navbar-nav navbar-right">
+    <li>
+    <a href="teaching-with-pis.rst" id="sourcelink">Source</a>
+    </li>
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+        <header>
+            <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Teaching with pi's</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">John Gill</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-06-19T18:14:24+00:00" itemprop="datePublished" title="2015-06-19 18:14">2015-06-19 18:14</time></a></p>
+                <p class="commentline">            <a href="teaching-with-pis.html#disqus_thread" data-disqus-identifier="cache/posts/teaching-with-pis.html">Comments</a>
+
+
+                    </p>
+<p class="sourceline"><a href="teaching-with-pis.rst" id="sourcelink">Source</a></p>
+
+                <meta name="description" itemprop="description" content="teaching with raspberry pi's">
+        </div>
+        
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <div>
+<p>This week I spent two half days trying to teach about free software
+with raspberry pi's.</p>
+<p>The students were all local, in full time further education in IT
+fields and hoping to have a career in IT.</p>
+<p>There were 4 students, a mixed group.  Fortunately for me, a previous
+graduate of this summer programme came along to help out.</p>
+<div class="section" id="day-1">
+<h2>Day 1</h2>
+<p>The first session was a lesson in the problems of working with tech in
+education.  I had made a visit to the room for the training the
+previous week.</p>
+<p>I was supplying raspberry pi's and SD cards, but we needed monitors,
+keyboards, mice, HDMI cables and wired network connections.</p>
+<p>Now we were only able to find monitors with DVI ports, not HDMI and
+only two monitors.  Fortunately, I had DVI to HDMI adaptors and we
+managed to cobble together the remaining bits and pieces.</p>
+<p>I'll skip the problems we had connecting to the network and perhaps
+cover that in a future post on security and other matters.</p>
+<p>Free software was mostly new to the students.  Where to begin.  I
+wanted to show them linux, but through the command line.  I wanted
+them to start to develop a better understanding of how a computer
+actually works, one of the goals the raspberry pi project shares.</p>
+<p>My helper was fantastic.  Since there were two pi workstations set up,
+he worked with one pair of students and me with the other.</p>
+<p>One goal on the first day was to introduce the students to version
+control using <a class="reference external" href="https://git-scm.com/">git</a> on the command line.</p>
+<p>Now we soon hit the editor problem.  There is always the dilemma
+between showing powerful tools with a steep learning curve and simple,
+quick to learn tools in this sort of training.</p>
+<p>I wanted to give the students a glimpse of <a class="reference external" href="http://www.gnu.org/software/emacs/">emacs</a>, in part because
+it is a classic free software tool.</p>
+<p>I first encountered emacs around 1985 when attending an <em>Introduction
+to Unix</em> course at a local technology college in the UK.  The course
+was a couple of days and they taught us some simple C-shell and an
+introduction to Unix systems.</p>
+<p>Since an editor was needed for the examples, they showed us <a class="reference external" href="http://www.gnu.org/software/emacs/">emacs</a>.
+I recall writing a review to the effect that whilst emacs seemed to be
+super powerful, it took a disproportionate amount of the time for the
+course.</p>
+<p>My next experience with emacs was around 1989.  My workplace had
+acquired shiny new Sun workstations.  Running Unix.  So the first
+thing I needed was an editor.  A colleague explained there were two
+practical choices: emacs and vi.  Emacs had a vi mode, so basically
+that sealed it.  Emacs it was.</p>
+<p>This time I was going to be using it to write code.  An investment of
+a few hours learning how to use it well seemed worthwhile, so I read
+the tutorial.  Soon I was hooked.  This thing was so much more
+powerful than anything I had used before.</p>
+<p>I am still using emacs, some 25 years later.  I've used it to edit
+code in fortran, C, perl, tcl, python, lisp and who knows what else.
+I've played tetris, read email, browsed newsgroups, read twitter, run
+ipython notebooks, used git, read man pages and who knows what else.</p>
+<p>For the training though, I probably should have just pointed the
+students at this raspberry pi page on <a class="reference external" href="https://www.raspberrypi.org/documentation/linux/usage/text-editors.md">editors</a>.</p>
+<p>By the end of the first session the students had created a git
+repository and were able to make changes to files, state the changes
+and commit them to the repository.</p>
+</div>
+<div class="section" id="day-2">
+<h2>Day 2</h2>
+<p>I had a bit of a re-think after the first session.  We decided to
+bring in some more equiment to give us more options in the room.</p>
+<p>The students are on a 3 month programme, involving internships in
+local firms, with 1 week per month in training.</p>
+<p>They also have to do some sort of project for the course.  One idea
+they are considering is to create a website which provides information
+on the public transport on the island.</p>
+<p>I decided to structure the afternoon around how they might go about
+this if they wanted to run it as a free software project.</p>
+<p>This gave an opportunity to introduce the students to <a class="reference external" href="https://github.com">github</a> and
+build on the introduction to git that we had started in the previous
+session.</p>
+<p>The bus application is challenging here in Bermuda as much of the data
+needed for the application does not appear to be available in machine
+readable form.</p>
+<p>For most free software bus applications having your schedule and route
+data in the <a class="reference external" href="https://developers.google.com/transit/gtfs/reference">General Transit Feed Specification</a> allows you to take
+advantage of a lot of work done in other jurisdictions.</p>
+<p>The good news for Bermuda is that its bus and ferry network is small,
+so even if this data has to be entered by hand it should not take too
+long.  Further, the students could always concentrate on one or two
+key routes while the iron out the glitches.</p>
+<p>I had hoped to introduce a little python programming, but this will
+have to come in later sessions.</p>
+<p>In the meanwhile, this <a class="reference external" href="https://www.youtube.com/watch?v=4EOZvow1mk4">advanced git</a> talk from this year's PyCon may
+be helpful to get a better understanding of how git actually works and
+introduce some more advanced concepts.</p>
+<p>The PyCon videos are all in the <em>PyCon 2015</em> channel on youtube.  I
+also recommend Jacob Kaplan-Moss's <a class="reference external" href="https://www.youtube.com/watch?v=hIJdFxYlEKE">keynote</a> to anyone unsure about
+whether they have the skills to be a programmer.</p>
+<p>I am looking forward to being involved with these students over the
+summer.  Hopefully, they are about to start doing some great things
+with free software.</p>
+</div>
+</div>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+            <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../categories/free-software.html" rel="tag">free software</a></li>
+           <li><a class="tag p-category" href="../categories/git.html" rel="tag">git</a></li>
+           <li><a class="tag p-category" href="../categories/python.html" rel="tag">python</a></li>
+           <li><a class="tag p-category" href="../categories/raspberry-pi.html" rel="tag">raspberry pi</a></li>
+        </ul>
+
+            <ul class="pager">
+            <li class="previous">
+                <a href="cyber-espionage-nightmare-and-the-case-for-open-data.html" rel="prev" title="Cyber espionage nightmare and the case for open data">Previous post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+                        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="peakrisk",
+            disqus_url="http://peakrisk.github.io/peakrisk/posts/teaching-with-pis.html",
+        disqus_title="Teaching with pi's",
+        disqus_identifier="cache/posts/teaching-with-pis.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+</article>
+               <script>var disqus_shortname="peakrisk";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2015         <a href="mailto:swfiua@gmail.com">John Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+            
+        </footer>
+    </div>
+</div>
+
+            <script src="../assets/js/all-nocdn.js"></script>
+    
+
+
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
+
+
+</body>
+</html>

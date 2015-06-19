@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://peakrisk.github.io/peakrisk/2015/index.html</loc>
-  <lastmod>2015-06-12</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/archive.html</loc>
@@ -14,47 +14,55 @@
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/blog/index.html</loc>
-  <lastmod>2015-06-15</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.html</loc>
-  <lastmod>2015-06-15</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/cyber-risk.html</loc>
-  <lastmod>2015-06-16</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/data-science.html</loc>
-  <lastmod>2015-06-16</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/finance.html</loc>
-  <lastmod>2015-06-15</lastmod>
+  <lastmod>2015-06-19</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/free-software.html</loc>
+  <lastmod>2015-06-19</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/categories/git.html</loc>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/index.html</loc>
-  <lastmod>2015-06-12</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/information-security.html</loc>
-  <lastmod>2015-06-15</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/linux.html</loc>
-  <lastmod>2015-06-16</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/open-data.html</loc>
-  <lastmod>2015-06-15</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/python.html</loc>
-  <lastmod>2015-06-16</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/raspberry-pi.html</loc>
-  <lastmod>2015-06-16</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/index.html</loc>
@@ -74,7 +82,7 @@
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html</loc>
-  <lastmod>2015-06-12</lastmod>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</loc>
@@ -91,6 +99,10 @@
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/satellite-data-for-fay-and-gonzalo.html</loc>
   <lastmod>2015-05-18</lastmod>
+ </url>
+ <url>
+  <loc>http://peakrisk.github.io/peakrisk/posts/teaching-with-pis.html</loc>
+  <lastmod>2015-06-19</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/stories/contributors.html</loc>
