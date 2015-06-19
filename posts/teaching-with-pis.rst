@@ -1,10 +1,10 @@
 .. title: Teaching with pi's
 .. slug: teaching-with-pis
 .. date: 2015-06-19 18:14:24 UTC
-.. tags: 
+.. tags: raspberry pi, git, free software, python
 .. category: 
 .. link: 
-.. description: 
+.. description: teaching with raspberry pi's
 .. type: text
 
 This week I spent two half days trying to teach about free software
