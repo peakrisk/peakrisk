@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Peak Risk (information security)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://peakrisk.github.io/peakrisk/categories/information-security.xml"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:08:53 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Free Software and Information Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking a lot about the relative merits of free and
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk (information security)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link href="http://peakrisk.github.io/peakrisk/categories/information-security.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 18:44:41 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Free Software and Information Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking a lot about the relative merits of free and
 non-free software and have started writing a piece about that.&lt;/p&gt;
 &lt;p&gt;This week a the Intercept published a piece on how the NSA's &lt;em&gt;google
 on steroids&lt;/em&gt;, &lt;a class="reference external" href="https://firstlook.org/theintercept/2015/07/02/look-under-hood-xkeyscore/"&gt;XKEYSCORE&lt;/a&gt; works under the hood.&lt;/p&gt;
@@ -40,7 +40,8 @@ they wish to share that information with:&lt;/p&gt;
 &lt;li&gt;information they are happy to share with anyone and everyone&lt;/li&gt;
 &lt;li&gt;information they wish to share, but only with a strict subset&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The first just about feasible with today's technology and software.&lt;/p&gt;
+&lt;p&gt;The first two are just about feasible to handle with today's
+technology and software.&lt;/p&gt;
 &lt;p&gt;The third is extremely difficult with today's technology.  Witness all
 the security breaches in the news.&lt;/p&gt;
 &lt;p&gt;It may not even be a technological problem.  Rather, it is a social
@@ -73,12 +74,32 @@ well.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="everyday-living-on-a-small-island"&gt;
 &lt;h2&gt;Everyday Living on a small island&lt;/h2&gt;
+&lt;p&gt;I live in Bermuda.  The island is small.  There are about 1.5 degrees
+of separation, everybody knows everybody.&lt;/p&gt;
+&lt;p&gt;Children learn from a young age how fast the Bermuda grapevine can
+be.  If they are doing something they shouldn't be doing the news
+invariably gets home to mum before they do.&lt;/p&gt;
+&lt;p&gt;As a result, Bermudians tend to be very respectful of people's
+privacy.  They have their own forms of &lt;em&gt;homeomorphic encryption&lt;/em&gt; in
+the way they relate stories, often using terms such as &lt;em&gt;ace-boy&lt;/em&gt; or
+&lt;em&gt;ace-girl&lt;/em&gt; to protect identities.&lt;/p&gt;
+&lt;p&gt;Security researchers can learn a lot from the way these people handle
+information.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="cuban-ubuntu"&gt;
 &lt;h2&gt;Cuban Ubuntu&lt;/h2&gt;
+&lt;p&gt;Yet another interesting twist in the world is the restoring of more
+normal relations between Cuba and the US.&lt;/p&gt;
+&lt;p&gt;I learned the other day that the Cubans have their own version of
+Ubuntu, callend &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Nova_(operating_system)"&gt;Nova&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="who-are-you-going-to-trust"&gt;
 &lt;h2&gt;Who are you going to trust?&lt;/h2&gt;
+&lt;p&gt;Information security currently comes down to &lt;em&gt;who or what are you
+going to trust?&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;For now, I am placing my trust in the free software community.  It may
+not be perfect, but by my judgement it is by far and away the best
+option right now.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="homeomorphism"&gt;
 &lt;h2&gt;Homeomorphism&lt;/h2&gt;
@@ -96,6 +117,8 @@ thing.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="shannon"&gt;
 &lt;h2&gt;Shannon&lt;/h2&gt;
+&lt;p&gt;For those interested in some mathematics behind information,
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem"&gt;Shannon's Theorem&lt;/a&gt; is a good place to start.&lt;/p&gt;
 &lt;/div&gt;&lt;/div&gt;</description><category>free software</category><category>GPL</category><category>information security</category><category>meta data</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html</guid><pubDate>Fri, 03 Jul 2015 23:29:17 GMT</pubDate></item><item><title>Free Software and Computer Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking much about information security over the last few
 months.&lt;/p&gt;
 &lt;p&gt;Over the years I have thought about the relative merits of &lt;cite&gt;free
