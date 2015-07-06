@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk (computer)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link href="http://peakrisk.github.io/peakrisk/categories/computer.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 03 Jul 2015 17:06:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Free Software and Computer Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking much about information security over the last few
+months.&lt;/p&gt;
+&lt;p&gt;Over the years I have thought about the relative merits of &lt;cite&gt;free
+software&lt;/cite&gt; versus non-free.&lt;/p&gt;
+&lt;p&gt;Free as in freedom, or logicel libre if you prefer.  Free software
+comes with important freedoms.  You are free to examine how it works,
+make changes and experiment.&lt;/p&gt;
+&lt;p&gt;Free software is everywhere, for example, &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`openssl`_&lt;/span&gt;&lt;/a&gt; is used in many
+different operating systems.&lt;/p&gt;
+&lt;div class="section" id="your-security-depends-on-free-software"&gt;
+&lt;h2&gt;Your security depends on free software&lt;/h2&gt;
+&lt;p&gt;Even when you are using non-free, you are almost surely using lots of
+free software at the same time.  Depending on how that software is
+licensed you might be able to find just which software is used.&lt;/p&gt;
+&lt;p&gt;I find one key differentiation in licenses is in the restrictions they
+choose to put on the licensees.&lt;/p&gt;
+&lt;p&gt;So the most permissive licenses tend to be along the lines of, "here
+is some software, do what you like with it, don't sue me".&lt;/p&gt;
+&lt;div class="section" id="other-common-clauses"&gt;
+&lt;h3&gt;Other common clauses&lt;/h3&gt;
+&lt;p&gt;Others might insist on attribution (for example if you modify it and
+pass the resulting application onto somebody else) and have things to
+say about trademarks etc.&lt;/p&gt;
+&lt;p&gt;You can find broader discussion of licenses at the following links:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;find some good license discussions&lt;/li&gt;
+&lt;li&gt;more..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gpl-v-non-gpl"&gt;
+&lt;h2&gt;GPL v non-GPL&lt;/h2&gt;
+&lt;p&gt;The key clause of the &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id3"&gt;&lt;span class="problematic" id="id4"&gt;`General Public License`_&lt;/span&gt;&lt;/a&gt; is that it insists
+that if you pass on the same rights you received to any that you
+pass it onto.&lt;/p&gt;
+&lt;p&gt;The idea is that recipients should have all they need to explore,
+modify and experiment with the code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="affect-of-the-gpl"&gt;
+&lt;h2&gt;Affect of the GPL&lt;/h2&gt;
+&lt;p&gt;Things are complicated.  On many levels the major effects apply
+regardless of the license.&lt;/p&gt;
+&lt;p&gt;The non-GPL have been adopted more readily by proprietary vendors, for
+example &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id5"&gt;&lt;span class="problematic" id="id6"&gt;`Apple's OS is derived from BSD Unix`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Python has a BSD style license.  Python seems to like to make it avaiable to
+anyone who is interested in the language.   It does say that if you
+create a derivative work, that you need to include a brief summary of
+the changes made to python.&lt;/p&gt;
+&lt;p&gt;The license begins with some history of python, and some background on
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id7"&gt;&lt;span class="problematic" id="id8"&gt;`Guido van Rossum`_&lt;/span&gt;&lt;/a&gt;,&lt;/p&gt;
+&lt;p&gt;** CHECK THIS **&lt;/p&gt;
+&lt;p&gt;The GPL has also been used as a way to encourage to license the
+product under a more permissive license.  One notable example was
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id9"&gt;&lt;span class="problematic" id="id10"&gt;`MySQL`_&lt;/span&gt;&lt;/a&gt; which was licensed uder the GPL but that enabled the company
+doing the bulk of the deveolopment and driving the project to get
+license income from those that appreciated the support.&lt;/p&gt;
+&lt;p&gt;It allowed other businesses to build a business on top of MySQL, but
+with their own custom adaptions.  Often these adaptions would
+eventually end up in the project itself.  At some point it is better
+to share the maintenance burden of a new feature.  Often that point is
+now.&lt;/p&gt;
+&lt;p&gt;Python makes itself accessible and hence it has become ubiquitous.&lt;/p&gt;
+&lt;p&gt;The main effect of licenses is that the non-GPL software tends to be
+more widely adopted by commercial organisations.  The main reason is
+it allows them to produce derived works and not have to distribute
+their own customisations and improvements.&lt;/p&gt;
+&lt;p&gt;However, for smaller commercial organisations it is generally more
+effective to work with the project itself and share their work.&lt;/p&gt;
+&lt;p&gt;Keeping your fixes proprietary comes with costs as well as benefits.
+A number of questions you need to ask are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Does this enhancement give me a significant competitive advantage?&lt;/li&gt;
+&lt;li&gt;Why has nobody else done this already?&lt;/li&gt;
+&lt;li&gt;Are people achieving the same result through some other feature or
+product I do not know about?&lt;/li&gt;
+&lt;li&gt;How long will it be before the project implements a feature like the
+one we have build?&lt;/li&gt;
+&lt;li&gt;Would we be better off sharing our feature and hence having more
+control over the future development?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="benefits-of-free-software"&gt;
+&lt;h2&gt;Benefits of free software&lt;/h2&gt;
+&lt;p&gt;provided tools others can use freely.&lt;/p&gt;
+&lt;p&gt;supports free experimentation, gives a world of ideas which you can
+explore with others&lt;/p&gt;
+&lt;p&gt;created tools to help with collaborative working&lt;/p&gt;
+&lt;p&gt;found ways to collaborate across the internet&lt;/p&gt;
+&lt;p&gt;enabled local people to gain skills needed in their environment&lt;/p&gt;
+&lt;p&gt;runs on old hardware&lt;/p&gt;
+&lt;p&gt;it is a significant voice in the debate on information security and
+privacy.  It will very likely play an important role.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="security-benefits"&gt;
+&lt;h2&gt;Security benefits&lt;/h2&gt;
+&lt;div class="section" id="free-software"&gt;
+&lt;h3&gt;Free software&lt;/h3&gt;
+&lt;p&gt;Since people have access to the software and are free to experiment
+and explore how it works they can look for potential security holes,
+report the problems and perhaps fix them if they have the skills.&lt;/p&gt;
+&lt;p&gt;Of course, the bad guys also have this advantage over non-free
+software.&lt;/p&gt;
+&lt;div class="section" id="sharing-your-work-openly"&gt;
+&lt;h4&gt;Sharing your work openly&lt;/h4&gt;
+&lt;p&gt;When you work with free software you are showing the world your code.
+This takes a certain amount of courage.  Anyone who has taken part in
+a code review knows that showing your code to others is baring your
+soul.&lt;/p&gt;
+&lt;p&gt;Most effective code shops have some form of code review in their
+development process.  Two pairs of eyes are always good.  It helps
+share knowledge, educate both parties and create better software.&lt;/p&gt;
+&lt;p&gt;Once developers get comfortable with sharing with their peers, sharing
+with the wider world becomes less daunting.&lt;/p&gt;
+&lt;p&gt;Positive feedback can be very helpful here: you get an immediate
+benefit for sharing.&lt;/p&gt;
+&lt;p&gt;Many software engineers (and I include myself in this) are quite
+insecure about their code.  Most programmers are &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id11"&gt;&lt;span class="problematic" id="id12"&gt;`sort of average`_&lt;/span&gt;&lt;/a&gt;,
+but knowledgeable enough to know that with more time and research
+their code could be better.&lt;/p&gt;
+&lt;p&gt;Regardless, code that is shared openly is likely going to be of a
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id13"&gt;&lt;span class="problematic" id="id14"&gt;`higher quality`_&lt;/span&gt;&lt;/a&gt; by depending on the metric you choose to use to
+measure quality.  The authors of the code will likely care about their
+reputation in the free software community and hence take care to share
+quality work, or at least identify the code as a quick hack or
+whatever.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="potential-sources-of-vulnerabilities-in-free-software"&gt;
+&lt;h3&gt;Potential sources of vulnerabilities in free software&lt;/h3&gt;
+&lt;div class="section" id="simple-bugs"&gt;
+&lt;h4&gt;Simple bugs&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="section" id="malicious-contributions"&gt;
+&lt;h4&gt;Malicious contributions&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="section" id="compromise-of-repository"&gt;
+&lt;h4&gt;Compromise of repository&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="non-free-software"&gt;
+&lt;h3&gt;Non-free software&lt;/h3&gt;
+&lt;p&gt;With non-free software you are working with a black box.  You get to
+choose inputs and observe outputs.  If you are lucky you can learn
+about how the code works, but it is much harder than&lt;/p&gt;
+&lt;div class="section" id="reverse-engineering"&gt;
+&lt;h4&gt;Reverse engineering&lt;/h4&gt;
+&lt;p&gt;If you have an executable there are tools that will allow you to take
+the binary code and create human readable assembly code.  This is
+generally missing comments and variable names.  It is a low level
+description of the code, closer to the final op codes that a computer
+runs.&lt;/p&gt;
+&lt;p&gt;However, for those with skill and experience, reverse engineering is a
+powerful technique.&lt;/p&gt;
+&lt;p&gt;Sometimes the license will explicitly say you must not reverse
+engineer the code.  Of course, bad guys will not necessarily obey the
+license.&lt;/p&gt;
+&lt;p&gt;However, security researchers will often decide not to break the
+license.  The result is that only the bad guys are looking closely at
+the code for vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This is not a place you want to be.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 11); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "openssl".&lt;/div&gt;
+&lt;div class="system-message" id="id3"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 42); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id4"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "general public license".&lt;/div&gt;
+&lt;div class="system-message" id="id5"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 55); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id6"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "apple's os is derived from bsd unix".&lt;/div&gt;
+&lt;div class="system-message" id="id7"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 63); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id8"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "guido van rossum".&lt;/div&gt;
+&lt;div class="system-message" id="id9"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 68); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id10"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "mysql".&lt;/div&gt;
+&lt;div class="system-message" id="id11"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 159); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id12"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "sort of average".&lt;/div&gt;
+&lt;div class="system-message" id="id13"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 164); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id14"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "higher quality".&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>computer</category><category>free software</category><category>information security</category><category>linux</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html</guid><pubDate>Mon, 22 Jun 2015 21:32:59 GMT</pubDate></item></channel></rss>

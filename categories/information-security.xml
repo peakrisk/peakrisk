@@ -1,5 +1,288 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk (information security)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link href="http://peakrisk.github.io/peakrisk/categories/information-security.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 12 Jun 2015 23:37:41 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cyber espionage nightmare and the case for open data</title><link>http://peakrisk.github.io/peakrisk/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today started with news of a big &lt;a class="reference external" href="https://www.bgpmon.net/massive-route-leak-cause-internet-slowdown/"&gt;SNAFU by a Malaysian telco&lt;/a&gt;.  &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/"&gt;Part
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Peak Risk (information security)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://peakrisk.github.io/peakrisk/categories/information-security.xml"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:08:53 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Free Software and Information Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking a lot about the relative merits of free and
+non-free software and have started writing a piece about that.&lt;/p&gt;
+&lt;p&gt;This week a the Intercept published a piece on how the NSA's &lt;em&gt;google
+on steroids&lt;/em&gt;, &lt;a class="reference external" href="https://firstlook.org/theintercept/2015/07/02/look-under-hood-xkeyscore/"&gt;XKEYSCORE&lt;/a&gt; works under the hood.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://firstlook.org/theintercept/staff/micah-lee/"&gt;Micah Lee&lt;/a&gt;, an expert in information security, and Linux enthusiast
+was heavily involved in the piece.  It is always good when people who
+really understand the technology are involved like this.&lt;/p&gt;
+&lt;p&gt;XKEYSCORE is built with the free software, LAMP stack: Linux, Apache,
+MySQL and Perl/Python/PHP.  RedHat are providing the Linux.&lt;/p&gt;
+&lt;p&gt;So, the NSA uses free software for its critical infrastructure.
+Further, it depends on free software to keep its operations secure.&lt;/p&gt;
+&lt;p&gt;This revelation fundamentally changes the debate about the relative
+merits of free and non-free software from a security point of view.&lt;/p&gt;
+&lt;p&gt;On the one hand it is a ringing endorsement for LAMP:  it is secure
+enough and robust enough for critical infrastructure.&lt;/p&gt;
+&lt;p&gt;Writing about information security is difficult.  Every facet is
+double edged, sometimes multi-edged.&lt;/p&gt;
+&lt;p&gt;Clearly the NSA engineers understand Linux very well.  They are using
+it to develop their systems.  They know how to be productive in that
+environment.  In short, free software works.&lt;/p&gt;
+&lt;p&gt;They themselves work in a very collaborative environment.  They have
+highly intelligent, passionate and ingenious people who love a
+challenge.  And they use free software.&lt;/p&gt;
+&lt;p&gt;They will understand how Linux works at a pretty deep level and know
+how to make it run well, how to get the most out of it.&lt;/p&gt;
+&lt;p&gt;So do Google and a multitude of other organisations doing high
+performance computing, where shaving 5% off the resources can make a
+big impact.  Mostly though they will be looking to cut things by an
+order of magnitude, or two.&lt;/p&gt;
+&lt;p&gt;We are seeing daily how insecure data that is stored on computers is.
+Then there is the integrity of that data?  How much of it can we
+really trust?&lt;/p&gt;
+&lt;div class="section" id="three-types-of-information"&gt;
+&lt;h2&gt;Three types of information&lt;/h2&gt;
+&lt;p&gt;Individuals have three types of information based on how many people
+they wish to share that information with:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;information they do not wish to share with anyone else&lt;/li&gt;
+&lt;li&gt;information they are happy to share with anyone and everyone&lt;/li&gt;
+&lt;li&gt;information they wish to share, but only with a strict subset&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first just about feasible with today's technology and software.&lt;/p&gt;
+&lt;p&gt;The third is extremely difficult with today's technology.  Witness all
+the security breaches in the news.&lt;/p&gt;
+&lt;p&gt;It may not even be a technological problem.  Rather, it is a social
+issue.  Or rather it is an immensely complex mix of social issues.&lt;/p&gt;
+&lt;p&gt;In the context of information on computers there are so many issues it
+is hard to know where to begin.  It looks like a fairly radical
+re-think is in order.&lt;/p&gt;
+&lt;p&gt;The good news is there is a lot of excellent work being done in the
+free software community.  There are many very smart people working on
+some very difficult problems and making good progress.&lt;/p&gt;
+&lt;p&gt;Meanwhile there are others that are fixing problems in existing
+systems and helping the users of their software to plug holes too.
+This is how free software works.&lt;/p&gt;
+&lt;p&gt;Now in the public debate we are often given stark choices.  &lt;em&gt;If X
+happens the sky will fall in.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;These arguments reinforce the mistaken belief that the choices are so
+stark or indeed so simple.&lt;/p&gt;
+&lt;p&gt;As an example, there is a thing called &lt;em&gt;homeomorphic encryption&lt;/em&gt;.  The
+idea is to take some data and to turn it into something else that has
+the same sort of structure, but has thrown away some information in
+the process.&lt;/p&gt;
+&lt;p&gt;There is a whole cottage industry of people these day who will sell
+you tools to &lt;em&gt;anonymise&lt;/em&gt; data, mostly for privacy reasons.&lt;/p&gt;
+&lt;p&gt;The data is invaluable for strategic planning, but it is very
+difficult to get the balance between respecting privacy and the good
+of the community.  And anonymising data is really, really hard to do
+well.&lt;/p&gt;
+&lt;p&gt;Especially if others are anonymising related data.  And they are.&lt;/p&gt;
+&lt;p&gt;I explain homeomorphic in more detail later.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="everyday-living-on-a-small-island"&gt;
+&lt;h2&gt;Everyday Living on a small island&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cuban-ubuntu"&gt;
+&lt;h2&gt;Cuban Ubuntu&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="who-are-you-going-to-trust"&gt;
+&lt;h2&gt;Who are you going to trust?&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="homeomorphism"&gt;
+&lt;h2&gt;Homeomorphism&lt;/h2&gt;
+&lt;p&gt;There is a thing in mathematics called &lt;a class="reference internal" href="http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html#homeomorphism"&gt;homeomorphism&lt;/a&gt;.  I expect the
+term turns up in many other areas too.&lt;/p&gt;
+&lt;p&gt;In mathematics it means some sort of trasnformation of an object that
+leaves certain properties unchanged.   There are different kinds of
+homeomorphism of different branches of mathematics.&lt;/p&gt;
+&lt;p&gt;In topology, if the objects are made of rubber that can be deformed
+and you can change your object into the other one without doing things
+like cutting the rubber or filling in holes, then you have created a
+homeomorphism.&lt;/p&gt;
+&lt;p&gt;Topologists are people who think a mug and a doughnut are the same
+thing.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="shannon"&gt;
+&lt;h2&gt;Shannon&lt;/h2&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>free software</category><category>GPL</category><category>information security</category><category>meta data</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/free-software-and-information-security.html</guid><pubDate>Fri, 03 Jul 2015 23:29:17 GMT</pubDate></item><item><title>Free Software and Computer Security</title><link>http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;I have been thinking much about information security over the last few
+months.&lt;/p&gt;
+&lt;p&gt;Over the years I have thought about the relative merits of &lt;cite&gt;free
+software&lt;/cite&gt; versus non-free.&lt;/p&gt;
+&lt;p&gt;Free as in freedom, or logicel libre if you prefer.  Free software
+comes with important freedoms.  You are free to examine how it works,
+make changes and experiment.&lt;/p&gt;
+&lt;p&gt;Free software is everywhere, for example, &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id1"&gt;&lt;span class="problematic" id="id2"&gt;`openssl`_&lt;/span&gt;&lt;/a&gt; is used in many
+different operating systems.&lt;/p&gt;
+&lt;div class="section" id="your-security-depends-on-free-software"&gt;
+&lt;h2&gt;Your security depends on free software&lt;/h2&gt;
+&lt;p&gt;Even when you are using non-free, you are almost surely using lots of
+free software at the same time.  Depending on how that software is
+licensed you might be able to find just which software is used.&lt;/p&gt;
+&lt;p&gt;I find one key differentiation in licenses is in the restrictions they
+choose to put on the licensees.&lt;/p&gt;
+&lt;p&gt;So the most permissive licenses tend to be along the lines of, "here
+is some software, do what you like with it, don't sue me".&lt;/p&gt;
+&lt;div class="section" id="other-common-clauses"&gt;
+&lt;h3&gt;Other common clauses&lt;/h3&gt;
+&lt;p&gt;Others might insist on attribution (for example if you modify it and
+pass the resulting application onto somebody else) and have things to
+say about trademarks etc.&lt;/p&gt;
+&lt;p&gt;You can find broader discussion of licenses at the following links:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;find some good license discussions&lt;/li&gt;
+&lt;li&gt;more..&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="gpl-v-non-gpl"&gt;
+&lt;h2&gt;GPL v non-GPL&lt;/h2&gt;
+&lt;p&gt;The key clause of the &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id3"&gt;&lt;span class="problematic" id="id4"&gt;`General Public License`_&lt;/span&gt;&lt;/a&gt; is that it insists
+that if you pass on the same rights you received to any that you
+pass it onto.&lt;/p&gt;
+&lt;p&gt;The idea is that recipients should have all they need to explore,
+modify and experiment with the code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="affect-of-the-gpl"&gt;
+&lt;h2&gt;Affect of the GPL&lt;/h2&gt;
+&lt;p&gt;Things are complicated.  On many levels the major effects apply
+regardless of the license.&lt;/p&gt;
+&lt;p&gt;The non-GPL have been adopted more readily by proprietary vendors, for
+example &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id5"&gt;&lt;span class="problematic" id="id6"&gt;`Apple's OS is derived from BSD Unix`_&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Python has a BSD style license.  Python seems to like to make it avaiable to
+anyone who is interested in the language.   It does say that if you
+create a derivative work, that you need to include a brief summary of
+the changes made to python.&lt;/p&gt;
+&lt;p&gt;The license begins with some history of python, and some background on
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id7"&gt;&lt;span class="problematic" id="id8"&gt;`Guido van Rossum`_&lt;/span&gt;&lt;/a&gt;,&lt;/p&gt;
+&lt;p&gt;** CHECK THIS **&lt;/p&gt;
+&lt;p&gt;The GPL has also been used as a way to encourage to license the
+product under a more permissive license.  One notable example was
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id9"&gt;&lt;span class="problematic" id="id10"&gt;`MySQL`_&lt;/span&gt;&lt;/a&gt; which was licensed uder the GPL but that enabled the company
+doing the bulk of the deveolopment and driving the project to get
+license income from those that appreciated the support.&lt;/p&gt;
+&lt;p&gt;It allowed other businesses to build a business on top of MySQL, but
+with their own custom adaptions.  Often these adaptions would
+eventually end up in the project itself.  At some point it is better
+to share the maintenance burden of a new feature.  Often that point is
+now.&lt;/p&gt;
+&lt;p&gt;Python makes itself accessible and hence it has become ubiquitous.&lt;/p&gt;
+&lt;p&gt;The main effect of licenses is that the non-GPL software tends to be
+more widely adopted by commercial organisations.  The main reason is
+it allows them to produce derived works and not have to distribute
+their own customisations and improvements.&lt;/p&gt;
+&lt;p&gt;However, for smaller commercial organisations it is generally more
+effective to work with the project itself and share their work.&lt;/p&gt;
+&lt;p&gt;Keeping your fixes proprietary comes with costs as well as benefits.
+A number of questions you need to ask are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Does this enhancement give me a significant competitive advantage?&lt;/li&gt;
+&lt;li&gt;Why has nobody else done this already?&lt;/li&gt;
+&lt;li&gt;Are people achieving the same result through some other feature or
+product I do not know about?&lt;/li&gt;
+&lt;li&gt;How long will it be before the project implements a feature like the
+one we have build?&lt;/li&gt;
+&lt;li&gt;Would we be better off sharing our feature and hence having more
+control over the future development?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="benefits-of-free-software"&gt;
+&lt;h2&gt;Benefits of free software&lt;/h2&gt;
+&lt;p&gt;provided tools others can use freely.&lt;/p&gt;
+&lt;p&gt;supports free experimentation, gives a world of ideas which you can
+explore with others&lt;/p&gt;
+&lt;p&gt;created tools to help with collaborative working&lt;/p&gt;
+&lt;p&gt;found ways to collaborate across the internet&lt;/p&gt;
+&lt;p&gt;enabled local people to gain skills needed in their environment&lt;/p&gt;
+&lt;p&gt;runs on old hardware&lt;/p&gt;
+&lt;p&gt;it is a significant voice in the debate on information security and
+privacy.  It will very likely play an important role.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="security-benefits"&gt;
+&lt;h2&gt;Security benefits&lt;/h2&gt;
+&lt;div class="section" id="free-software"&gt;
+&lt;h3&gt;Free software&lt;/h3&gt;
+&lt;p&gt;Since people have access to the software and are free to experiment
+and explore how it works they can look for potential security holes,
+report the problems and perhaps fix them if they have the skills.&lt;/p&gt;
+&lt;p&gt;Of course, the bad guys also have this advantage over non-free
+software.&lt;/p&gt;
+&lt;div class="section" id="sharing-your-work-openly"&gt;
+&lt;h4&gt;Sharing your work openly&lt;/h4&gt;
+&lt;p&gt;When you work with free software you are showing the world your code.
+This takes a certain amount of courage.  Anyone who has taken part in
+a code review knows that showing your code to others is baring your
+soul.&lt;/p&gt;
+&lt;p&gt;Most effective code shops have some form of code review in their
+development process.  Two pairs of eyes are always good.  It helps
+share knowledge, educate both parties and create better software.&lt;/p&gt;
+&lt;p&gt;Once developers get comfortable with sharing with their peers, sharing
+with the wider world becomes less daunting.&lt;/p&gt;
+&lt;p&gt;Positive feedback can be very helpful here: you get an immediate
+benefit for sharing.&lt;/p&gt;
+&lt;p&gt;Many software engineers (and I include myself in this) are quite
+insecure about their code.  Most programmers are &lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id11"&gt;&lt;span class="problematic" id="id12"&gt;`sort of average`_&lt;/span&gt;&lt;/a&gt;,
+but knowledgeable enough to know that with more time and research
+their code could be better.&lt;/p&gt;
+&lt;p&gt;Regardless, code that is shared openly is likely going to be of a
+&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id13"&gt;&lt;span class="problematic" id="id14"&gt;`higher quality`_&lt;/span&gt;&lt;/a&gt; by depending on the metric you choose to use to
+measure quality.  The authors of the code will likely care about their
+reputation in the free software community and hence take care to share
+quality work, or at least identify the code as a quick hack or
+whatever.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="potential-sources-of-vulnerabilities-in-free-software"&gt;
+&lt;h3&gt;Potential sources of vulnerabilities in free software&lt;/h3&gt;
+&lt;div class="section" id="simple-bugs"&gt;
+&lt;h4&gt;Simple bugs&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="section" id="malicious-contributions"&gt;
+&lt;h4&gt;Malicious contributions&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div class="section" id="compromise-of-repository"&gt;
+&lt;h4&gt;Compromise of repository&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="non-free-software"&gt;
+&lt;h3&gt;Non-free software&lt;/h3&gt;
+&lt;p&gt;With non-free software you are working with a black box.  You get to
+choose inputs and observe outputs.  If you are lucky you can learn
+about how the code works, but it is much harder than&lt;/p&gt;
+&lt;div class="section" id="reverse-engineering"&gt;
+&lt;h4&gt;Reverse engineering&lt;/h4&gt;
+&lt;p&gt;If you have an executable there are tools that will allow you to take
+the binary code and create human readable assembly code.  This is
+generally missing comments and variable names.  It is a low level
+description of the code, closer to the final op codes that a computer
+runs.&lt;/p&gt;
+&lt;p&gt;However, for those with skill and experience, reverse engineering is a
+powerful technique.&lt;/p&gt;
+&lt;p&gt;Sometimes the license will explicitly say you must not reverse
+engineer the code.  Of course, bad guys will not necessarily obey the
+license.&lt;/p&gt;
+&lt;p&gt;However, security researchers will often decide not to break the
+license.  The result is that only the bad guys are looking closely at
+the code for vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This is not a place you want to be.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="system-messages section"&gt;
+&lt;h2&gt;Docutils System Messages&lt;/h2&gt;
+&lt;div class="system-message" id="id1"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 11); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id2"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "openssl".&lt;/div&gt;
+&lt;div class="system-message" id="id3"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 42); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id4"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "general public license".&lt;/div&gt;
+&lt;div class="system-message" id="id5"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 55); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id6"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "apple's os is derived from bsd unix".&lt;/div&gt;
+&lt;div class="system-message" id="id7"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 63); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id8"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "guido van rossum".&lt;/div&gt;
+&lt;div class="system-message" id="id9"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 68); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id10"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "mysql".&lt;/div&gt;
+&lt;div class="system-message" id="id11"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 159); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id12"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "sort of average".&lt;/div&gt;
+&lt;div class="system-message" id="id13"&gt;
+&lt;p class="system-message-title"&gt;System Message: ERROR/3 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 164); &lt;em&gt;&lt;a href="http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html#id14"&gt;backlink&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+Unknown target name: "higher quality".&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><category>computer</category><category>free software</category><category>information security</category><category>linux</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/free-software-and-computer-security.html</guid><pubDate>Mon, 22 Jun 2015 21:32:59 GMT</pubDate></item><item><title>Cyber espionage nightmare and the case for open data</title><link>http://peakrisk.github.io/peakrisk/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;Today started with news of a big &lt;a class="reference external" href="https://www.bgpmon.net/massive-route-leak-cause-internet-slowdown/"&gt;SNAFU by a Malaysian telco&lt;/a&gt;.  &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/"&gt;Part
 2&lt;/a&gt; of this excellent &lt;a class="reference external" href="http://www.washingtonpost.com/sf/business/2015/05/30/net-of-insecurity-part-1/"&gt;history of internet security&lt;/a&gt; explains how
 this giant hole in the internet has been there for a long time and
 been the cause of some spectacular breakages in the past.&lt;/p&gt;
