@@ -175,6 +175,6 @@ For those interested in some mathematics behind information,
 
 .. _Micah Lee: https://firstlook.org/theintercept/staff/micah-lee/
 
-.. _Nove: https://en.wikipedia.org/wiki/Nova_(operating_system)
+.. _Nova: https://en.wikipedia.org/wiki/Nova_(operating_system)
 
 .. _Shannon's Theorem: https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem
