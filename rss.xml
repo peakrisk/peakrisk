@@ -1,70 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://peakrisk.github.io/peakrisk/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:14:06 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tlf-free-software-test</title><link>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="TLF-2015-free-software-questions"&gt;TLF 2015 free software questions&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#TLF-2015-free-software-questions"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each answer should just be a few sentences, at most half a page of writing per question.&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Explain-some-of-the-freedoms-that-you-get-with-free-software."&gt;Explain some of the freedoms that you get with free software.&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#Explain-some-of-the-freedoms-that-you-get-with-free-software."&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Give-some-advantages-of-working-with-free-software."&gt;Give some advantages of working with free software.&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#Give-some-advantages-of-working-with-free-software."&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Give-brief-descriptions-of-the-following-git-commands:"&gt;Give brief descriptions of the following git commands:&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#Give-brief-descriptions-of-the-following-git-commands:"&gt;¶&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;a. git clone
-b. git add
-c. git commit
-d. git push
-e. git pull&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Describe-ways-you-can-use-free-software-to-increase-the-chance-of-success-for-your-project."&gt;Describe ways you can use free software to increase the chance of success for your project.&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#Describe-ways-you-can-use-free-software-to-increase-the-chance-of-success-for-your-project."&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id="Describe-any-part-of-the-training-that-you-found-particularly-helpful-or-interesting."&gt;Describe any part of the training that you found particularly helpful or interesting.&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html#Describe-any-part-of-the-training-that-you-found-particularly-helpful-or-interesting."&gt;¶&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><guid>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</guid><pubDate>Mon, 06 Jul 2015 00:00:00 GMT</pubDate></item><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://peakrisk.github.io/peakrisk/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:16:45 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -3087,4 +3022,140 @@ Miguel Sanchez&lt;/a&gt; talk about modelling insurance linked securities
 (ILS) all in &lt;a class="reference external" href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks.  Shows how things that used to take
 days and weeks can now be done in a matter of hours.&lt;/p&gt;
 &lt;p&gt;I am also enjoying &lt;a class="reference external" href="https://www.youtube.com/watch?v=Pkwygl3cgmU"&gt;Peter Wang&lt;/a&gt; talking about &lt;em&gt;the state of the of
-the Py&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>data science</category><category>finance</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</guid><pubDate>Mon, 04 May 2015 21:57:45 GMT</pubDate></item></channel></rss>
+the Py&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>data science</category><category>finance</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</guid><pubDate>Mon, 04 May 2015 21:57:45 GMT</pubDate></item><item><title>Data, data, everywhere, nor any drop to drink</title><link>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;div class="figure align-right"&gt;
+&lt;img alt="http://upload.wikimedia.org/wikipedia/commons/8/80/Gustave_Dore_Ancient_Mariner_Illustration.jpg" src="http://upload.wikimedia.org/wikipedia/commons/8/80/Gustave_Dore_Ancient_Mariner_Illustration.jpg"&gt;
+&lt;p class="caption"&gt;Gustave Dore Ancient Mariner Illustration, licensed under Public Domain via &lt;a class="reference external" href="http://commons.wikimedia.org/wiki/"&gt;Wikimedia Commons&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="satellite-data"&gt;
+&lt;h2&gt;Satellite data&lt;/h2&gt;
+&lt;p&gt;I started looking at this data after being inspired by Chris Waigl's
+PyCon talk on &lt;a class="reference external" href="https://www.youtube.com/embed/MCHpt1FvblI"&gt;Satellite mapping for everyone&lt;/a&gt;.  Chris gave an
+introduction to some of the python tools you can use to look at this
+data.&lt;/p&gt;
+&lt;p&gt;She mentioned some websites where you can find data from various
+satellite missions and showed how to work with the data and just what
+sort of data is available.&lt;/p&gt;
+&lt;p&gt;There really is a wonderful array of data available.  The process of
+exploring all this can be time consuming, but fun.  There is a lot of
+fascinating work being done.&lt;/p&gt;
+&lt;p&gt;I was hoping to find images in and around the time of the hurricanes.
+With high enough resolution I believe it should be possible to use
+image processing software to help with damage surveys.  For example,
+it should be possible to spot blue tarpaulins placed over damaged
+roofs, or indeed the roof damage itself.&lt;/p&gt;
+&lt;p&gt;I picked Landsat, pretty much based on Chris's talk.  I found two days
+either side of the hurricanes in Bermuda last October for which there
+were images available for.&lt;/p&gt;
+&lt;p&gt;So far so good.  But to get the higher resolution data you had to
+register and obtain a key to gain access to the downloads.  These are
+large, around 1GB per image, so it is reasonable for whichever agency
+is supplying the images to know a little about those downloading the
+data. In particular, be able to contact them if putting an
+unreasonable load on their servers.&lt;/p&gt;
+&lt;p&gt;Now for Bermuda we only really need about 1% of the data which covers
+the few square miles around the island.   This is much more
+manageable, so it feels it would be good to be able to host the data
+locally.  This is something I expect I will return to.&lt;/p&gt;
+&lt;p&gt;There is still much to do here.  Chris noted that &lt;em&gt;you will learn
+coordinate systems&lt;/em&gt;.   Up to now I have managed to avoid this, just
+slicing the &lt;a class="reference external" href="http://www.numpy.org/"&gt;numpy&lt;/a&gt; arrays that &lt;a class="reference external" href="https://github.com/mapbox/rasterio/"&gt;rasterio&lt;/a&gt; gives me as I read the
+images.&lt;/p&gt;
+&lt;p&gt;I need to learn how to pull out a window from one of these images by
+specifying the lat/lon box defining the area to extract.  Better
+still, I could do with a number of pre-defined boxes that pull out
+interesting areas of Bermuda, for example each Parish.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="satellite-data-for-smaller-jurisdictions"&gt;
+&lt;h2&gt;Satellite data for smaller jurisdictions&lt;/h2&gt;
+&lt;p&gt;Most satellite data is collected by expensive national and
+international space missions.  Many of the missions are aimed at
+creating a global resource, but generally focussed on the nations that
+funded the missions.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://pmm.nasa.gov/data-access/downloads/gpm"&gt;Global Precipitation Measurement&lt;/a&gt; mission has a number of data sets
+available.  These are typically at the 0.1 degree resolution, which
+corresponds to 7 miles on the ground.  The temporal resolution is
+good, a new image is available at 30 minute intervals.  Further, the
+project aims to:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+intercalibrate, merge, and interpolate "all" satellite microwave
+precipitation estimates, together with microwave-calibrated infrared
+(IR) satellite estimates, precipitation gauge analyses, and
+potentially other precipitation estimators at fine time and space
+scales for the TRMM and GPM eras over the entire globe.
+&lt;/pre&gt;
+&lt;p&gt;For Bermuda, the spatial resolution is not quite enough to do a
+detailed analysis, but it is very useful to understand the severity of
+storms hitting the island.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="weather-station-data"&gt;
+&lt;h2&gt;Weather station data&lt;/h2&gt;
+&lt;p&gt;Another good source of data is weather station data.  It is possible
+to build a &lt;a class="reference external" href="http://www.toptal.com/c/how-i-made-a-fully-functional-arduino-weather-station-for-300"&gt;DIY weather station&lt;/a&gt; for a $200-300.  The project in the
+link had some special constraints.  It was intented to create a
+weather station that would show the conditions at a lake 2 hours drive
+from the person that built it, so it needed to be robust against
+system glitches.&lt;/p&gt;
+&lt;p&gt;There are a number of weather stations here in Bermuda that are
+connected to the &lt;a class="reference external" href="http://weatherunderground.com"&gt;Weather Underground&lt;/a&gt; network of stations.&lt;/p&gt;
+&lt;p&gt;Another project is &lt;a class="reference external" href="http://openweathermap.org"&gt;Open Weather Map&lt;/a&gt;.  This provides an API that you
+can use to connect your weather station to the network.&lt;/p&gt;
+&lt;p&gt;For risk modelling purposes we ideally need historical data for the
+times when the larger storms have hit the island.  The sites mentioned
+above are primarily focussed on weather forecasting, rather than
+collecting data for subsequent analysis, although they do also do
+this.&lt;/p&gt;
+&lt;p&gt;Unfortunately, access to historical data is limited without a paid
+subscription.  The sites have costs to cover, so small charges for
+access to data is one way to continue to provide the service.&lt;/p&gt;
+&lt;p&gt;Full access to Open Weather Map historical data costs $2000 per
+month.  If we want to create an environment where interested parties
+can explore their ideas then removing these cost barriers is an
+important step to take,&lt;/p&gt;
+&lt;p&gt;If Bermuda had a network of 100-200 weather stations it would open
+lots of powerful modelling opportunities.  For example, machine
+learning could be used to try and tease out the relationship between
+weather station parameters such as height, distance from the coast,
+local topography, land use and whatever other parameters are
+available.&lt;/p&gt;
+&lt;p&gt;If such a model can be fitted to the data it can then be used to
+estimate windspeed for any point on the island.  In this way we can
+create a detailed windfield model for Bermuda.&lt;/p&gt;
+&lt;p&gt;Furthermore, most of the tools needed to do this are already available
+as open source projects.  The pieces just need to be glued together.&lt;/p&gt;
+&lt;p&gt;Finally, any work done here in Bermuda can easily be generalised and
+applied to other similar jurisdictions.&lt;/p&gt;
+&lt;div class="section" id="damage-surveys"&gt;
+&lt;h3&gt;Damage surveys&lt;/h3&gt;
+&lt;p&gt;If we also have a detailed, post event, damage survey we can also use
+the same machine learning techniques to develop damage models relating
+the hazard at each location to the damage it creates.&lt;/p&gt;
+&lt;p&gt;There are good open source tools, such as &lt;a class="reference external" href="http://scikit-learn.org/"&gt;scikit-learn&lt;/a&gt; and
+&lt;a class="reference external" href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt; that can be used for this modelling.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="humanitarian-openstreetmap-team"&gt;
+&lt;h3&gt;Humanitarian OpenStreetMap Team&lt;/h3&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.openstreetmap.org/"&gt;Open Street Map&lt;/a&gt; is an open mapping project that has been running
+for many years:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+OpenStreetMap is built by a community of mappers that contribute and
+maintain data about roads, trails, cafes, railway stations, and much
+more, all over the world
+&lt;/pre&gt;
+&lt;p&gt;The project has a number of related projects centred around the core
+mapping project.&lt;/p&gt;
+&lt;p&gt;The &lt;a class="reference external" href="http://hotosm.org/"&gt;Humanitarian OpenStreetMap Team&lt;/a&gt; works on mapping damage to help
+with relief work following natural disasters, such as the recent Nepal
+earthquakes.&lt;/p&gt;
+&lt;p&gt;Whilst this work is focussed on disaster relief in the immediate
+aftermath of a disaster it is producing valuable data which can be
+used to better understand damage.  It could be a key input into new
+models that can be used to explore mitigation measures for future
+events.&lt;/p&gt;
+&lt;p&gt;With the world facing unprecedented challenges, such as climate change
+and increased earthquake risk due to human activities such as fracking
+as well as the melting ice caps changing the stresses on tectonic
+plates there is a humanitarian need to be able to model and explore
+the potential impacts on delicate eco-systems such as small island
+communities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</guid><pubDate>Thu, 30 Apr 2015 17:01:06 GMT</pubDate></item></channel></rss>
