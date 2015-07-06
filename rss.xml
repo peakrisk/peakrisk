@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link type="application/rss+xml" rel="self" href="http://peakrisk.github.io/peakrisk/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:08:53 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tlf-free-software-test</title><link>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link href="http://peakrisk.github.io/peakrisk/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 06 Jul 2015 12:14:06 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>tlf-free-software-test</title><link>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -64,12 +64,7 @@ e. git pull&lt;/p&gt;
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><guid>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</guid><pubDate>Mon, 06 Jul 2015 00:00:00 GMT</pubDate></item><item><title>nikola</title><link>http://peakrisk.github.io/peakrisk/posts/nikola.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
-    &lt;div class="container" id="notebook-container"&gt;
-
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><guid>http://peakrisk.github.io/peakrisk/posts/nikola.html</guid><pubDate>Mon, 06 Jul 2015 00:00:00 GMT</pubDate></item><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+</description><guid>http://peakrisk.github.io/peakrisk/posts/tlf-free-software-test.html</guid><pubDate>Mon, 06 Jul 2015 00:00:00 GMT</pubDate></item><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -3086,4 +3081,10 @@ to rebuild the full image.&lt;/p&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
 &lt;!-- Generated with: grep -h '^\.\. _' *.rst | sort | uniq &gt; references.rst --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>linux</category><category>raspberry pi</category><guid>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</guid><pubDate>Wed, 10 Jun 2015 18:38:29 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>linux</category><category>raspberry pi</category><guid>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</guid><pubDate>Wed, 10 Jun 2015 18:38:29 GMT</pubDate></item><item><title>PyData, Dallas</title><link>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The PyData, Dallas videos are now up on youtube under &lt;a class="reference external" href="https://www.youtube.com/user/PyDataTV"&gt;PyData TV&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Lots of interesting stuff to view there.  So far, I have watched &lt;a class="reference external" href="https://www.youtube.com/watch?v=heGtUhFm1-A"&gt;Luis
+Miguel Sanchez&lt;/a&gt; talk about modelling insurance linked securities
+(ILS) all in &lt;a class="reference external" href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks.  Shows how things that used to take
+days and weeks can now be done in a matter of hours.&lt;/p&gt;
+&lt;p&gt;I am also enjoying &lt;a class="reference external" href="https://www.youtube.com/watch?v=Pkwygl3cgmU"&gt;Peter Wang&lt;/a&gt; talking about &lt;em&gt;the state of the of
+the Py&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>data science</category><category>finance</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</guid><pubDate>Mon, 04 May 2015 21:57:45 GMT</pubDate></item></channel></rss>

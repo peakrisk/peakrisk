@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://peakrisk.github.io/peakrisk/2015/index.html</loc>
-  <lastmod>2015-07-05</lastmod>
+  <lastmod>2015-07-06</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/archive.html</loc>
@@ -97,10 +97,6 @@
   <lastmod>2015-07-06</lastmod>
  </url>
  <url>
-  <loc>http://peakrisk.github.io/peakrisk/categories/snowden.html</loc>
-  <lastmod>2015-07-05</lastmod>
- </url>
- <url>
   <loc>http://peakrisk.github.io/peakrisk/categories/tides.html</loc>
   <lastmod>2015-07-06</lastmod>
  </url>
@@ -151,10 +147,6 @@
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</loc>
   <lastmod>2015-07-03</lastmod>
- </url>
- <url>
-  <loc>http://peakrisk.github.io/peakrisk/posts/nikola.html</loc>
-  <lastmod>2015-07-06</lastmod>
  </url>
  <url>
   <loc>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</loc>
