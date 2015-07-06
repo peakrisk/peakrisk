@@ -64,7 +64,8 @@ they wish to share that information with:
 
 * information they wish to share, but only with a strict subset    
     
-The first just about feasible with today's technology and software.
+The first two are just about feasible to handle with today's
+technology and software.
 
 The third is extremely difficult with today's technology.  Witness all
 the security breaches in the news.
@@ -110,13 +111,40 @@ I explain homeomorphic in more detail later.
 Everyday Living on a small island
 =================================
 
+I live in Bermuda.  The island is small.  There are about 1.5 degrees
+of separation, everybody knows everybody.
+
+Children learn from a young age how fast the Bermuda grapevine can
+be.  If they are doing something they shouldn't be doing the news
+invariably gets home to mum before they do.
+
+As a result, Bermudians tend to be very respectful of people's
+privacy.  They have their own forms of *homeomorphic encryption* in
+the way they relate stories, often using terms such as *ace-boy* or
+*ace-girl* to protect identities.
+
+Security researchers can learn a lot from the way these people handle
+information.
+
 
 Cuban Ubuntu
 ============
 
+Yet another interesting twist in the world is the restoring of more
+normal relations between Cuba and the US.
+
+I learned the other day that the Cubans have their own version of
+Ubuntu, callend `Nova`_.
+
 Who are you going to trust?
 ===========================
 
+Information security currently comes down to *who or what are you
+going to trust?*.
+
+For now, I am placing my trust in the free software community.  It may
+not be perfect, but by my judgement it is by far and away the best
+option right now.
 
 Homeomorphism
 =============
@@ -139,9 +167,14 @@ thing.
 Shannon
 =======
 
-
+For those interested in some mathematics behind information,
+`Shannon's Theorem`_ is a good place to start.
 
 
 .. _XKEYSCORE: https://firstlook.org/theintercept/2015/07/02/look-under-hood-xkeyscore/
 
 .. _Micah Lee: https://firstlook.org/theintercept/staff/micah-lee/
+
+.. _Nove: https://en.wikipedia.org/wiki/Nova_(operating_system)
+
+.. _Shannon's Theorem: https://en.wikipedia.org/wiki/Noisy-channel_coding_theorem
