@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/air-pressure.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/astronomy.xml</loc>
@@ -14,7 +14,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/astropy.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.xml</loc>
@@ -66,7 +66,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/moon.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/open-data.xml</loc>
@@ -78,7 +78,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/pyephem.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python-draft.xml</loc>
@@ -86,7 +86,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/raspberry-pi.xml</loc>
@@ -94,11 +94,11 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/tides.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/weather.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/rss.xml</loc>
@@ -110,10 +110,10 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/sitemap.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-07</lastmod>
  </sitemap>
 </sitemapindex>
