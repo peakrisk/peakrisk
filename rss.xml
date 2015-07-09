@@ -1,5 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 07 Jul 2015 16:00:48 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk</title><link>http://peakrisk.github.io/peakrisk/</link><description>Open Source Risk Modelling</description><atom:link type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 18:42:36 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sixty-seven Minutes</title><link>http://peakrisk.github.io/peakrisk/posts/sixty-seven-minutes.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Nelson-Mandela-Day"&gt;Nelson Mandela Day&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/sixty-seven-minutes.html#Nelson-Mandela-Day"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;July 18th is Nelson Mandela's birthday, he would have been 97.&lt;/p&gt;
+&lt;p&gt;The United Nations calls it Mandela Day, or international day for
+freedom, justice and democracy.  They say:&lt;/p&gt;
+&lt;p&gt;Every year on 18 July — the day Nelson Mandela was born — the UN
+   joins a call by the Nelson Mandela Foundation to devote 67 minutes of
+   time to helping others, as a way to mark Nelson Mandela International
+   Day.&lt;/p&gt;
+&lt;p&gt;For 67 years Nelson Mandela devoted his life to the service of
+   humanity — as a human rights lawyer, a prisoner of conscience, an
+   international peacemaker and the first democratically elected
+   president of a free South Africa.&lt;/p&gt;
+&lt;p&gt;There is more here:  &lt;a href="http://www.un.org/en/events/mandeladay/"&gt;http://www.un.org/en/events/mandeladay/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are a number of events being organised in Bermuda.&lt;/p&gt;
+&lt;p&gt;It looks like things might kick off early with this event at Bermuda College:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;blockquote&gt;&lt;p&gt;On the Eve of Nelson Mandela Day&lt;/p&gt;
+&lt;p&gt;Collaboration by:&lt;/p&gt;
+&lt;p&gt;ADHT,  Bermuda College, Chewstick, HRC, Imagine Bermuda&lt;/p&gt;
+&lt;p&gt;Presents&lt;/p&gt;
+&lt;p&gt;Another Kind of ‘Happy Hour’&lt;/p&gt;
+&lt;p&gt;Based @ the Bermuda College Library&lt;/p&gt;
+&lt;p&gt;FRIDAY, JULY 17TH 5.30 – 7.30 pm&lt;/p&gt;
+&lt;p&gt;MUSIC……….POETRY………STORY-SHARING&lt;/p&gt;
+&lt;p&gt;NETWORKING…….NETPLAYING&lt;/p&gt;
+&lt;p&gt;Meet and Greet,&lt;/p&gt;
+&lt;p&gt;Even stump your feet,&lt;/p&gt;
+&lt;p&gt;Although Challenging,&lt;/p&gt;
+&lt;p&gt;Remember, Life is Sweet!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;There are others planning events, I will try to post details here.&lt;/p&gt;
+&lt;p&gt;I am thinking of going to different events and doing &lt;em&gt;sixty-seven minutes of pi&lt;/em&gt;.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Trivia"&gt;Trivia&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/sixty-seven-minutes.html#Trivia"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [7]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;ipython_doctester&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;test&lt;/span&gt;
+
+&lt;span class="c"&gt;# FIXME &lt;/span&gt;
+&lt;span class="c"&gt;# ipython_doctester broken, might be this prob: https://github.com/catherinedevlin/ipython_doctester/pull/5&lt;/span&gt;
+&lt;span class="c"&gt;#@test&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;""" Simple primality tester&lt;/span&gt;
+
+&lt;span class="sd"&gt;    Examples:&lt;/span&gt;
+&lt;span class="sd"&gt;    &lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;gt;&amp;gt;&amp;gt; prime(15)&lt;/span&gt;
+&lt;span class="sd"&gt;    False&lt;/span&gt;
+
+&lt;span class="sd"&gt;    &amp;gt;&amp;gt;&amp;gt; prime(67)&lt;/span&gt;
+&lt;span class="sd"&gt;    True&lt;/span&gt;
+&lt;span class="sd"&gt;    """&lt;/span&gt;
+
+    &lt;span class="c"&gt;# Deal with some small numbers&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
+
+    &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sqrt&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;factor&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;False&lt;/span&gt;
+        
+        &lt;span class="n"&gt;factor&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [9]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# Is 67 prime?&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Is 67 prime?"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;67&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+&lt;span class="c"&gt;# Mandela would have been 97&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Is 97 prime?"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prime&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;97&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;Is 67 prime?
+True
+Is 97 prime?
+True
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Sixty-seven-minutes-of-$\pi$"&gt;Sixty-seven minutes of $\pi$&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/sixty-seven-minutes.html#Sixty-seven-minutes-of-%24%5Cpi%24"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Angles are measured in different units.  Mostly, people seem to use degrees.&lt;/p&gt;
+&lt;p&gt;A right angle is 90 degrees.  The angles in a triangle add up to 180 degrees.&lt;/p&gt;
+&lt;p&gt;In mathematics it is often useful to use different units, &lt;em&gt;radians&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;$\pi$ radians is equal to 180 degrees.  So the angles in a triangle
+add up to 180 degrees.&lt;/p&gt;
+&lt;p&gt;Now just as there are 60 minutes in an hour, there are also 60 minutes in a degree.&lt;/p&gt;
+&lt;p&gt;So, 67 minutes of $\pi$ is just 67 minutes from 180 degrees.&lt;/p&gt;
+$$ x = \pi * 67 / (180 * 60)$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [10]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# In python&lt;/span&gt;
+
+&lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pi&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;67&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;180&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[10]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;0.019489509980603347&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [11]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="c"&gt;# Now 67 minutes of pi number begins 0.01948.&lt;/span&gt;
+
+&lt;span class="mi"&gt;1948&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;67&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[11]:&lt;/div&gt;
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;2015&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;So if Mandela had started his campaigning on his birthday in 1948 he would still be at it today.&lt;/p&gt;
+&lt;p&gt;The UN are just asking you to spend 67 minutes helping others on his birthday.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>67</category><category>giving</category><category>mandela</category><category>pi</category><category>take a minute</category><guid>http://peakrisk.github.io/peakrisk/posts/sixty-seven-minutes.html</guid><pubDate>Thu, 09 Jul 2015 17:02:34 GMT</pubDate></item><item><title>LAMP and LIMP stacks</title><link>http://peakrisk.github.io/peakrisk/posts/lamp-and-limp-stacks.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><guid>http://peakrisk.github.io/peakrisk/posts/lamp-and-limp-stacks.html</guid><pubDate>Thu, 09 Jul 2015 17:02:08 GMT</pubDate></item><item><title>Air pressure and the tides</title><link>http://peakrisk.github.io/peakrisk/posts/air-pressure-and-the-tides.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -2601,146 +2856,4 @@ to rebuild the full image.&lt;/p&gt;
 &lt;!-- description: links to include in all posts --&gt;
 &lt;!-- type: text --&gt;
 &lt;!-- Generated with: grep -h '^\.\. _' *.rst | sort | uniq &gt; references.rst --&gt;
-&lt;/div&gt;&lt;/div&gt;</description><category>linux</category><category>raspberry pi</category><guid>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</guid><pubDate>Wed, 10 Jun 2015 18:38:29 GMT</pubDate></item><item><title>PyData, Dallas</title><link>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;p&gt;The PyData, Dallas videos are now up on youtube under &lt;a class="reference external" href="https://www.youtube.com/user/PyDataTV"&gt;PyData TV&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Lots of interesting stuff to view there.  So far, I have watched &lt;a class="reference external" href="https://www.youtube.com/watch?v=heGtUhFm1-A"&gt;Luis
-Miguel Sanchez&lt;/a&gt; talk about modelling insurance linked securities
-(ILS) all in &lt;a class="reference external" href="https://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebooks.  Shows how things that used to take
-days and weeks can now be done in a matter of hours.&lt;/p&gt;
-&lt;p&gt;I am also enjoying &lt;a class="reference external" href="https://www.youtube.com/watch?v=Pkwygl3cgmU"&gt;Peter Wang&lt;/a&gt; talking about &lt;em&gt;the state of the of
-the Py&lt;/em&gt;.&lt;/p&gt;&lt;/div&gt;</description><category>data science</category><category>finance</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/pydata-dallas.html</guid><pubDate>Mon, 04 May 2015 21:57:45 GMT</pubDate></item><item><title>Data, data, everywhere, nor any drop to drink</title><link>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</link><dc:creator>John Gill</dc:creator><description>&lt;div&gt;&lt;div class="figure align-right"&gt;
-&lt;img alt="http://upload.wikimedia.org/wikipedia/commons/8/80/Gustave_Dore_Ancient_Mariner_Illustration.jpg" src="http://upload.wikimedia.org/wikipedia/commons/8/80/Gustave_Dore_Ancient_Mariner_Illustration.jpg"&gt;
-&lt;p class="caption"&gt;Gustave Dore Ancient Mariner Illustration, licensed under Public Domain via &lt;a class="reference external" href="http://commons.wikimedia.org/wiki/"&gt;Wikimedia Commons&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="satellite-data"&gt;
-&lt;h2&gt;Satellite data&lt;/h2&gt;
-&lt;p&gt;I started looking at this data after being inspired by Chris Waigl's
-PyCon talk on &lt;a class="reference external" href="https://www.youtube.com/embed/MCHpt1FvblI"&gt;Satellite mapping for everyone&lt;/a&gt;.  Chris gave an
-introduction to some of the python tools you can use to look at this
-data.&lt;/p&gt;
-&lt;p&gt;She mentioned some websites where you can find data from various
-satellite missions and showed how to work with the data and just what
-sort of data is available.&lt;/p&gt;
-&lt;p&gt;There really is a wonderful array of data available.  The process of
-exploring all this can be time consuming, but fun.  There is a lot of
-fascinating work being done.&lt;/p&gt;
-&lt;p&gt;I was hoping to find images in and around the time of the hurricanes.
-With high enough resolution I believe it should be possible to use
-image processing software to help with damage surveys.  For example,
-it should be possible to spot blue tarpaulins placed over damaged
-roofs, or indeed the roof damage itself.&lt;/p&gt;
-&lt;p&gt;I picked Landsat, pretty much based on Chris's talk.  I found two days
-either side of the hurricanes in Bermuda last October for which there
-were images available for.&lt;/p&gt;
-&lt;p&gt;So far so good.  But to get the higher resolution data you had to
-register and obtain a key to gain access to the downloads.  These are
-large, around 1GB per image, so it is reasonable for whichever agency
-is supplying the images to know a little about those downloading the
-data. In particular, be able to contact them if putting an
-unreasonable load on their servers.&lt;/p&gt;
-&lt;p&gt;Now for Bermuda we only really need about 1% of the data which covers
-the few square miles around the island.   This is much more
-manageable, so it feels it would be good to be able to host the data
-locally.  This is something I expect I will return to.&lt;/p&gt;
-&lt;p&gt;There is still much to do here.  Chris noted that &lt;em&gt;you will learn
-coordinate systems&lt;/em&gt;.   Up to now I have managed to avoid this, just
-slicing the &lt;a class="reference external" href="http://www.numpy.org/"&gt;numpy&lt;/a&gt; arrays that &lt;a class="reference external" href="https://github.com/mapbox/rasterio/"&gt;rasterio&lt;/a&gt; gives me as I read the
-images.&lt;/p&gt;
-&lt;p&gt;I need to learn how to pull out a window from one of these images by
-specifying the lat/lon box defining the area to extract.  Better
-still, I could do with a number of pre-defined boxes that pull out
-interesting areas of Bermuda, for example each Parish.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="satellite-data-for-smaller-jurisdictions"&gt;
-&lt;h2&gt;Satellite data for smaller jurisdictions&lt;/h2&gt;
-&lt;p&gt;Most satellite data is collected by expensive national and
-international space missions.  Many of the missions are aimed at
-creating a global resource, but generally focussed on the nations that
-funded the missions.&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="http://pmm.nasa.gov/data-access/downloads/gpm"&gt;Global Precipitation Measurement&lt;/a&gt; mission has a number of data sets
-available.  These are typically at the 0.1 degree resolution, which
-corresponds to 7 miles on the ground.  The temporal resolution is
-good, a new image is available at 30 minute intervals.  Further, the
-project aims to:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-intercalibrate, merge, and interpolate "all" satellite microwave
-precipitation estimates, together with microwave-calibrated infrared
-(IR) satellite estimates, precipitation gauge analyses, and
-potentially other precipitation estimators at fine time and space
-scales for the TRMM and GPM eras over the entire globe.
-&lt;/pre&gt;
-&lt;p&gt;For Bermuda, the spatial resolution is not quite enough to do a
-detailed analysis, but it is very useful to understand the severity of
-storms hitting the island.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="weather-station-data"&gt;
-&lt;h2&gt;Weather station data&lt;/h2&gt;
-&lt;p&gt;Another good source of data is weather station data.  It is possible
-to build a &lt;a class="reference external" href="http://www.toptal.com/c/how-i-made-a-fully-functional-arduino-weather-station-for-300"&gt;DIY weather station&lt;/a&gt; for a $200-300.  The project in the
-link had some special constraints.  It was intented to create a
-weather station that would show the conditions at a lake 2 hours drive
-from the person that built it, so it needed to be robust against
-system glitches.&lt;/p&gt;
-&lt;p&gt;There are a number of weather stations here in Bermuda that are
-connected to the &lt;a class="reference external" href="http://weatherunderground.com"&gt;Weather Underground&lt;/a&gt; network of stations.&lt;/p&gt;
-&lt;p&gt;Another project is &lt;a class="reference external" href="http://openweathermap.org"&gt;Open Weather Map&lt;/a&gt;.  This provides an API that you
-can use to connect your weather station to the network.&lt;/p&gt;
-&lt;p&gt;For risk modelling purposes we ideally need historical data for the
-times when the larger storms have hit the island.  The sites mentioned
-above are primarily focussed on weather forecasting, rather than
-collecting data for subsequent analysis, although they do also do
-this.&lt;/p&gt;
-&lt;p&gt;Unfortunately, access to historical data is limited without a paid
-subscription.  The sites have costs to cover, so small charges for
-access to data is one way to continue to provide the service.&lt;/p&gt;
-&lt;p&gt;Full access to Open Weather Map historical data costs $2000 per
-month.  If we want to create an environment where interested parties
-can explore their ideas then removing these cost barriers is an
-important step to take,&lt;/p&gt;
-&lt;p&gt;If Bermuda had a network of 100-200 weather stations it would open
-lots of powerful modelling opportunities.  For example, machine
-learning could be used to try and tease out the relationship between
-weather station parameters such as height, distance from the coast,
-local topography, land use and whatever other parameters are
-available.&lt;/p&gt;
-&lt;p&gt;If such a model can be fitted to the data it can then be used to
-estimate windspeed for any point on the island.  In this way we can
-create a detailed windfield model for Bermuda.&lt;/p&gt;
-&lt;p&gt;Furthermore, most of the tools needed to do this are already available
-as open source projects.  The pieces just need to be glued together.&lt;/p&gt;
-&lt;p&gt;Finally, any work done here in Bermuda can easily be generalised and
-applied to other similar jurisdictions.&lt;/p&gt;
-&lt;div class="section" id="damage-surveys"&gt;
-&lt;h3&gt;Damage surveys&lt;/h3&gt;
-&lt;p&gt;If we also have a detailed, post event, damage survey we can also use
-the same machine learning techniques to develop damage models relating
-the hazard at each location to the damage it creates.&lt;/p&gt;
-&lt;p&gt;There are good open source tools, such as &lt;a class="reference external" href="http://scikit-learn.org/"&gt;scikit-learn&lt;/a&gt; and
-&lt;a class="reference external" href="http://scikit-image.org/"&gt;scikit-image&lt;/a&gt; that can be used for this modelling.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="humanitarian-openstreetmap-team"&gt;
-&lt;h3&gt;Humanitarian OpenStreetMap Team&lt;/h3&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://www.openstreetmap.org/"&gt;Open Street Map&lt;/a&gt; is an open mapping project that has been running
-for many years:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-OpenStreetMap is built by a community of mappers that contribute and
-maintain data about roads, trails, cafes, railway stations, and much
-more, all over the world
-&lt;/pre&gt;
-&lt;p&gt;The project has a number of related projects centred around the core
-mapping project.&lt;/p&gt;
-&lt;p&gt;The &lt;a class="reference external" href="http://hotosm.org/"&gt;Humanitarian OpenStreetMap Team&lt;/a&gt; works on mapping damage to help
-with relief work following natural disasters, such as the recent Nepal
-earthquakes.&lt;/p&gt;
-&lt;p&gt;Whilst this work is focussed on disaster relief in the immediate
-aftermath of a disaster it is producing valuable data which can be
-used to better understand damage.  It could be a key input into new
-models that can be used to explore mitigation measures for future
-events.&lt;/p&gt;
-&lt;p&gt;With the world facing unprecedented challenges, such as climate change
-and increased earthquake risk due to human activities such as fracking
-as well as the melting ice caps changing the stresses on tectonic
-plates there is a humanitarian need to be able to model and explore
-the potential impacts on delicate eco-systems such as small island
-communities.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://peakrisk.github.io/peakrisk/posts/data-data-everywhere-nor-any-drop-to-drink.html</guid><pubDate>Thu, 30 Apr 2015 17:01:06 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>linux</category><category>raspberry pi</category><guid>http://peakrisk.github.io/peakrisk/posts/more-raspberry-pi.html</guid><pubDate>Wed, 10 Jun 2015 18:38:29 GMT</pubDate></item></channel></rss>
