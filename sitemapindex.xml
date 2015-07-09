@@ -42,7 +42,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/free-software.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-09</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/git.xml</loc>
@@ -65,6 +65,14 @@
   <lastmod>2015-07-06</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/lamp.xml</loc>
+  <lastmod>2015-07-09</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/limp.xml</loc>
+  <lastmod>2015-07-09</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/linux.xml</loc>
   <lastmod>2015-07-03</lastmod>
  </sitemap>
@@ -79,6 +87,10 @@
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/moon.xml</loc>
   <lastmod>2015-07-07</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/categories/mysql.xml</loc>
+  <lastmod>2015-07-09</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/open-data.xml</loc>
@@ -102,7 +114,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python.xml</loc>
-  <lastmod>2015-07-07</lastmod>
+  <lastmod>2015-07-09</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/raspberry-pi.xml</loc>

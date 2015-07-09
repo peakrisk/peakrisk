@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Peak Risk (LAMP)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/categories/lamp.xml"></atom:link><language>en</language><lastBuildDate>Thu, 09 Jul 2015 19:51:15 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>LAMP and LIMP stacks</title><link>http://peakrisk.github.io/peakrisk/posts/lamp-and-limp-stacks.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The LAMP stack has been around for years,  Linux, Apache, MySQL and PHP/Perl/Python/Parrot?&lt;/p&gt;
+&lt;p&gt;It is a stack built on free software that drove a significant phase in
+the growth of the internet around 2000.&lt;/p&gt;
+&lt;p&gt;Linux, a free operating system.&lt;/p&gt;
+&lt;p&gt;Apache, a free webserver&lt;/p&gt;
+&lt;p&gt;MySQL, a free database, a friend described it to me as, "faster than a very fast thing*.&lt;/p&gt;
+&lt;p&gt;P, free languages, many beginning with P.&lt;/p&gt;
+&lt;p&gt;At the time this stack became popular I was working in the corporate finance world.&lt;/p&gt;
+&lt;p&gt;The company was looking at future tech choices and looking for a database.&lt;/p&gt;
+&lt;p&gt;There were basically two candidates, MySQL and Microsoft SQL Server.&lt;/p&gt;
+&lt;h2 id="The-LIMP-Stack"&gt;The LIMP Stack&lt;a class="anchor-link" href="http://peakrisk.github.io/peakrisk/posts/lamp-and-limp-stacks.html#The-LIMP-Stack"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The company already had a heavy investment in Microsoft and was starting to use SQL Server more and more.&lt;/p&gt;
+&lt;p&gt;Many key products they depended on also uses SQL Server.&lt;/p&gt;
+&lt;p&gt;In the end this swung the decision.  Oh and a belief that MySQL was &lt;em&gt;not ready for prime time&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The company was already running some of its internal modelling on
+Linux.  It was a natural migration from proprietary Unix that had been
+used previously.  It worked.&lt;/p&gt;
+&lt;p&gt;But they were short of free software expertise and understanding.  And
+the main advocate in the company was sick with an (as yet) undiagnosed
+neuro-muscular disease as well as mildly bi-polar.&lt;/p&gt;
+&lt;p&gt;So the company went with Linux, IIS, Micrsoft and Python.&lt;/p&gt;
+&lt;p&gt;I call it the LIMP stack, but you have to walk before you can run.&lt;/p&gt;
+&lt;p&gt;But working cross platform is harder for everyone.  I was delighted to
+be able to use python and linux.  I knew I was way more productive in
+that environment.&lt;/p&gt;
+&lt;p&gt;I knew that it would give us flexibility.  It would allow us to use
+cheaper hardware and get more out of it.  It would future proof us
+through the freedom that the free software licenses were granting.&lt;/p&gt;
+&lt;p&gt;It allowed us to understand at every level, how the software was
+actually working.&lt;/p&gt;
+&lt;p&gt;Most of all, it allowed others to do the same.  And they did.  And
+just by using this stuff they helped make it better.&lt;/p&gt;
+&lt;p&gt;Now just this week I read that NSA built is key infrastructure on top
+of free software.  The GPL license gives them the freedom to use the
+software how they want.&lt;/p&gt;
+&lt;p&gt;It trusts that, people will in general use it for good purposes.
+Defining good is just too hard, so it does not try.&lt;/p&gt;
+&lt;p&gt;I just blogged about Mandela Day.  Mandela used to be described as a
+terrorist.  Now he is recognised by the United Nations as a relentless
+campaigner for freedom, justice and democracy.&lt;/p&gt;
+&lt;p&gt;Perspectives change.&lt;/p&gt;
+&lt;p&gt;But the free software community is full of people with good motives.
+If they feel a project is going in a bad direction, it may be forked
+into a new project.&lt;/p&gt;
+&lt;p&gt;Forks cause some harm, as their is division of effort.  Eventually,
+one project wins out.  More often than not projects will rejoin.&lt;/p&gt;
+&lt;p&gt;There is currently a fork in the MySQL project.  Oracle own the MySQL
+code (they acquired it from Sun), but it is published under the GPL.&lt;/p&gt;
+&lt;p&gt;The original authors of MySQL have started a fork project, MariaDB.&lt;/p&gt;
+&lt;p&gt;I expect these projects will one day re-unite.&lt;/p&gt;
+&lt;p&gt;Then there is the postgres database.  It has a special Geographic
+Information System sister project called postGIS.&lt;/p&gt;
+&lt;p&gt;The neat thing is that switching databases in many projects is not too
+hard, particularly if you are going from one free database to another.&lt;/p&gt;
+&lt;p&gt;For example, the django web framework supports multiple backend
+databases.&lt;/p&gt;
+&lt;p&gt;It is the same story wherever you use free software.&lt;/p&gt;
+&lt;p&gt;LIMP was a very bold choice at the time and it served the company very
+well. It was a great place to work, a very open organisation.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>free software</category><category>LAMP</category><category>LIMP</category><category>MySQL</category><category>python</category><guid>http://peakrisk.github.io/peakrisk/posts/lamp-and-limp-stacks.html</guid><pubDate>Thu, 09 Jul 2015 17:02:08 GMT</pubDate></item></channel></rss>
