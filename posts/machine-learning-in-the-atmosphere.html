@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Machine Learning in the atmosphere | Peak Risk</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="http://peakrisk.github.io/peakrisk/posts/machine-learning-in-the-atmosphere.html">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]--><meta name="author" content="John Gill">
+<meta property="og:site_name" content="Peak Risk">
+<meta property="og:title" content="Machine Learning in the atmosphere">
+<meta property="og:url" content="http://peakrisk.github.io/peakrisk/posts/machine-learning-in-the-atmosphere.html">
+<meta property="og:description" content='Fourier analysis¶
+
+
+
+
+
+In [7]:
+
+    
+infile="../files/moon_weather.csv"
+
+
+
+
+
+
+
+
+
+In [8]:
+
+    
+# Tell matplotlib to plot in line
+%matplotlib inline
+
+import pandas as pd
+
+# seaborn magically adds a lay'>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2015-07-10T20:55:40+00:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://peakrisk.github.io/peakrisk/">
+
+                <span id="blog-title">Peak Risk</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../blog/">Blog</a>
+                </li>
+<li>
+<a href="../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../galleries/">Galleries</a>
+                </li>
+<li>
+<a href="../stories/contributors.html">Contributors</a>
+                </li>
+<li>
+<a href="../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="machine-learning-in-the-atmosphere.ipynb" id="sourcelink">Source</a>
+    </li>
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Machine Learning in the atmosphere</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">John Gill</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2015-07-10T20:55:40+00:00" itemprop="datePublished" title="2015-07-10 20:55">2015-07-10 20:55</time></a></p>
+                <p class="commentline">            <a href="machine-learning-in-the-atmosphere.html#disqus_thread" data-disqus-identifier="cache/posts/machine-learning-in-the-atmosphere.html">Comments</a>
+
+
+                    </p>
+<p class="sourceline"><a href="machine-learning-in-the-atmosphere.ipynb" id="sourcelink">Source</a></p>
+
+        </div>
+        
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Fourier-analysis">Fourier analysis<a class="anchor-link" href="machine-learning-in-the-atmosphere.html#Fourier-analysis">¶</a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">infile</span><span class="o">=</span><span class="s">"../files/moon_weather.csv"</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># Tell matplotlib to plot in line</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c"># seaborn magically adds a layer of goodness on top of Matplotlib</span>
+<span class="c"># mostly this is just changing matplotlib defaults, but it does also</span>
+<span class="c"># provide some higher level plotting methods.</span>
+<span class="kn">import</span> <span class="nn">seaborn</span>
+
+<span class="c"># Tell seaborn to set things up</span>
+<span class="n">seaborn</span><span class="o">.</span><span class="n">set</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">infile</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="s">'date'</span><span class="p">,</span> <span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s">'date'</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">OSError</span>                                   Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-9-a68b6340446d&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">----&gt; 1</span><span class="ansiyellow"> </span>data <span class="ansiyellow">=</span> pd<span class="ansiyellow">.</span>read_csv<span class="ansiyellow">(</span>infile<span class="ansiyellow">,</span> index_col<span class="ansiyellow">=</span><span class="ansiblue">'date'</span><span class="ansiyellow">,</span> parse_dates<span class="ansiyellow">=</span><span class="ansiyellow">[</span><span class="ansiblue">'date'</span><span class="ansiyellow">]</span><span class="ansiyellow">)</span><span class="ansiyellow"></span>
+
+<span class="ansigreen">/home/jng/.virtualenvs/peakrisk2/lib/python3.4/site-packages/pandas/io/parsers.py</span> in <span class="ansicyan">parser_f</span><span class="ansiblue">(filepath_or_buffer, sep, dialect, compression, doublequote, escapechar, quotechar, quoting, skipinitialspace, lineterminator, header, index_col, names, prefix, skiprows, skipfooter, skip_footer, na_values, na_fvalues, true_values, false_values, delimiter, converters, dtype, usecols, engine, delim_whitespace, as_recarray, na_filter, compact_ints, use_unsigned, low_memory, buffer_lines, warn_bad_lines, error_bad_lines, keep_default_na, thousands, comment, decimal, parse_dates, keep_date_col, dayfirst, date_parser, memory_map, float_precision, nrows, iterator, chunksize, verbose, encoding, squeeze, mangle_dupe_cols, tupleize_cols, infer_datetime_format, skip_blank_lines)</span>
+<span class="ansigreen">    472</span>                     skip_blank_lines=skip_blank_lines)
+<span class="ansigreen">    473</span> <span class="ansiyellow"></span>
+<span class="ansigreen">--&gt; 474</span><span class="ansiyellow">         </span><span class="ansigreen">return</span> _read<span class="ansiyellow">(</span>filepath_or_buffer<span class="ansiyellow">,</span> kwds<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">    475</span> <span class="ansiyellow"></span>
+<span class="ansigreen">    476</span>     parser_f<span class="ansiyellow">.</span>__name__ <span class="ansiyellow">=</span> name<span class="ansiyellow"></span>
+
+<span class="ansigreen">/home/jng/.virtualenvs/peakrisk2/lib/python3.4/site-packages/pandas/io/parsers.py</span> in <span class="ansicyan">_read</span><span class="ansiblue">(filepath_or_buffer, kwds)</span>
+<span class="ansigreen">    248</span> <span class="ansiyellow"></span>
+<span class="ansigreen">    249</span>     <span class="ansired"># Create the parser.</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
+<span class="ansigreen">--&gt; 250</span><span class="ansiyellow">     </span>parser <span class="ansiyellow">=</span> TextFileReader<span class="ansiyellow">(</span>filepath_or_buffer<span class="ansiyellow">,</span> <span class="ansiyellow">**</span>kwds<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">    251</span> <span class="ansiyellow"></span>
+<span class="ansigreen">    252</span>     <span class="ansigreen">if</span> <span class="ansiyellow">(</span>nrows <span class="ansigreen">is</span> <span class="ansigreen">not</span> <span class="ansigreen">None</span><span class="ansiyellow">)</span> <span class="ansigreen">and</span> <span class="ansiyellow">(</span>chunksize <span class="ansigreen">is</span> <span class="ansigreen">not</span> <span class="ansigreen">None</span><span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+
+<span class="ansigreen">/home/jng/.virtualenvs/peakrisk2/lib/python3.4/site-packages/pandas/io/parsers.py</span> in <span class="ansicyan">__init__</span><span class="ansiblue">(self, f, engine, **kwds)</span>
+<span class="ansigreen">    564</span>             self<span class="ansiyellow">.</span>options<span class="ansiyellow">[</span><span class="ansiblue">'has_index_names'</span><span class="ansiyellow">]</span> <span class="ansiyellow">=</span> kwds<span class="ansiyellow">[</span><span class="ansiblue">'has_index_names'</span><span class="ansiyellow">]</span><span class="ansiyellow"></span>
+<span class="ansigreen">    565</span> <span class="ansiyellow"></span>
+<span class="ansigreen">--&gt; 566</span><span class="ansiyellow">         </span>self<span class="ansiyellow">.</span>_make_engine<span class="ansiyellow">(</span>self<span class="ansiyellow">.</span>engine<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">    567</span> <span class="ansiyellow"></span>
+<span class="ansigreen">    568</span>     <span class="ansigreen">def</span> _get_options_with_defaults<span class="ansiyellow">(</span>self<span class="ansiyellow">,</span> engine<span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+
+<span class="ansigreen">/home/jng/.virtualenvs/peakrisk2/lib/python3.4/site-packages/pandas/io/parsers.py</span> in <span class="ansicyan">_make_engine</span><span class="ansiblue">(self, engine)</span>
+<span class="ansigreen">    703</span>     <span class="ansigreen">def</span> _make_engine<span class="ansiyellow">(</span>self<span class="ansiyellow">,</span> engine<span class="ansiyellow">=</span><span class="ansiblue">'c'</span><span class="ansiyellow">)</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+<span class="ansigreen">    704</span>         <span class="ansigreen">if</span> engine <span class="ansiyellow">==</span> <span class="ansiblue">'c'</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+<span class="ansigreen">--&gt; 705</span><span class="ansiyellow">             </span>self<span class="ansiyellow">.</span>_engine <span class="ansiyellow">=</span> CParserWrapper<span class="ansiyellow">(</span>self<span class="ansiyellow">.</span>f<span class="ansiyellow">,</span> <span class="ansiyellow">**</span>self<span class="ansiyellow">.</span>options<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">    706</span>         <span class="ansigreen">else</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+<span class="ansigreen">    707</span>             <span class="ansigreen">if</span> engine <span class="ansiyellow">==</span> <span class="ansiblue">'python'</span><span class="ansiyellow">:</span><span class="ansiyellow"></span>
+
+<span class="ansigreen">/home/jng/.virtualenvs/peakrisk2/lib/python3.4/site-packages/pandas/io/parsers.py</span> in <span class="ansicyan">__init__</span><span class="ansiblue">(self, src, **kwds)</span>
+<span class="ansigreen">   1070</span>         kwds<span class="ansiyellow">[</span><span class="ansiblue">'allow_leading_cols'</span><span class="ansiyellow">]</span> <span class="ansiyellow">=</span> self<span class="ansiyellow">.</span>index_col <span class="ansigreen">is</span> <span class="ansigreen">not</span> <span class="ansigreen">False</span><span class="ansiyellow"></span>
+<span class="ansigreen">   1071</span> <span class="ansiyellow"></span>
+<span class="ansigreen">-&gt; 1072</span><span class="ansiyellow">         </span>self<span class="ansiyellow">.</span>_reader <span class="ansiyellow">=</span> _parser<span class="ansiyellow">.</span>TextReader<span class="ansiyellow">(</span>src<span class="ansiyellow">,</span> <span class="ansiyellow">**</span>kwds<span class="ansiyellow">)</span><span class="ansiyellow"></span>
+<span class="ansigreen">   1073</span> <span class="ansiyellow"></span>
+<span class="ansigreen">   1074</span>         <span class="ansired"># XXX</span><span class="ansiyellow"></span><span class="ansiyellow"></span>
+
+<span class="ansigreen">pandas/parser.pyx</span> in <span class="ansicyan">pandas.parser.TextReader.__cinit__ (pandas/parser.c:3173)</span><span class="ansiblue">()</span>
+
+<span class="ansigreen">pandas/parser.pyx</span> in <span class="ansicyan">pandas.parser.TextReader._setup_parser_source (pandas/parser.c:5912)</span><span class="ansiblue">()</span>
+
+<span class="ansired">OSError</span>: File b'../files/moon_orbitals.csv' does not exist</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">data</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>cdsitepackages
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/bin/sh: 1: cdsitepackages: not found
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager">
+<li class="previous">
+                <a href="sixty-seven-minutes.html" rel="prev" title="Sixty-seven Minutes">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="experimenting-and-building-things.html" rel="next" title="Experimenting and building things">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments"><h2>Comments</h2>
+                        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="peakrisk",
+            disqus_url="http://peakrisk.github.io/peakrisk/posts/machine-learning-in-the-atmosphere.html",
+        disqus_title="Machine Learning in the atmosphere",
+        disqus_identifier="cache/posts/machine-learning-in-the-atmosphere.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="peakrisk";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2015         <a href="mailto:swfiua@gmail.com">John Gill</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+
+            
+        </footer>
+</div>
+</div>
+
+            <script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>

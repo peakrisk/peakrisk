@@ -98,7 +98,82 @@ article: http://ogp.me/ns/article#
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [1]:</div>
+<div class="prompt input_prompt">In [11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">shutil</span>
+<span class="n">BASE</span><span class="o">=</span><span class="s">"~/devel"</span>
+<span class="n">BLOG</span><span class="o">=</span><span class="s">"openbermuda"</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansicyan">  File </span><span class="ansigreen">"&lt;ipython-input-11-b9f396883de5&gt;"</span><span class="ansicyan">, line </span><span class="ansigreen">2</span>
+<span class="ansiyellow">    BASE=~/devel</span>
+<span class="ansigrey">          ^</span>
+<span class="ansired">SyntaxError</span><span class="ansired">:</span> invalid syntax
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>mv ~/devel/blog ~/devel/openbermuda
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="err">$</span><span class="n">BLOG</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/home/jng/devel/openbermuda
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span><span class="nb">pwd</span>
@@ -115,7 +190,7 @@ article: http://ogp.me/ns/article#
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/jng/devel/peakrisk/posts
+<pre>/home/jng/devel/openbermuda
 </pre>
 </div>
 </div>
@@ -126,10 +201,38 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [4]:</div>
+<div class="prompt input_prompt">In [ ]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola new_post -t <span class="s2">"Sixty-seven Minutes"</span>
+<div class=" highlight hl-ipython3"><pre><span class="c"># oops created in wrong place</span>
+<span class="n">OOPS</span><span class="o">=</span><span class="s">"peakrisk"</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># mv stuff here</span>
+<span class="o">!</span>mv <span class="nv">$BASE</span>/<span class="nv">$OOPS</span>/experimenting-and-building-things.* ,,/../
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola new_post -t <span class="s2">"Experimenting and building things"</span>
 </pre></div>
 
 </div>
@@ -144,13 +247,13 @@ article: http://ogp.me/ns/article#
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Scanning posts.......done!
-<span class="ansiyellow ansibold">[2015-07-09T17:02:34Z] WARNING: new_post: This compiler does not support one-file posts.</span>
-<span class="ansigrey">[2015-07-09T17:02:34Z] INFO: new_post: Your post's metadata is at: posts/sixty-seven-minutes.meta</span>
-<span class="ansigrey">[2015-07-09T17:02:34Z] INFO: new_post: Your post's text is at: posts/sixty-seven-minutes.ipynb</span>
+<span class="ansiyellow ansibold">[2015-07-11T17:51:52Z] WARNING: new_post: This compiler does not support one-file posts.</span>
+<span class="ansigrey">[2015-07-11T17:51:52Z] INFO: new_post: Your post's metadata is at: posts/experimenting-and-building-things.meta</span>
+<span class="ansigrey">[2015-07-11T17:51:52Z] INFO: new_post: Your post's text is at: posts/experimenting-and-building-things.ipynb</span>
 Creating New Post
 -----------------
 
-Title: Sixty-seven Minutes
+Title: Experimenting and building things
 </pre>
 </div>
 </div>
@@ -178,27 +281,27 @@ Title: Sixty-seven Minutes
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>.  render_tags:output/categories/astropy.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/data-science.html
-.  render_tags:output/categories/air-pressure.html
-.  render_tags:output/categories/moon.html
-.  render_tags:output/categories/tides.html
-.  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/cyber-risk.html
-.  render_tags:output/categories/computer.html
-.  render_tags:output/categories/meta-data.html
-.  render_tags:output/categories/git.html
-.  render_tags:output/categories/python-draft.html
-.  render_tags:output/categories/jupyter.html
+<pre>Scanning posts.......done!
+.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/weather.html
 .  render_tags:output/categories/open-data.html
 .  render_tags:output/categories/finance.html
 .  render_tags:output/categories/pyephem.html
 .  render_tags:output/categories/astronomy.html
 .  render_tags:output/categories/information-security.html
-.  render_tags:output/categories/weather.html
-.  render_tags:output/categories/gpl.html
-Scanning posts.......done!
+.  render_tags:output/categories/git.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/computer.html
+.  render_tags:output/categories/meta-data.html
+.  render_tags:output/categories/air-pressure.html
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/tides.html
+.  render_tags:output/categories/free-software.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/python.html
 </pre>
 </div>
 </div>
@@ -226,21 +329,9 @@ Scanning posts.......done!
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Scanning posts.......done!
-.  render_sources:output/posts/nikola.ipynb
-.  render_posts:timeline_changes
-.  render_posts:cache/posts/nikola.html
-.  render_tags:output/categories/pandas.html
-.  render_tags:output/categories/information-security.html
-.  render_tags:output/categories/pyephem.html
-.  render_tags:output/categories/astronomy.html
-.  render_tags:output/categories/cyber-risk.html
-.  render_tags:output/categories/finance.html
-.  render_tags:output/categories/meta-data.html
-.  render_tags:output/categories/jupyter.html
-.  render_tags:output/categories/python-draft.html
-.  render_tags:output/categories/astropy.html
-.  render_tags:output/categories/moon.html
+<pre><span class="ansigrey">[2015-07-07T15:08:16Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 05531ce91be94f033975ba6267a16e291309f447\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
+Scanning posts.......done!
+.  render_pages:output/posts/nikola.html
 .  render_tags:output/categories/linux.html
 .  render_tags:output/categories/computer.html
 .  render_tags:output/categories/data-science.html
@@ -248,9 +339,21 @@ Scanning posts.......done!
 .  render_tags:output/categories/air-pressure.html
 .  render_tags:output/categories/python.html
 .  render_tags:output/categories/weather.html
-.  render_pages:output/posts/nikola.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/finance.html
+.  render_tags:output/categories/meta-data.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/pyephem.html
+.  render_tags:output/categories/astronomy.html
+.  render_tags:output/categories/pandas.html
+.  render_sources:output/posts/nikola.ipynb
+.  render_posts:timeline_changes
+.  render_posts:cache/posts/nikola.html
 Scanning posts.......done!
-<span class="ansigrey">[2015-07-07T15:08:16Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 05531ce91be94f033975ba6267a16e291309f447\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
 </pre>
 </div>
 </div>
