@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/67.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/air-pressure.xml</loc>
@@ -14,31 +14,31 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/astronomy.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/astropy.xml</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/computer.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/cyber-risk.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/data-science.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/finance.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/fourier.xml</loc>
@@ -46,79 +46,79 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/free-software.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/git.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/giving.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/gpl.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/information-security.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/jupyter.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/lamp.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/limp.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/linux.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/mandela.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/meta-data.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/moon.xml</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/mysql.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/open-data.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/pandas.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/pi.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/pyephem.xml</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python-draft.xml</loc>
-  <lastmod>2015-07-06</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/python.xml</loc>
-  <lastmod>2015-07-20</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/raspberry-pi.xml</loc>
@@ -126,7 +126,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/take-a-minute.xml</loc>
-  <lastmod>2015-07-09</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/tides.xml</loc>
@@ -138,11 +138,11 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/GibbsHill/rss.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/rss.xml</loc>
-  <lastmod>2015-07-03</lastmod>
+  <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
