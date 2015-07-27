@@ -98,13 +98,13 @@ article: http://ogp.me/ns/article#
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [16]:</div>
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">shutil</span>
 <span class="n">BASE</span><span class="o">=</span><span class="s">"~/devel"</span>
 <span class="n">BLOG</span><span class="o">=</span><span class="s">"openbermuda"</span>
-<span class="c">#BLOG="peakrisk"</span>
+<span class="n">BLOG</span><span class="o">=</span><span class="s">"peakrisk"</span>
 </pre></div>
 
 </div>
@@ -114,7 +114,7 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [17]:</div>
+<div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="n">cd</span> <span class="o">~/</span><span class="n">devel</span><span class="o">/</span><span class="err">$</span><span class="n">BLOG</span>
@@ -131,7 +131,7 @@ article: http://ogp.me/ns/article#
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/jng/devel/openbermuda
+<pre>/home/jng/devel/peakrisk
 </pre>
 </div>
 </div>
@@ -142,7 +142,7 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [18]:</div>
+<div class="prompt input_prompt">In [3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span><span class="nb">pwd</span>
@@ -159,7 +159,7 @@ article: http://ogp.me/ns/article#
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>/home/jng/devel/openbermuda
+<pre>/home/jng/devel/peakrisk
 </pre>
 </div>
 </div>
@@ -360,7 +360,7 @@ To git@github.com:openbermuda/80days.git
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [21]:</div>
+<div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola build
@@ -377,55 +377,69 @@ To git@github.com:openbermuda/80days.git
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Scanning posts........done!
-.  render_sources:output/posts/red-and-white-v-blue-and-white.rst
+<pre>Scanning posts.......done!
+.  copy_files:output/kittycam_weather.csv
+.  copy_files:output/pijessie_weather.csv
+.  render_sources:output/posts/latest-weather-pijessie.ipynb
+.  render_sources:output/posts/latest-weather-kittycam.ipynb
+.  render_sources:output/posts/machine-learning-in-the-atmosphere.ipynb
+.  render_sources:output/posts/nikola.ipynb
+.  render_tags:output/categories/index.html
+.  render_tags:output/assets/js/tag_cloud_data.json
+.  render_archive:output/2015/index.html
 .  render_posts:timeline_changes
-.  render_posts:cache/posts/red-and-white-v-blue-and-white.html
-.  render_tags:output/categories/giving.html
+.  render_posts:cache/posts/latest-weather-pijessie.html
+.  render_posts:cache/posts/latest-weather-kittycam.html
+.  render_posts:cache/posts/machine-learning-in-the-atmosphere.html
+.  render_posts:cache/posts/nikola.html
 .  render_indexes:output/blog/index.html
-.  render_tags:output/categories/chewstick.html
-.  render_tags:output/categories/django.html
-.  render_tags:output/categories/github.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/javascript.html
+.  render_tags:output/categories/python-draft.html
 .  render_tags:output/categories/linux.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/air-pressure.html
 .  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/montreal.html
-.  render_tags:output/categories/awesome.html
-.  render_tags:output/categories/open-source.html
-.  render_tags:output/categories/transit.html
-.  render_tags:output/categories/football.html
-.  render_tags:output/categories/ottawa.html
-.  render_tags:output/categories/spittal-pond.html
-.  render_tags:output/categories/silverlight.html
-.  render_tags:output/categories/music.html
-.  render_tags:output/categories/blades.html
-.  render_tags:output/categories/sufc-sens.html
-.  render_tags:output/categories/art.html
-.  render_tags:output/categories/pycon.html
-.  render_tags:output/categories/mandela.html
-.  render_tags:output/categories/education.html
-.  render_tags:output/categories/bermuda.html
-.  render_tags:output/categories/cat_bermuda-cricket-blades.html
-.  render_tags:output/categories/gardening.html
-.  render_tags:output/categories/python.html
+.  render_tags:output/categories/fourier.html
+.  render_tags:output/categories/limp.html
+.  render_tags:output/categories/astropy.html
 .  render_tags:output/categories/take-a-minute.html
-.  render_tags:output/categories/moonlight.html
+.  render_tags:output/categories/git.html
 .  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/kindling.html
-.  render_tags:output/categories/sufc.html
-.  render_tags:output/categories/angular.html
-.  render_tags:output/categories/net.html
-.  render_tags:output/categories/hackathon.html
-.  render_tags:output/categories/80days.html
-.  render_tags:output/categories/ferry.html
-.  render_indexes:output/blog/index-3.html
-.  render_indexes:output/blog/index-2.html
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/giving.html
+.  render_tags:output/categories/lamp.html
+.  render_tags:output/categories/weather.html
+.  render_tags:output/categories/mandela.html
+.  render_tags:output/categories/finance.html
+.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/computer.html
+.  render_tags:output/categories/astronomy.html
+.  render_tags:output/categories/tides.html
+.  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/meta-data.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/open-data.html
+.  render_tags:output/categories/pi.html
+.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/python.html
+.  render_tags:output/categories/67.html
+.  render_tags:output/categories/pyephem.html
+.  render_tags:output/categories/mysql.html
+.  render_tags:output/categories/cat_mapping-satellite-weather-opendata.html
 .  render_indexes:output/blog/index-1.html
-.  render_tags:output/categories/cat_bermuda-cricket-blades.xml
+.  render_tags:output/categories/weather.xml
+.  render_pages:output/posts/latest-weather-pijessie.html
+.  render_tags:output/categories/air-pressure.xml
+.  render_pages:output/posts/latest-weather-kittycam.html
+.  render_pages:output/posts/experimenting-and-building-things.html
+.  render_tags:output/categories/fourier.xml
+.  render_pages:output/posts/nikola.html
+.  render_pages:output/posts/machine-learning-in-the-atmosphere.html
 .  generate_rss:output/rss.xml
-.  render_pages:output/posts/red-and-white-v-blue-and-white.html
+.  render_tags:output/categories/raspberry-pi.xml
+.  render_tags:output/categories/tides.xml
 .  sitemap:output/sitemap.xml
+.  sitemap:output/sitemapindex.xml
 </pre>
 </div>
 </div>
@@ -436,7 +450,7 @@ To git@github.com:openbermuda/80days.git
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [27]:</div>
+<div class="prompt input_prompt">In [5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola github_deploy
@@ -453,56 +467,39 @@ To git@github.com:openbermuda/80days.git
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Scanning posts........done!
-.  render_archive:output/2014/index.html
-.  render_archive:output/2015/index.html
-.  render_archive:output/archive.html
-.  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/bus.html
-.  render_tags:output/categories/montreal.html
-.  render_tags:output/categories/awesome.html
-.  render_tags:output/categories/javascript.html
-.  render_tags:output/categories/open-source.html
-.  render_tags:output/categories/transit.html
-.  render_tags:output/categories/mandela.html
-.  render_tags:output/categories/education.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/angular.html
-.  render_tags:output/categories/67.html
-.  render_tags:output/categories/hackathon.html
-.  render_tags:output/categories/silverlight.html
-.  render_tags:output/categories/net.html
-.  render_tags:output/categories/art.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/take-a-minute.html
-.  render_tags:output/categories/football.html
-.  render_tags:output/categories/ferry.html
-.  render_tags:output/categories/linux.html
-.  render_tags:output/categories/bermuda.html
-.  render_tags:output/categories/gardening.html
-.  render_tags:output/categories/music.html
-.  render_tags:output/categories/moonlight.html
-.  render_tags:output/categories/django.html
-.  render_tags:output/categories/pycon.html
+<pre>Scanning posts.......done!
+.  render_tags:output/categories/meta-data.html
+.  render_tags:output/categories/limp.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/computer.html
 .  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/spittal-pond.html
-.  render_tags:output/categories/giving.html
-.  render_tags:output/categories/sufc.html
-.  render_tags:output/categories/blades.html
-.  render_tags:output/categories/ottawa.html
-.  render_tags:output/categories/80days.html
-.  render_tags:output/categories/chewstick.html
-.  render_tags:output/categories/github.html
-.  render_tags:output/categories/sufc-sens.html
-.  render_tags:output/categories/kindling.html
-Scanning posts........done!
-<span class="ansigrey">[2015-07-20T22:14:24Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: a808a866f15e0544e2dcf8cfd00b9ee2a5b09c0c\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
-Counting objects: 1, done.
-Writing objects: 100% (1/1), 229 bytes | 0 bytes/s, done.
-Total 1 (delta 0), reused 1 (delta 0)
-To git@github.com:openbermuda/80days.git
-   e2b215c..e4ab377  gh-pages -&gt; gh-pages
-<span class="ansigrey">[2015-07-20T22:14:25Z] INFO: github_deploy: Successful deployment</span>
+.  render_tags:output/categories/lamp.html
+.  render_tags:output/categories/fourier.html
+.  render_tags:output/categories/mysql.html
+.  render_tags:output/categories/linux.html
+.  render_tags:output/categories/python.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/mandela.html
+.  render_tags:output/categories/astronomy.html
+.  render_tags:output/categories/67.html
+.  render_tags:output/categories/git.html
+.  render_tags:output/categories/air-pressure.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/free-software.html
+.  render_tags:output/categories/take-a-minute.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/moon.html
+Scanning posts.......done!
+<span class="ansigrey">[2015-07-27T14:03:51Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 22adb8960eae8febbc690ef3aac3cf899fda81bf\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
+Counting objects: 32, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (32/32), 3.20 MiB | 904.00 KiB/s, done.
+Total 32 (delta 25), reused 20 (delta 14)
+To git@github.com:peakrisk/peakrisk.git
+   5179278..d8f5737  gh-pages -&gt; gh-pages
+<span class="ansigrey">[2015-07-27T14:04:01Z] INFO: github_deploy: Successful deployment</span>
 </pre>
 </div>
 </div>
