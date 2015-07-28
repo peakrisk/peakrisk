@@ -170,7 +170,7 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
+<div class="prompt input_prompt">In [18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># oops created in wrong place</span>
@@ -184,7 +184,7 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
+<div class="prompt input_prompt">In [19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="c"># mv stuff here</span>
@@ -195,13 +195,28 @@ article: http://ogp.me/ns/article#
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>mv: cannot stat ‘/home/jng/devel/peakrisk/experimenting-and-building-things.*’: No such file or directory
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [9]:</div>
+<div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola new_post -t <span class="s2">"Red and White v Blue and White"</span> -f rest
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola new_post -t <span class="s2">"xxx"</span> -f rest
 </pre></div>
 
 </div>
@@ -218,9 +233,9 @@ article: http://ogp.me/ns/article#
 <pre>Creating New Post
 -----------------
 
-Title: Red and White v Blue and White
-Scanning posts........done!
-<span class="ansigrey">[2015-07-20T00:35:52Z] INFO: new_post: Your post's text is at: posts/red-and-white-v-blue-and-white.rst</span>
+Title: xxx
+Scanning posts.......done!
+<span class="ansigrey">[2015-07-28T18:34:23Z] INFO: new_post: Your post's text is at: posts/xxx.rst</span>
 </pre>
 </div>
 </div>
@@ -231,7 +246,7 @@ Scanning posts........done!
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [8]:</div>
+<div class="prompt input_prompt">In [21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola new_post --help
@@ -272,7 +287,7 @@ Options:
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [28]:</div>
+<div class="prompt input_prompt">In [26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola github_deploy
@@ -289,196 +304,41 @@ Options:
 <div class="output_area">
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Scanning posts........done!
-.  render_sources:output/posts/red-and-white-v-blue-and-white.rst
-.  render_posts:timeline_changes
-.  render_posts:cache/posts/red-and-white-v-blue-and-white.html
-.  render_indexes:output/blog/index.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/giving.html
-.  render_tags:output/categories/art.html
-.  render_tags:output/categories/montreal.html
-.  render_tags:output/categories/awesome.html
-.  render_tags:output/categories/moonlight.html
-.  render_tags:output/categories/ferry.html
-.  render_tags:output/categories/chewstick.html
-.  render_tags:output/categories/sufc-sens.html
-.  render_tags:output/categories/ottawa.html
-.  render_tags:output/categories/angular.html
-.  render_tags:output/categories/spittal-pond.html
-.  render_tags:output/categories/transit.html
-.  render_tags:output/categories/bermuda.html
-.  render_tags:output/categories/football.html
-.  render_tags:output/categories/bus.html
-.  render_tags:output/categories/django.html
-.  render_tags:output/categories/kindling.html
-.  render_tags:output/categories/open-source.html
-.  render_tags:output/categories/net.html
-.  render_tags:output/categories/mandela.html
-.  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/hackathon.html
-.  render_tags:output/categories/silverlight.html
-.  render_tags:output/categories/67.html
-.  render_tags:output/categories/80days.html
-.  render_tags:output/categories/pycon.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/education.html
-.  render_tags:output/categories/sufc.html
-.  render_tags:output/categories/gardening.html
-.  render_tags:output/categories/blades.html
-.  render_tags:output/categories/music.html
-.  render_tags:output/categories/github.html
-.  render_tags:output/categories/linux.html
-.  render_tags:output/categories/cat_bermuda-cricket-blades.html
-.  render_tags:output/categories/javascript.html
-.  render_tags:output/categories/take-a-minute.html
-.  render_indexes:output/blog/index-1.html
-.  render_indexes:output/blog/index-2.html
-.  render_indexes:output/blog/index-3.html
-.  render_pages:output/posts/red-and-white-v-blue-and-white.html
-.  generate_rss:output/rss.xml
-.  render_tags:output/categories/cat_bermuda-cricket-blades.xml
-.  sitemap:output/sitemap.xml
-Scanning posts........done!
-<span class="ansigrey">[2015-07-21T00:01:13Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 1a27365e1989f85176df375375b60620e78a943a\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
-Counting objects: 9, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (7/7), done.
-Writing objects: 100% (9/9), 11.21 KiB | 0 bytes/s, done.
-Total 9 (delta 8), reused 3 (delta 2)
-To git@github.com:openbermuda/80days.git
-   e4ab377..f8749d3  gh-pages -&gt; gh-pages
-<span class="ansigrey">[2015-07-21T00:01:15Z] INFO: github_deploy: Successful deployment</span>
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola build
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
 <pre>Scanning posts.......done!
-.  render_sources:output/posts/nikola.ipynb
-.  render_posts:timeline_changes
-.  render_posts:cache/posts/nikola.html
-.  render_tags:output/categories/tides.html
-.  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/mysql.html
-.  render_tags:output/categories/moon.html
-.  render_tags:output/categories/cyber-risk.html
-.  render_tags:output/categories/take-a-minute.html
-.  render_tags:output/categories/limp.html
-.  render_tags:output/categories/67.html
-.  render_tags:output/categories/jupyter.html
-.  render_tags:output/categories/weather.html
-.  render_tags:output/categories/git.html
-.  render_tags:output/categories/astropy.html
-.  render_tags:output/categories/open-data.html
-.  render_tags:output/categories/pyephem.html
-.  render_tags:output/categories/air-pressure.html
 .  render_tags:output/categories/giving.html
-.  render_tags:output/categories/fourier.html
-.  render_tags:output/categories/linux.html
-.  render_tags:output/categories/lamp.html
-.  render_tags:output/categories/pandas.html
-.  render_tags:output/categories/finance.html
-.  render_tags:output/categories/computer.html
-.  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/pyephem.html
 .  render_tags:output/categories/astronomy.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/information-security.html
-.  render_tags:output/categories/gpl.html
-.  render_tags:output/categories/python-draft.html
-.  render_pages:output/posts/nikola.html
-.  sitemap:output/sitemap.xml
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola github_deploy
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Scanning posts.......done!
-.  render_tags:output/categories/jupyter.html
 .  render_tags:output/categories/tides.html
-.  render_tags:output/categories/information-security.html
-.  render_tags:output/categories/mysql.html
-.  render_tags:output/categories/data-science.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/67.html
-.  render_tags:output/categories/git.html
 .  render_tags:output/categories/air-pressure.html
-.  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/pyephem.html
-.  render_tags:output/categories/moon.html
-.  render_tags:output/categories/linux.html
+.  render_tags:output/categories/mysql.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/weather.html
+.  render_tags:output/categories/lamp.html
+.  render_tags:output/categories/open-data.html
+.  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/take-a-minute.html
 .  render_tags:output/categories/meta-data.html
 .  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/giving.html
-.  render_tags:output/categories/astropy.html
-.  render_tags:output/categories/pandas.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/lamp.html
-.  render_tags:output/categories/gpl.html
-.  render_tags:output/categories/open-data.html
-.  render_tags:output/categories/mandela.html
-.  render_tags:output/categories/limp.html
-.  render_tags:output/categories/finance.html
-.  render_tags:output/categories/astronomy.html
-.  render_tags:output/categories/take-a-minute.html
 .  render_tags:output/categories/fourier.html
+.  render_tags:output/categories/67.html
+.  render_tags:output/categories/limp.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/computer.html
+.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/python.html
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/pi.html
+.  render_tags:output/categories/gpl.html
 Scanning posts.......done!
-<span class="ansigrey">[2015-07-27T19:19:57Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 8ed58830bd209a8552c8320022ab8a3cd6ab3fe6\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
-Counting objects: 55, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (16/16), done.
-Writing objects: 100% (55/55), 2.61 MiB | 1020.00 KiB/s, done.
-Total 55 (delta 52), reused 41 (delta 38)
+<span class="ansigrey">[2015-07-28T11:20:21Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 8ed58830bd209a8552c8320022ab8a3cd6ab3fe6\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
+Counting objects: 1, done.
+Writing objects: 100% (1/1), 230 bytes | 0 bytes/s, done.
+Total 1 (delta 0), reused 1 (delta 0)
 To git@github.com:peakrisk/peakrisk.git
-   6b565f4..665f0dd  gh-pages -&gt; gh-pages
-<span class="ansigrey">[2015-07-27T19:20:04Z] INFO: github_deploy: Successful deployment</span>
+   2bb8520..598d241  gh-pages -&gt; gh-pages
+<span class="ansigrey">[2015-07-28T11:20:22Z] INFO: github_deploy: Successful deployment</span>
 </pre>
 </div>
 </div>
@@ -489,7 +349,7 @@ To git@github.com:peakrisk/peakrisk.git
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [13]:</div>
+<div class="prompt input_prompt">In [23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola build
@@ -507,314 +367,149 @@ To git@github.com:peakrisk/peakrisk.git
 <div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Scanning posts.......done!
-.  render_galleries:output/galleries
-.  render_galleries:output/galleries/GibbsHill
-.  render_galleries:output/galleries/index.html
-.  render_galleries:output/galleries/rss.xml
-.  render_galleries:output/galleries/GibbsHill/new_view.thumbnail.jpg
-.  render_galleries:output/galleries/GibbsHill/new_view.jpg
-.  render_galleries:output/galleries/GibbsHill/tree_down.thumbnail.jpg
-.  render_galleries:output/galleries/GibbsHill/tree_down.jpg
-.  render_galleries:output/galleries/GibbsHill/roof_damage.thumbnail.jpg
-.  render_galleries:output/galleries/GibbsHill/roof_damage.jpg
-.  render_galleries:output/galleries/GibbsHill/index.html
-.  render_galleries:output/galleries/GibbsHill/rss.xml
-.  copy_files:output/data_mining_dmen.xlsx
-.  copy_files:output/light.csv~
-.  copy_files:output/links.rst
-.  copy_files:output/kittycam_weather.csv
-.  copy_files:output/light.csv
-.  copy_files:output/pijessie_weather.csv
-.  copy_files:output/unrefined-bermuda_properties.xlsx
-.  copy_files:output/john_gill_cv.pdf
-.  copy_files:output/links.rst~
-.  copy_files:output/weather.csv
-.  copy_files:output/moon_weather.csv
-.  render_listings:output/listings/index.html
-.  copy_assets:output/assets/css/nikola_ipython.css
-.  copy_assets:output/assets/css/ipython.min.css
-.  copy_assets:output/assets/css/bootstrap-theme.css
-.  copy_assets:output/assets/css/bootstrap-theme.min.css
-.  copy_assets:output/assets/css/bootstrap.css
-.  copy_assets:output/assets/css/bootstrap.css.map
-.  copy_assets:output/assets/css/theme.css
-.  copy_assets:output/assets/css/bootstrap-theme.css.map
-.  copy_assets:output/assets/css/docs.css
-.  copy_assets:output/assets/css/bootstrap.min.css
-.  copy_assets:output/assets/css/rst.css
-.  copy_assets:output/assets/css/images/ie6/borderBottomCenter.png
-.  copy_assets:output/assets/css/images/ie6/borderTopRight.png
-.  copy_assets:output/assets/css/images/ie6/borderTopCenter.png
-.  copy_assets:output/assets/css/images/ie6/borderBottomLeft.png
-.  copy_assets:output/assets/css/images/ie6/borderTopLeft.png
-.  copy_assets:output/assets/css/images/ie6/borderBottomRight.png
-.  copy_assets:output/assets/css/images/ie6/borderMiddleLeft.png
-.  copy_assets:output/assets/css/images/ie6/borderMiddleRight.png
-.  copy_assets:output/assets/fonts/glyphicons-halflings-regular.eot
-.  copy_assets:output/assets/fonts/glyphicons-halflings-regular.ttf
-.  copy_assets:output/assets/fonts/glyphicons-halflings-regular.woff
-.  copy_assets:output/assets/fonts/glyphicons-halflings-regular.woff2
-.  copy_assets:output/assets/fonts/glyphicons-halflings-regular.svg
-.  copy_assets:output/assets/js/bootstrap.js
-.  copy_assets:output/assets/js/bootstrap.min.js
-.  copy_assets:output/assets/css/bootstrap-responsive.css
-.  copy_assets:output/assets/css/bootstrap-responsive.min.css
-.  copy_assets:output/assets/css/colorbox.css
-.  copy_assets:output/assets/css/images/controls.png
-.  copy_assets:output/assets/css/images/loading.gif
-.  copy_assets:output/assets/js/jquery.min.map
-.  copy_assets:output/assets/js/jquery.js
-.  copy_assets:output/assets/js/jquery.min.js
-.  copy_assets:output/assets/js/jquery.colorbox-min.js
-.  copy_assets:output/assets/js/jquery.colorbox.js
-.  copy_assets:output/assets/js/flowr.plugin.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-si.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-fr.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-ca.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-gr.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-he.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-da.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-it.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-et.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-zh-TW.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-sv.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-lv.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-ar.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-my.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-id.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-nl.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-hr.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-es.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-ru.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-bg.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-cs.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-zh-CN.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-pl.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-ja.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-fa.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-ro.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-pt-br.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-sr.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-sk.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-gl.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-lt.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-pt-BR.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-hu.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-fi.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-kr.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-bn.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-uk.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-no.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-de.js
-.  copy_assets:output/assets/js/colorbox-i18n/jquery.colorbox-tr.js
-.  copy_assets:output/assets/img/glyphicons-halflings.png
-.  copy_assets:output/assets/img/glyphicons-halflings-white.png
-.  copy_assets:output/assets/css/ipython.min.css.map
-.  copy_assets:output/assets/xml/atom.xsl
-.  copy_assets:output/assets/xml/rss.xsl
-.  copy_assets:output/assets/js/mathjax.js
-.  copy_assets:output/assets/js/fancydates.js
-.  copy_assets:output/assets/js/moment-with-locales.min.js
-.  copy_assets:output/assets/js/html5.js
-.  copy_assets:output/assets/css/code.css
-.  render_sources:output/posts/latest-weather-pijessie.ipynb
-.  render_sources:output/posts/latest-weather-kittycam.ipynb
-.  render_sources:output/posts/experimenting-and-building-things.ipynb
-.  render_sources:output/posts/machine-learning-in-the-atmosphere.ipynb
-.  render_sources:output/posts/sixty-seven-minutes.ipynb
-.  render_sources:output/posts/lamp-and-limp-stacks.ipynb
-.  render_sources:output/posts/air-pressure-and-the-tides.ipynb
-.  render_sources:output/posts/jupyter-venus-the-moon-and-gibbs-hill-weather.ipynb
-.  render_sources:output/posts/free-software-and-information-security.rst
-.  render_sources:output/posts/matplotlib.ipynb
-.  render_sources:output/posts/weather-station.ipynb
-.  render_sources:output/posts/tlf-free-software-test.ipynb
-.  render_sources:output/posts/nikola.ipynb
-.  render_sources:output/posts/weather-station-progress.rst
-.  render_sources:output/posts/debian-and-raspbian-package-management.rst
-.  render_sources:output/posts/free-software-and-computer-security.rst
-.  render_sources:output/posts/teaching-with-pis.rst
-.  render_sources:output/stories/opportunities-for-bermuda-in-the-21st-century.rst
-.  render_sources:output/posts/cyber-espionage-nightmare-and-the-case-for-open-data.rst
-.  render_sources:output/posts/more-raspberry-pi.rst
-.  render_sources:output/posts/references.rst
-.  render_sources:output/stories/contributors.rst
-.  render_sources:output/posts/more-data-mining-d-men.ipynb
-.  render_sources:output/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.rst
-.  render_sources:output/posts/raspberry-pi-weather-station-for-schools.ipynb
-.  render_sources:output/posts/pygaarst.ipynb
-.  render_sources:output/posts/pydata-dallas.rst
-.  render_sources:output/posts/data-data-everywhere-nor-any-drop-to-drink.rst
-.  render_sources:output/posts/satellite-data-for-fay-and-gonzalo.ipynb
-.  render_sources:output/stories/crawl-hill.rst
-.  render_sources:output/stories/scaur-hill.rst
-.  render_sources:output/stories/gibbs-hill.rst
-.  render_sources:output/stories/john-gill.rst
-.  render_sources:output/index.rst
-.  render_sources:output/stories/snowdon.rst
-.  render_sources:output/stories/references.rst
-.  render_tags:output/categories/index.html
-.  render_tags:output/assets/js/tag_cloud_data.json
-.  render_archive:output/2015/index.html
-.  render_archive:output/archive.html
-.  render_posts:timeline_changes
-.  render_posts:cache/posts/latest-weather-pijessie.html
-.  render_posts:cache/posts/latest-weather-kittycam.html
-.  render_posts:cache/posts/experimenting-and-building-things.html
-.  render_posts:cache/posts/machine-learning-in-the-atmosphere.html
-.  render_posts:cache/posts/sixty-seven-minutes.html
-.  render_posts:cache/posts/lamp-and-limp-stacks.html
-.  render_posts:cache/posts/air-pressure-and-the-tides.html
-.  render_posts:cache/posts/jupyter-venus-the-moon-and-gibbs-hill-weather.html
-.  render_posts:cache/posts/free-software-and-information-security.html
-.  render_posts:cache/posts/matplotlib.html
-.  render_posts:cache/posts/weather-station.html
-.  render_posts:cache/posts/tlf-free-software-test.html
-.  render_posts:cache/posts/nikola.html
-.  render_posts:cache/posts/weather-station-progress.html
-.  render_posts:cache/posts/debian-and-raspbian-package-management.html
-<span class="ansiyellow ansibold">[2015-07-27T19:19:12Z] WARNING: compile_rest: [posts/debian-and-raspbian-package-management.rst:10] malformed hyperlink target.</span>
-.  render_posts:cache/posts/free-software-and-computer-security.html
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:21] Unknown target name: "openssl".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:52] Unknown target name: "general public license".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:65] Unknown target name: "apple's os is derived from bsd unix".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:73] Unknown target name: "guido van rossum".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:78] Unknown target name: "mysql".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:169] Unknown target name: "sort of average".</span>
-<span class="ansired ansibold">[2015-07-27T19:19:12Z] ERROR: compile_rest: [posts/free-software-and-computer-security.rst:174] Unknown target name: "higher quality".</span>
-.  render_posts:cache/posts/teaching-with-pis.html
-.  render_posts:cache/stories/opportunities-for-bermuda-in-the-21st-century.html
-.  render_posts:cache/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html
-.  render_posts:cache/posts/more-raspberry-pi.html
-.  render_posts:cache/posts/references.html
-.  render_posts:cache/stories/contributors.html
-.  render_posts:cache/posts/more-data-mining-d-men.html
-.  render_posts:cache/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html
-.  render_posts:cache/posts/raspberry-pi-weather-station-for-schools.html
-.  render_posts:cache/posts/pygaarst.html
-.  render_posts:cache/posts/pydata-dallas.html
-.  render_posts:cache/posts/data-data-everywhere-nor-any-drop-to-drink.html
-.  render_posts:cache/posts/satellite-data-for-fay-and-gonzalo.html
-.  render_posts:cache/stories/crawl-hill.html
-.  render_posts:cache/stories/scaur-hill.html
-.  render_posts:cache/stories/gibbs-hill.html
-.  render_posts:cache/stories/john-gill.html
-.  render_posts:cache/base/index.html
-.  render_posts:cache/stories/snowdon.html
-.  render_posts:cache/stories/references.html
-.  render_indexes:output/blog/index.html
-.  render_tags:output/categories/mandela.html
+.  render_tags:output/categories/mysql.html
 .  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/67.html
+.  render_tags:output/categories/pi.html
+.  render_tags:output/categories/take-a-minute.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/python.html
+.  render_tags:output/categories/giving.html
+.  render_tags:output/categories/astronomy.html
+.  render_tags:output/categories/moon.html
 .  render_tags:output/categories/fourier.html
 .  render_tags:output/categories/pyephem.html
-.  render_tags:output/categories/astropy.html
-.  render_tags:output/categories/limp.html
-.  render_tags:output/categories/take-a-minute.html
-.  render_tags:output/categories/lamp.html
-.  render_tags:output/categories/git.html
-.  render_tags:output/categories/weather.html
-.  render_tags:output/categories/pi.html
-.  render_tags:output/categories/tides.html
-.  render_tags:output/categories/linux.html
-.  render_tags:output/categories/computer.html
-.  render_tags:output/categories/air-pressure.html
-.  render_tags:output/categories/python.html
-.  render_tags:output/categories/data-science.html
-.  render_tags:output/categories/jupyter.html
-.  render_tags:output/categories/open-data.html
-.  render_tags:output/categories/astronomy.html
-.  render_tags:output/categories/cyber-risk.html
-.  render_tags:output/categories/moon.html
-.  render_tags:output/categories/meta-data.html
-.  render_tags:output/categories/finance.html
-.  render_tags:output/categories/67.html
-.  render_tags:output/categories/python-draft.html
-.  render_tags:output/categories/giving.html
-.  render_tags:output/categories/pandas.html
-.  render_tags:output/categories/mysql.html
 .  render_tags:output/categories/raspberry-pi.html
-.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/computer.html
+.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/weather.html
+.  render_tags:output/categories/finance.html
+.  render_tags:output/categories/git.html
 .  render_tags:output/categories/free-software.html
-.  render_tags:output/categories/cat_mapping-satellite-weather-opendata.html
-.  render_indexes:output/blog/index-1.html
-.  render_tags:output/categories/raspberry-pi.xml
-.  render_tags:output/categories/mysql.xml
-.  render_tags:output/categories/pandas.xml
-.  render_tags:output/categories/limp.xml
-.  render_pages:output/posts/debian-and-raspbian-package-management.html
-.  render_pages:output/posts/air-pressure-and-the-tides.html
-.  render_pages:output/posts/teaching-with-pis.html
-.  render_tags:output/categories/open-data.xml
-.  render_tags:output/categories/gpl.xml
-.  render_pages:output/posts/experimenting-and-building-things.html
-.  render_pages:output/posts/sixty-seven-minutes.html
-.  render_pages:output/stories/contributors.html
-.  render_tags:output/categories/moon.xml
-.  render_tags:output/categories/astropy.xml
-.  render_tags:output/categories/lamp.xml
-.  render_pages:output/stories/references.html
-.  render_pages:output/posts/pydata-dallas.html
-.  render_tags:output/categories/air-pressure.xml
-.  render_pages:output/posts/free-software-and-information-security.html
-.  render_tags:output/categories/linux.xml
-.  render_pages:output/posts/free-software-and-computer-security.html
-.  render_tags:output/categories/free-software.xml
-.  render_pages:output/posts/more-raspberry-pi.html
-.  render_tags:output/categories/jupyter.xml
-.  render_tags:output/categories/giving.xml
-.  render_tags:output/categories/67.xml
-.  render_tags:output/categories/mandela.xml
-.  render_pages:output/stories/john-gill.html
-.  render_pages:output/posts/jupyter-venus-the-moon-and-gibbs-hill-weather.html
-.  render_tags:output/categories/finance.xml
-.  render_tags:output/categories/python-draft.xml
-.  render_tags:output/categories/information-security.xml
-.  render_tags:output/categories/take-a-minute.xml
-.  render_tags:output/categories/meta-data.xml
-.  render_tags:output/categories/data-science.xml
-.  render_pages:output/posts/data-data-everywhere-nor-any-drop-to-drink.html
-.  render_pages:output/posts/matplotlib.html
-.  generate_rss:output/rss.xml
-.  render_tags:output/categories/weather.xml
-.  render_pages:output/posts/machine-learning-in-the-atmosphere.html
-.  render_pages:output/posts/weather-station.html
-.  render_pages:output/posts/unreliable-internet-service-providers-are-part-of-the-security-problem.html
-.  render_pages:output/stories/crawl-hill.html
-.  render_pages:output/stories/snowdon.html
-.  render_pages:output/posts/satellite-data-for-fay-and-gonzalo.html
-.  render_tags:output/categories/cyber-risk.xml
-.  render_pages:output/index.html
-.  render_tags:output/categories/git.xml
-.  render_pages:output/posts/nikola.html
-.  render_pages:output/posts/more-data-mining-d-men.html
-.  render_pages:output/posts/latest-weather-pijessie.html
-.  render_tags:output/categories/pyephem.xml
-.  render_pages:output/posts/raspberry-pi-weather-station-for-schools.html
-.  render_tags:output/categories/tides.xml
-.  render_pages:output/posts/references.html
-.  render_pages:output/posts/latest-weather-kittycam.html
-.  render_pages:output/stories/scaur-hill.html
-.  render_pages:output/stories/opportunities-for-bermuda-in-the-21st-century.html
-.  render_pages:output/posts/lamp-and-limp-stacks.html
-.  render_pages:output/stories/gibbs-hill.html
-.  render_tags:output/categories/fourier.xml
-.  render_pages:output/posts/weather-station-progress.html
-.  render_tags:output/categories/cat_mapping-satellite-weather-opendata.xml
-.  render_pages:output/posts/pygaarst.html
-.  render_tags:output/categories/astronomy.xml
-.  render_tags:output/categories/python.xml
-.  render_tags:output/categories/computer.xml
-.  render_pages:output/posts/tlf-free-software-test.html
-.  render_pages:output/posts/cyber-espionage-nightmare-and-the-case-for-open-data.html
-.  render_tags:output/categories/pi.xml
-.  create_bundles:output/assets/js/all.js
-.  create_bundles:output/assets/js/all-nocdn.js
-.  create_bundles:output/assets/css/all.css
-.  create_bundles:output/assets/css/all-nocdn.css
+.  render_tags:output/categories/air-pressure.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/tides.html
 .  sitemap:output/sitemap.xml
-.  sitemap:output/sitemapindex.xml
-.  robots_file:output/robots.txt
-<span class="ansiyellow ansibold">[2015-07-27T19:19:19Z] WARNING: Nikola: robots.txt not ending up in server root, will be useless</span>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola github_deploy
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Scanning posts.......done!
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/pyephem.html
+.  render_tags:output/categories/air-pressure.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/computer.html
+.  render_tags:output/categories/weather.html
+.  render_tags:output/categories/raspberry-pi.html
+.  render_tags:output/categories/data-science.html
+.  render_tags:output/categories/tides.html
+.  render_tags:output/categories/67.html
+.  render_tags:output/categories/python.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/meta-data.html
+.  render_tags:output/categories/git.html
+.  render_tags:output/categories/astronomy.html
+.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/take-a-minute.html
+.  render_tags:output/categories/mysql.html
+.  render_tags:output/categories/finance.html
+.  render_tags:output/categories/fourier.html
+.  render_tags:output/categories/pi.html
+.  render_tags:output/categories/linux.html
+.  render_tags:output/categories/limp.html
+.  render_tags:output/categories/free-software.html
+.  render_tags:output/categories/giving.html
+.  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/open-data.html
+.  sitemap:output/sitemap.xml
+Scanning posts.......done!
+<span class="ansigrey">[2015-07-28T11:20:00Z] INFO: github_deploy: ==&gt; ['ghp-import', '-n', '-m', 'Nikola auto commit.\n\nSource commit: 8ed58830bd209a8552c8320022ab8a3cd6ab3fe6\nNikola version: 7.5.1', '-p', '-r', 'origin', '-b', 'gh-pages', 'output']</span>
+Counting objects: 29, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (29/29), 4.44 MiB | 697.00 KiB/s, done.
+Total 29 (delta 23), reused 20 (delta 14)
+To git@github.com:peakrisk/peakrisk.git
+   665f0dd..2bb8520  gh-pages -&gt; gh-pages
+<span class="ansigrey">[2015-07-28T11:20:12Z] INFO: github_deploy: Successful deployment</span>
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [25]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="o">!</span>nikola build
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Scanning posts.......done!
+.  render_tags:output/categories/tides.html
+.  render_tags:output/categories/free-software.html
+.  render_tags:output/categories/fourier.html
+.  render_tags:output/categories/jupyter.html
+.  render_tags:output/categories/moon.html
+.  render_tags:output/categories/open-data.html
+.  render_tags:output/categories/astropy.html
+.  render_tags:output/categories/cyber-risk.html
+.  render_tags:output/categories/pandas.html
+.  render_tags:output/categories/linux.html
+.  render_tags:output/categories/python-draft.html
+.  render_tags:output/categories/pyephem.html
+.  render_tags:output/categories/gpl.html
+.  render_tags:output/categories/air-pressure.html
+.  render_tags:output/categories/giving.html
+.  render_tags:output/categories/limp.html
+.  render_tags:output/categories/git.html
+.  render_tags:output/categories/information-security.html
+.  render_tags:output/categories/computer.html
 </pre>
 </div>
 </div>
