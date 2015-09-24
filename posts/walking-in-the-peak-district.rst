@@ -17,6 +17,8 @@ So far the weather has been kind, with some great views of the peaks
 in the Peak.
 
 .. image:: ../galleries/PeakDistrict/20150923_101002.jpg
+    :height: 300
+    :width:  400
 
 Here are some more `pictures`_.
 
