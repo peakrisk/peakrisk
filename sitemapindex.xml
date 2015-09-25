@@ -142,7 +142,11 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/PeakDistrict/rss.xml</loc>
-  <lastmod>2015-09-24</lastmod>
+  <lastmod>2015-09-25</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/galleries/Sooty/rss.xml</loc>
+  <lastmod>2015-09-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/rss.xml</loc>
@@ -150,10 +154,10 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
-  <lastmod>2015-09-24</lastmod>
+  <lastmod>2015-09-25</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/sitemap.xml</loc>
-  <lastmod>2015-09-24</lastmod>
+  <lastmod>2015-09-25</lastmod>
  </sitemap>
 </sitemapindex>
