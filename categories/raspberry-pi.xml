@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peak Risk (raspberry pi)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/categories/raspberry-pi.xml"></atom:link><language>en</language><lastBuildDate>Sun, 04 Oct 2015 15:28:58 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Latest Weather</title><link>http://peakrisk.github.io/peakrisk/posts/latest-weather-kittycam.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Peak Risk (raspberry pi)</title><link>http://peakrisk.github.io/peakrisk/</link><description></description><atom:link rel="self" type="application/rss+xml" href="http://peakrisk.github.io/peakrisk/categories/raspberry-pi.xml"></atom:link><language>en</language><lastBuildDate>Sun, 04 Oct 2015 16:30:31 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Latest Weather</title><link>http://peakrisk.github.io/peakrisk/posts/latest-weather-kittycam.html</link><dc:creator>John Gill</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -73,7 +73,7 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [181]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [182]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
     &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="n"&gt;infile&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"../files/kittycam_weather.csv"&lt;/span&gt;
@@ -91,7 +91,7 @@
 
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;weather.csv                                   100% 5850KB   5.7MB/s   00:01    
+&lt;pre&gt;weather.csv                                   100% 5852KB   5.7MB/s   00:01    
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
