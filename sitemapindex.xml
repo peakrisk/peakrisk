@@ -22,7 +22,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/bermuda.xml</loc>
-  <lastmod>2015-10-04</lastmod>
+  <lastmod>2015-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/cat_mapping-satellite-weather-opendata.xml</loc>
@@ -66,7 +66,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/hurricane.xml</loc>
-  <lastmod>2015-10-04</lastmod>
+  <lastmod>2015-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/information-security.xml</loc>
@@ -74,7 +74,7 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/joaquin.xml</loc>
-  <lastmod>2015-10-04</lastmod>
+  <lastmod>2015-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/categories/jupyter.xml</loc>
@@ -153,6 +153,10 @@
   <lastmod>2015-07-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://peakrisk.github.io/peakrisk/galleries/Joaquin/rss.xml</loc>
+  <lastmod>2015-10-05</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/galleries/PeakDistrict/rss.xml</loc>
   <lastmod>2015-10-04</lastmod>
  </sitemap>
@@ -166,10 +170,10 @@
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/rss.xml</loc>
-  <lastmod>2015-10-04</lastmod>
+  <lastmod>2015-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://peakrisk.github.io/peakrisk/sitemap.xml</loc>
-  <lastmod>2015-10-04</lastmod>
+  <lastmod>2015-10-05</lastmod>
  </sitemap>
 </sitemapindex>
